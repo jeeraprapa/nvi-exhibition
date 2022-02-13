@@ -5,12 +5,6 @@ function car_drive(){
     count = 0;
     right = 0;
     setInterval(() => {
-        if(count < 10){
-            number = '0'+count;
-        }else{
-            number = count;
-        }
-
         if(count <= 25){
             motion_right = 10+right;
             motion_top = 55+right;
@@ -25,7 +19,9 @@ function car_drive(){
             }
         }else{
             count = 0;
+            right = 0;
             motion_right = 0;
+            motion_top = 0;
         }
         count++;
     }, 250);
