@@ -11301,4 +11301,9 @@ h1, .h1 {
 #map #main-map {
   -o-object-fit: contain;
      object-fit: contain;
+  padding: 2rem;
+}
+
+#person_doctor {
+  z-index: 99999;
 }
