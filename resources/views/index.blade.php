@@ -17,7 +17,7 @@
 
     <link rel="icon" href="{{asset('images/logo1.png')}}" type="image/x-icon">
 </head>
-<body style="background: #F3F9FF">
+<body style="background: #F3F9FF" class="overflow-hidden">
     <nav class="navbar navbar-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
