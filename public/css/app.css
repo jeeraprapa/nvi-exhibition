@@ -11295,15 +11295,35 @@ h1, .h1 {
   color: #414D7A;
 }
 
+#home-page {
+  background: #29A9E1;
+}
+#home-page footer img {
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  #home-page footer img {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #home-page footer img {
+    width: 25%;
+  }
+}
+
 #map {
+  background: url("../images/home_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   width: 100%;
 }
 #map #main-map {
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-#person_doctor {
-  z-index: 99999;
+.flip {
+  display: none;
 }

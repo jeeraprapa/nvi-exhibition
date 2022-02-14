@@ -6,15 +6,17 @@ function car_drive(){
     right = 0;
     setInterval(() => {
         if(count <= 25){
-            motion_right = 10+right;
+            motion_right = 3+right;
             motion_top = 55+right;
             if(count >= 13 ){
                 $('#car-1').css('top',motion_top+'%');
                 $('#car-1').css('right',motion_right+'%');
+                $('#car-1').addClass('flip');
                 right -=0.5;
             }else{
                 $('#car-1').css('top',motion_top+'%');
                 $('#car-1').css('right',motion_right+'%');
+                $('#car-1').removeClass('flip');
                 right +=0.5;
             }
         }else{

@@ -17,7 +17,7 @@
 
     <link rel="icon" href="{{asset('images/logo1.png')}}" type="image/x-icon">
 </head>
-<body style="background: #F3F9FF" class="overflow-hidden">
+<body id="home-page" class="overflow-hidden">
     <nav class="navbar navbar-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -27,8 +27,8 @@
     </nav>
     <div id="map">
         <img src="{{asset('images/home-page.png')}}" alt="" class="w-100 vh-100 img-fluid" id="main-map">
-        <div class="cars">
-            <img src="{{asset('images/car.png')}}" alt="" id="car-1" class="position-absolute">
+        <div class="cars d-none d-md-block">
+            <img src="{{asset('images/car.png')}}" alt="" id="car-1" width="20px" class="position-absolute">
         </div>
     </div>
     <footer class="footer fixed-bottom">

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700')
 @import "bootstrap"
+@import "screen"
 
 $primary-color:   #414D7A !default
 
@@ -13,10 +14,23 @@ h1
 .nav-link
     color: $primary-color
 
+#home-page
+    background: #29A9E1
+    footer
+        img
+            width: 60%
+            @include screen('md')
+                width: 40%
+            @include screen('lg')
+                width: 25%
+
 #map
+    background: url('../images/home_bg.png')
+    background-size:     cover
+    background-repeat:   no-repeat
+    background-position: center center
     width: 100%
     #main-map
-        object-fit: contain
-        padding: 2rem
-#person_doctor
-    z-index: 99999
+        object-fit: cover
+.flip
+    display: none
