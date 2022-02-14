@@ -104,7 +104,7 @@
             });
         }).mouseout(function () {
             // hide tooltip
-            $('#tooltip').stop(false, true).fadeOut('slow');
+            $('#tooltip').stop(false, true).fadeOut(2000);
         });
     })
 </script>
