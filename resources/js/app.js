@@ -11,12 +11,12 @@ function car_drive(){
             if(count >= 13 ){
                 $('#car-1').css('top',motion_top+'%');
                 $('#car-1').css('right',motion_right+'%');
-                $('#car-1').addClass('flip');
+                // $('#car-1').addClass('d-none');
                 right -=0.5;
             }else{
                 $('#car-1').css('top',motion_top+'%');
                 $('#car-1').css('right',motion_right+'%');
-                $('#car-1').removeClass('flip');
+                // $('#car-1').removeClass('d-none');
                 right +=0.5;
             }
         }else{

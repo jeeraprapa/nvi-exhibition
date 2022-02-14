@@ -11298,32 +11298,52 @@ h1, .h1 {
 #home-page {
   background: #29A9E1;
 }
-#home-page footer img {
+#home-page .navbar-brand img {
+  width: 40px;
+}
+@media screen and (min-width: 992px) {
+  #home-page .navbar-brand img {
+    width: 55px;
+  }
+}
+#home-page footer .social img {
+  width: 20px;
+  margin-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  #home-page footer .social img {
+    width: 24px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #home-page footer .social img {
+    width: 30px;
+  }
+}
+#home-page footer .link {
+  margin: 0 auto;
+}
+#home-page footer .link #link-conference {
   width: 60%;
 }
 @media screen and (min-width: 768px) {
-  #home-page footer img {
+  #home-page footer .link #link-conference {
     width: 40%;
   }
 }
 @media screen and (min-width: 992px) {
-  #home-page footer img {
+  #home-page footer .link #link-conference {
     width: 25%;
   }
 }
-
-#map {
+#home-page #map {
   background: url("../images/home_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
 }
-#map #main-map {
+#home-page #map #main-map {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.flip {
-  display: none;
 }

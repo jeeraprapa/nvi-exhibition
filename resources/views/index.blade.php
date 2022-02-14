@@ -15,16 +15,21 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
-    <link rel="icon" href="{{asset('images/logo1.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{asset('images/logo2.png')}}">
 </head>
 <body id="home-page" class="overflow-hidden">
-    <nav class="navbar navbar-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="{{asset('images/logo.png')}}" alt="" class="d-inline-block align-text-top">
-            </a>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-light fixed-top">
+            <div class="container pt-2">
+                <a class="navbar-brand" href="#">
+                    <img src="{{asset('images/logo2.png')}}" alt="" class="d-inline-block align-text-top">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="{{asset('images/hamburger.png')}}" alt="" class="d-inline-block align-text-top float-end">
+                </a>
+            </div>
+        </nav>
+    </header>
     <div id="map">
         <img src="{{asset('images/home-page.png')}}" alt="" class="w-100 vh-100 img-fluid" id="main-map">
         <div class="cars d-none d-md-block">
@@ -33,7 +38,15 @@
     </div>
     <footer class="footer fixed-bottom">
         <div class="container text-center">
-            <img src="{{asset('images/link.png')}}" alt="">
+            <div class="position-relative">
+                <div class="social text-start position-absolute">
+                    <img src="{{asset('images/Facebook.png')}}" alt="">
+                    <img src="{{asset('images/Youtube.png')}}" alt="">
+                </div>
+                <div class="link">
+                    <img src="{{asset('images/link.png')}}" alt="" id="link-conference">
+                </div>
+            </div>
         </div>
     </footer>
 </body>
