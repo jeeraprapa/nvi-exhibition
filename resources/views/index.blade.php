@@ -41,7 +41,7 @@
             <div class="position-relative">
                 <div class="social text-start position-absolute">
                     <img src="{{asset('images/Facebook.png')}}" alt="">
-                    <img src="{{asset('images/Youtube.png')}}" alt="">
+                    <img src="{{asset('images/YouTube.png')}}" alt="">
                 </div>
                 <div class="link">
                     <img src="{{asset('images/link.png')}}" alt="" id="link-conference">
