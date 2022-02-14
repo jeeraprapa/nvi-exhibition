@@ -1,6 +1,7 @@
 require('./bootstrap');
 
 car_drive();
+
 function car_drive(){
     count = 0;
     right = 0;
