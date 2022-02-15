@@ -26,14 +26,24 @@
         </h1>
     </div>
     <header>
-        <nav class="navbar navbar-light fixed-top">
-            <div class="container pt-2">
+        <nav class="fixed-top">
+            <div class="container pt-4">
                 <a class="navbar-brand" href="#">
-                    <img src="{{asset('images/logo2.png')}}" alt="" class="d-inline-block align-text-top">
+                    <img src="{{asset('images/logo2.png')}}">
                 </a>
-                <a class="navbar-brand" href="#">
-                    <img src="{{asset('images/hamburger.png')}}" alt="" class="d-inline-block align-text-top float-end">
-                </a>
+
+                <ul class="navbar-nav float-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="{{asset('images/hamburger.png')}}" alt="" class="d-inline-block align-text-top">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>

@@ -11302,6 +11302,7 @@ h1, .h1 {
   font-size: 20px;
   background: #FFFFFF;
   border-radius: 0px 0px 20px 20px;
+  max-width: 65vw;
 }
 @media screen and (min-width: 1200px) {
   #home-page .key h1, #home-page .key .h1 {
@@ -11313,18 +11314,27 @@ h1, .h1 {
     font-size: 34px;
   }
 }
-#home-page .navbar-brand img {
+#home-page header img {
   width: 40px;
 }
 @media screen and (min-width: 992px) {
-  #home-page .navbar-brand img {
+  #home-page header img {
     width: 55px;
   }
 }
-@media screen and (min-width: 1200px) {
-  #home-page .navbar-brand img {
+@media screen and (min-width: 1600px) {
+  #home-page header img {
     width: 75px;
   }
+}
+#home-page header a:after {
+  display: none;
+}
+#home-page header .dropdown-menu {
+  min-width: 300px;
+}
+#home-page header .dropdown-menu li {
+  padding-right: 2rem;
 }
 #home-page footer .social img {
   width: 20px;

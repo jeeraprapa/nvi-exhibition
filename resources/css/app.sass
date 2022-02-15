@@ -21,17 +21,24 @@ h1
             font-size: 20px
             background: #FFFFFF
             border-radius: 0px 0px 20px 20px
+            max-width: 65vw
             @include screen('xl')
                 font-size: 24px
             @include screen('xwide')
                 font-size: 34px
-    .navbar-brand
+    header
         img
             width: 40px
             @include screen('lg')
                 width: 55px
-            @include screen('xl')
+            @include screen('xwide')
                 width: 75px
+        a:after
+            display: none
+        .dropdown-menu
+            min-width: 300px
+            li
+                padding-right: 2rem
     footer
         .social
             img
