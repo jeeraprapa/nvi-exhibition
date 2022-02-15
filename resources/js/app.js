@@ -7,7 +7,7 @@ function car_drive(){
     count = 0;
     left = 0;
     setInterval(() => {
-        if(count <= 24){
+        if(count <= 26){
             motion_left = 62+left;
             motion_top = 27+left;
             if(count >= 13 ){
@@ -28,7 +28,7 @@ function car_drive(){
             motion_top = 0;
         }
         count++;
-    }, 250);
+    }, 260);
 }
 
 
@@ -37,7 +37,7 @@ function train_drive(){
     count = 0;
     right = 0;
     setInterval(() => {
-        if(count <= 25){
+        if(count <= 26){
             motion_right = 42+right;
             motion_top = 82+right;
             if(count >= 13 ){

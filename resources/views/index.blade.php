@@ -54,7 +54,7 @@
         </div>
 
         <map name="area-map">
-            <area class="area-map" data-name="งานประกวดแบบนักศึกษา HERITAGE IN DANGER" data-link="https://virtualexpo.asa.or.th/content/page7" href="javascript:void(0)" coords="509,333,635,409,738,347,614,272" shape="poly">
+            <area class="area-map" data-name="งานประกวดแบบนักศึกษา HERITAGE IN DANGER" data-link="https://virtualexpo.asa.or.th/content/page7" href="javascript:void(0)" coords="420,180,100" shape="circle">
             <area class="area-map" data-name="รางวัลอนุรักษ์ศิลปสถาปัตยกรรรม" data-link="https://virtualexpo.asa.or.th/content/page6" href="javascript:void(0)" coords="646,413,706,448,809,389,753,352" shape="poly">
             <area class="area-map" data-name="หนังสั้น มรดก'64" data-link="https://virtualexpo.asa.or.th/content/page5" href="javascript:void(0)" coords="896,435,848,408,838,394,825,394,714,454,791,500" shape="poly">
             <area class="area-map" data-name="อะไรคือ &quot;มองเก่า ให้ใหม่&quot;" data-link="https://virtualexpo.asa.or.th/content/page4" href="javascript:void(0)" coords="948,439,936,429,925,436,925,450,918,450,918,420,908,413,902,419,893,414,885,423,883,450,875,457,875,437,868,431,856,436,852,473,829,485,799,505,888,555,995,493,948,465" shape="poly">
@@ -99,9 +99,10 @@
 
         });
 
-        // $('img[usemap]').maphilight({
-        //     fillOpacity: 0.5
-        // });
+        $('img[usemap]').maphilight({
+            fillOpacity: 0.1,
+            stroke: false
+        });
 
         $(".area-map").mouseover(function () {
             // populate tooltip string
@@ -121,6 +122,9 @@
         }).mouseout(function () {
             // hide tooltip
             $('#tooltip').stop(false, true).fadeOut(2000);
+        }).mouseup(function(){
+            url = $(this).attr('data-link');
+            window.location.href = url;
         });
     })
 </script>
