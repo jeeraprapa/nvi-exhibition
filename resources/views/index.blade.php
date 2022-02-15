@@ -20,6 +20,11 @@
     <link rel="icon" href="{{asset('images/logo2.png')}}">
 </head>
 <body id="home-page" class="overflow-hidden">
+    <div class="key fixed-top text-center d-flex justify-content-center">
+        <h1 class="p-3 fw-bold">
+            วัคซีน เครื่องมือต้านการระบาดของโรคติดเชื้ออุบัติใหม่
+        </h1>
+    </div>
     <header>
         <nav class="navbar navbar-light fixed-top">
             <div class="container pt-2">
@@ -35,7 +40,7 @@
 
     <div id="map" tabindex="0">
         <div>
-            <img src="{{asset('images/home-page.png')}}" alt="" class="w-100 vh-100 img-fluid map maphilighted" id="main-map" usemap="#area-map">
+            <img src="{{asset('images/main.png')}}" alt="" class="w-100 vh-100 img-fluid map maphilighted" id="main-map" usemap="#area-map">
         </div>
 
         <map name="area-map">

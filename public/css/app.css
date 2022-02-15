@@ -11298,12 +11298,32 @@ h1, .h1 {
 #home-page {
   background: #29A9E1;
 }
+#home-page .key h1, #home-page .key .h1 {
+  font-size: 20px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+}
+@media screen and (min-width: 1200px) {
+  #home-page .key h1, #home-page .key .h1 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #home-page .key h1, #home-page .key .h1 {
+    font-size: 34px;
+  }
+}
 #home-page .navbar-brand img {
   width: 40px;
 }
 @media screen and (min-width: 992px) {
   #home-page .navbar-brand img {
     width: 55px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #home-page .navbar-brand img {
+    width: 75px;
   }
 }
 #home-page footer .social img {
@@ -11349,10 +11369,6 @@ h1, .h1 {
   font-size: 24px;
 }
 #home-page #map {
-  background: url("../images/home_bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   width: 100%;
 }
 #home-page #map .maphilighted {
