@@ -69,7 +69,8 @@
         </map>
 
         <div class="cars d-none d-md-block">
-            <img src="{{asset('images/car.png')}}" alt="" id="car-1" width="20px" class="position-absolute">
+            <img src="{{asset('images/car/car1.png')}}" alt="" id="car-1" class="position-absolute">
+            <img src="{{asset('images/car/train1.png')}}" alt="" id="train-1"  class="position-absolute">
         </div>
     </div>
     <footer class="footer fixed-bottom">
