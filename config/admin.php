@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<img src='.asset('images/logo1.png').' alt="Admin logo" width="30px">',
+    'logo' => env('APP_NAME','laravel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<img src='.asset('images/logo1ro.png').' alt="Admin logo" width="30px">',
+    'logo-mini' => env('APP_NAME','laravel'),
 
     /*
     |--------------------------------------------------------------------------
