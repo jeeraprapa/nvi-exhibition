@@ -11299,7 +11299,7 @@ h1, .h1 {
   background: #AAE3FF;
 }
 #home-page .key h1, #home-page .key .h1 {
-  font-size: 20px;
+  font-size: 18px;
   background: #FFFFFF;
   border-radius: 0px 0px 20px 20px;
   max-width: 65vw;
@@ -11311,7 +11311,22 @@ h1, .h1 {
 }
 @media screen and (min-width: 1600px) {
   #home-page .key h1, #home-page .key .h1 {
-    font-size: 34px;
+    font-size: 28px;
+  }
+}
+#home-page .key h1 span, #home-page .key .h1 span {
+  display: block;
+  color: #32ABDA;
+  font-size: 16px;
+}
+@media screen and (min-width: 1200px) {
+  #home-page .key h1 span, #home-page .key .h1 span {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #home-page .key h1 span, #home-page .key .h1 span {
+    font-size: 21px;
   }
 }
 #home-page header img {
@@ -11368,15 +11383,18 @@ h1, .h1 {
 }
 #home-page #tooltip {
   position: fixed;
-  border: 1px solid #fff;
+  border: 1px solid #e8ecf2;
   display: none;
-  border-radius: 15px;
-  background-color: rgba(65, 77, 121, 0.8);
-  color: #fff;
+  border-radius: 1000px;
+  background-color: #fff;
+  color: #243876;
   text-align: center;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  font-size: 24px;
+  padding: 10px;
+  font-size: 18px;
+}
+#home-page #tooltip img {
+  height: 18px;
+  margin-right: 0.5rem;
 }
 #home-page #map {
   width: 100%;

@@ -18,14 +18,22 @@ h1
     background: #AAE3FF
     .key
         h1
-            font-size: 20px
+            font-size: 18px
             background: #FFFFFF
             border-radius: 0px 0px 20px 20px
             max-width: 65vw
             @include screen('xl')
                 font-size: 24px
             @include screen('xwide')
-                font-size: 34px
+                font-size: 28px
+            span
+                display: block
+                color: #32ABDA
+                font-size: 16px
+                @include screen('xl')
+                    font-size: 18px
+                @include screen('xwide')
+                    font-size: 21px
     header
         img
             width: 40px
@@ -59,15 +67,17 @@ h1
 
     #tooltip
         position: fixed
-        border: 1px solid #fff
+        border: 1px solid rgb(232, 236, 242)
         display: none
-        border-radius: 15px
-        background-color: rgb(65, 77, 121, 0.8)
-        color: #fff
+        border-radius: 1000px
+        background-color: #fff
+        color: #243876
         text-align: center
-        padding-right: 1rem
-        padding-left: 1rem
-        font-size: 24px
+        padding: 10px
+        font-size: 18px
+        img
+            height: 18px
+            margin-right: 0.5rem
 
 
     #map
@@ -81,3 +91,4 @@ h1
             background-repeat:   no-repeat !important
             background-position: center center !important
             object-fit: cover
+
