@@ -3,7 +3,9 @@ const {delay} = require("lodash/function");
 
 car_drive1();
 car_drive2();
+car_drive3();
 train_drive1();
+train_drive2();
 
 function car_drive1(){
     var count = 0;
@@ -67,6 +69,35 @@ function car_drive2(){
     }, 280);
 }
 
+function car_drive3(){
+    var count = 0;
+    var right = 0;
+    setInterval(() => {
+        if(count <= 26){
+            motion_right = 48+right;
+            motion_top = 18+right;
+            if(count >= 13 ){
+                $('#car-3').fadeOut(260);
+                count = 0;
+                right = 0;
+                motion_right = 0;
+                motion_top = 0;
+            }else{
+                $('#car-3').fadeIn();
+                $('#car-3').css('top',motion_top+'%');
+                $('#car-3').css('right',motion_right+'%');
+                right +=0.5;
+            }
+        }else{
+            count = 0;
+            right = 0;
+            motion_right = 0;
+            motion_top = 0;
+        }
+        count++;
+    }, 220);
+}
+
 
 
 function train_drive1(){
@@ -96,6 +127,35 @@ function train_drive1(){
         }
         count++;
     }, 100);
+}
+
+function train_drive2(){
+    var count = 0;
+    var right = 0;
+    setInterval(() => {
+        if(count <= 18){
+            motion_right = 76.5+right;
+            motion_top = 0+right;
+            if(count >= 9 ){
+                $('#train-2').fadeOut(100);
+                count = 0;
+                right = 0;
+                motion_right = 0;
+                motion_top = 0;
+            }else{
+                $('#train-2').css('top',motion_top+'%');
+                $('#train-2').css('right',motion_right+'%');
+                $('#train-2').fadeIn();
+                right +=0.5;
+            }
+        }else{
+            count = 0;
+            right = 0;
+            motion_right = 0;
+            motion_top = 0;
+        }
+        count++;
+    }, 200);
 }
 
 

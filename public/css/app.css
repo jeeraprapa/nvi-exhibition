@@ -11298,6 +11298,11 @@ h1, .h1 {
 #home-page {
   background: #AAE3FF;
 }
+@media screen and (min-width: 1600px) {
+  #home-page .container {
+    max-width: 1550px;
+  }
+}
 #home-page .key h1, #home-page .key .h1 {
   font-size: 18px;
   background: #FFFFFF;
