@@ -78,6 +78,7 @@
 
         <div class="cars d-none d-md-block">
             <img src="{{asset('images/car/car1.png')}}" alt="" id="car-1" class="position-absolute">
+            <img src="{{asset('images/car/car2.png')}}" alt="" id="car-2" class="position-absolute">
             <img src="{{asset('images/car/train1.png')}}" alt="" id="train-1"  class="position-absolute">
         </div>
     </div>
