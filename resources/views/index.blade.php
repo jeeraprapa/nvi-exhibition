@@ -21,14 +21,14 @@
     <link rel="icon" href="{{asset('images/logo2.png')}}">
 </head>
 <body id="home-page" class="overflow-hidden">
-{{--    <div class="key fixed-top text-center d-flex justify-content-center">--}}
-{{--        <h1 class="p-3 fw-bold">--}}
-{{--            นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10--}}
-{{--            <span>--}}
-{{--                Vaccine Conference 10 Virtual Exhibition--}}
-{{--            </span>--}}
-{{--        </h1>--}}
-{{--    </div>--}}
+    <div class="key fixed-top text-center d-flex justify-content-center">
+        <h1 class="p-3 fw-bold">
+            นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10
+            <span>
+                Vaccine Conference 10 Virtual Exhibition
+            </span>
+        </h1>
+    </div>
     <header>
         <nav class="fixed-top">
             <div class="container pt-4">
