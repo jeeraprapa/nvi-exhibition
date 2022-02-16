@@ -13,12 +13,12 @@ function car_drive(){
             if(count >= 13 ){
                 $('#car-1').css('top',motion_top+'%');
                 $('#car-1').css('left',motion_left+'%');
-                // $('#car-1').addClass('d-none');
+                $('#car-1').fadeOut(260);
                 left -=0.5;
             }else{
                 $('#car-1').css('top',motion_top+'%');
                 $('#car-1').css('left',motion_left+'%');
-                // $('#car-1').removeClass('d-none');
+                $('#car-1').fadeIn();
                 left +=0.5;
             }
         }else{
@@ -43,12 +43,12 @@ function train_drive(){
             if(count >= 13 ){
                 $('#train-1').css('top',motion_top+'%');
                 $('#train-1').css('right',motion_right+'%');
-                // $('#car-1').addClass('d-none');
+                $('#train-1').fadeOut(260);
                 right -=0.5;
             }else{
                 $('#train-1').css('top',motion_top+'%');
                 $('#train-1').css('right',motion_right+'%');
-                // $('#car-1').removeClass('d-none');
+                $('#train-1').fadeIn();
                 right +=0.5;
             }
         }else{
