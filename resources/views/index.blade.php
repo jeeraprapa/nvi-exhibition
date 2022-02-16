@@ -21,14 +21,14 @@
     <link rel="icon" href="{{asset('images/logo2.png')}}">
 </head>
 <body id="home-page" class="overflow-hidden">
-    <div class="key fixed-top text-center d-flex justify-content-center">
-        <h1 class="p-3 fw-bold">
-            นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10
-            <span>
-                Vaccine Conference 10 Virtual Exhibition
-            </span>
-        </h1>
-    </div>
+{{--    <div class="key fixed-top text-center d-flex justify-content-center">--}}
+{{--        <h1 class="p-3 fw-bold">--}}
+{{--            นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10--}}
+{{--            <span>--}}
+{{--                Vaccine Conference 10 Virtual Exhibition--}}
+{{--            </span>--}}
+{{--        </h1>--}}
+{{--    </div>--}}
     <header>
         <nav class="fixed-top">
             <div class="container pt-4">
@@ -62,8 +62,8 @@
 
             <area class="area-map" data-name="เครือข่ายการวิจัยพัฒนา" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="869,447,839,464,834,485,837,497,997,598,1028,610,1071,582,1158,529,1232,483,1243,466,1228,443,1167,402,1128,379,1111,376,1110,300,1088,285,1077,269,1073,223,1054,215,1042,207,1028,212,1003,206,1009,223,1018,232,1034,237,1031,252,1015,269,1017,281,1018,300,1017,326,1015,359,990,348,978,367,973,381,947,399,933,376,919,368,919,404,913,416,893,431" shape="poly">
 
-            <area class="area-map" data-name="เครือข่ายการผลิต" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="1080,172,1042,194,1042,215,1281,363,1272,386,1287,411,1515,538,1743,403,1753,386,1739,367,1607,291,1607,268,1594,260,1588,223,1553,208,1549,237,1532,228,1526,215,1505,206,1505,226,1455,259,1421,246,1427,215,1419,192,1393,175,1373,198,1380,222,1351,206,1351,163,1320,155,1301,163,1295,113,1289,104,1271,107,1265,90,1250,90,1242,95,1234,138,1225,127,1228,174" shape="poly">
-
+            <area class="area-map" data-name="เครือข่ายการผลิต" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="1100,110,1300,9,1880,390,1609,600" shape="poly">
+            {{--          xy  300,904=<   ,509,700 =^   ,620,809 =>3  ,450,1032=v  --}}
 
             <area class="area-map" data-name="เครือข่ายการประกันคุณภาพและการใช้วัคซีน" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="1220,807,1411,604,1887,916,1567,1046" shape="poly">
 
@@ -71,7 +71,7 @@
             <area class="area-map" data-name="การแสดงโปสเตอร์วิชาการ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="466,709,522,672,562,657,582,644,609,624,633,604,652,576,650,554,633,533,602,534,340,387,150,494,139,506,139,531,140,540,430,709,449,712" shape="poly">
 
             <area class="area-map" data-name="รางวัลผู้ทําคุณประโยชน์" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="300,1004,509,700,760,879,450,1100" shape="poly">
-{{--          xy  300,904=<   ,509,700 =^   ,620,809 =>3  ,450,1032=v  --}}
+
             <area class="area-map" data-name="นิทรรศการสถาบันวัคซีนแห่งชาติ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="907,849,1042,772,1041,755,1059,713,1031,685,997,689,1008,719,932,680,927,638,910,623,918,607,906,589,892,582,878,587,865,590,861,613,856,629,783,600,782,427,760,414,758,365,740,384,721,345,717,370,707,386,706,409,695,421,693,446,684,613,619,654,617,671,627,688" shape="poly">
 
         </map>
