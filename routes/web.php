@@ -22,6 +22,10 @@ Route::get('/booth', function () {
     return view('booth.index');
 });
 
+Route::get('/booth/detail', function () {
+    return view('booth.detail');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

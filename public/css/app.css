@@ -11285,6 +11285,7 @@ textarea.form-control-lg {
 body {
   font-family: "Prompt", sans-serif;
   color: #414D7A;
+  font-size: 18px;
 }
 
 h1, .h1 {
@@ -11410,4 +11411,44 @@ h1, .h1 {
   background-position: center center !important;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#app > header {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+#app > header img {
+  width: 40px;
+}
+@media screen and (min-width: 1440px) {
+  #app > header img {
+    width: 47.55px;
+  }
+}
+#app > header .navbar-nav li {
+  font-size: 16px;
+}
+@media screen and (min-width: 1600px) {
+  #app > header .navbar-nav li {
+    font-size: 18px;
+  }
+}
+#app main {
+  min-height: calc(100vh - 155px);
+}
+#app footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+#app footer .social img {
+  width: 20px;
+  margin-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  #app footer .social img {
+    width: 24px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #app footer .social img {
+    width: 30px;
+  }
 }
