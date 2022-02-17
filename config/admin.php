@@ -249,7 +249,7 @@ return [
     | Set a default avatar for newly created users.
     |
     */
-    'default_avatar' => '/vendor/laravel-admin/AdminLTE/dist/img/user2-160x160.jpg',
+    'default_avatar' => '/images/logo2.png',
 
     /*
     |--------------------------------------------------------------------------
@@ -275,7 +275,7 @@ return [
     |    "skin-red", "skin-red-light", "skin-black", "skin-black-light".
     |
     */
-    'skin' => env('ADMIN_SKIN', 'skin-blue-light'),
+    'skin' => env('ADMIN_SKIN', 'skin-blue'),
 
     /*
     |--------------------------------------------------------------------------
@@ -299,7 +299,7 @@ return [
     | This value is used to set the background image of login page.
     |
     */
-    'login_background_image' => '',
+    'login_background_image' => '/images/main.png',
 
     /*
     |--------------------------------------------------------------------------
@@ -359,7 +359,7 @@ return [
     | Enable/Disable sidebar menu search
     |--------------------------------------------------------------------------
     */
-    'enable_menu_search' => true,
+    'enable_menu_search' => false,
 
     /*
     |--------------------------------------------------------------------------
