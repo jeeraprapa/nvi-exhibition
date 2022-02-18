@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/booth', function () {
+Route::get('/booth/production-network', function () {
     return view('booth.index');
 });
 

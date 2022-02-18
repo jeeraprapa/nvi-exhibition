@@ -1,0 +1,23 @@
+#main-booth
+    min-height: calc(100vh - 155px)
+    background: url('../images/bg_booth.png')
+    .nav
+        display: inline-flex
+        color: #243876
+        border-radius: 100px
+        border: 2px solid #FFFFFF
+        overflow: hidden
+        background: #EDEDED
+        font-weight: bold
+        padding-right: 20px
+        padding-left: 20px
+        .nav-item
+            &:first-child
+                border-top-left-radius: 100px
+                border-bottom-left-radius: 100px
+            &:last-child
+                border-top-right-radius: 100px
+                border-bottom-right-radius: 100px
+            .nav-link.active
+                background: #F6B32C
+                color: #FFFFFF !important
