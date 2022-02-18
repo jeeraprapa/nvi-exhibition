@@ -11282,6 +11282,137 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#booth1 button {
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, #e1e1e1c7, #ffffff);
+  color: #414D7A;
+  -webkit-text-decoration: auto;
+          text-decoration: auto;
+}
+#booth1 .text-link {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  #booth1 .text-link {
+    display: inline-block;
+  }
+}
+#booth1 .box-title {
+  background: #F6B32C;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 11px 10px;
+  margin: 0px 5px;
+  font-size: small;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .box-title {
+    padding: 11px 18px;
+    font-size: 1.25rem;
+  }
+}
+#booth1 .content-header {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  display: -webkit-box;
+  overflow: auto;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .content-header {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .content-header {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    display: flex;
+  }
+}
+#booth1 .background-header {
+  background-image: url("/images/booth/bg_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#booth1 .content-poster {
+  top: 65px;
+  z-index: 5;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .content-poster {
+    top: 130px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .content-poster {
+    top: 240px;
+  }
+}
+#booth1 .box-icon-yellow {
+  top: 0;
+  right: -6px;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .box-icon-yellow {
+    top: 0;
+    right: -10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .box-icon-yellow {
+    top: 0;
+    right: -25px;
+  }
+}
+#booth1 .box-icon-yellow img {
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .box-icon-yellow img {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .box-icon-yellow img {
+    width: 75%;
+  }
+}
+#booth1 .box_logo_booth {
+  bottom: 20px;
+  left: 39px;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .box_logo_booth {
+    bottom: 35px;
+    left: 60px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .box_logo_booth {
+    bottom: 80px;
+    left: 115px;
+  }
+}
+#booth1 .logo_booth {
+  border-radius: 35px;
+  width: 30%;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .logo_booth {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .logo_booth {
+    width: 90%;
+  }
+}
+
 body {
   font-family: "Prompt", sans-serif;
   color: #414D7A;
