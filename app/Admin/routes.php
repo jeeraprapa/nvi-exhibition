@@ -12,5 +12,6 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index')->name('home');
-
+    $router->resource('booths', BoothController::class);
+    $router->resource('files', FileController::class);
 });

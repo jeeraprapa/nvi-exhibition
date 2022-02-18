@@ -19,13 +19,17 @@ Route::get('/', function () {
 });
 
 
+Route::get('/booth/production-network', function () {
+    return view('booth.index');
+});
+
 Route::get('/booth/detail/1', function () {
     return view('booth.detail1');
 });
 
 Route::get('/booth/detail/2', function () {
     return view('booth.detail2');
-});
+}
 
 Route::get('/booth/detail/3', function () {
     return view('booth.detail3');

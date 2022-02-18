@@ -25,7 +25,7 @@
         <h1 class="p-3 fw-bold">
             นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10
             <span>
-                Vaccine Conference 10 Virtual Exhibition
+                The 10 <sup>th</sup> National Vaccine Conference Virtual Exhibition
             </span>
         </h1>
     </div>
