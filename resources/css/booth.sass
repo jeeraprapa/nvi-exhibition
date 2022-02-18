@@ -1,6 +1,7 @@
 #main-booth
     min-height: calc(100vh - 155px)
-    background: url('../images/bg_booth.png')
+    background: url('../images/bg_booth.png') no-repeat
+    background-position-y: -80px
     .nav
         display: inline-flex
         color: #243876
@@ -21,3 +22,14 @@
             .nav-link.active
                 background: #F6B32C
                 color: #FFFFFF !important
+    .booth
+        a
+            color: #243876
+            text-decoration: none
+        .fadein
+            opacity: 1
+            transition: 1s ease
+            img:hover
+                opacity: 0.8
+                transition: 1s ease
+

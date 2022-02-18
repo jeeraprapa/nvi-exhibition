@@ -11284,7 +11284,8 @@ textarea.form-control-lg {
 }
 #main-booth {
   min-height: calc(100vh - 155px);
-  background: url("../images/bg_booth.png");
+  background: url("../images/bg_booth.png") no-repeat;
+  background-position-y: -80px;
 }
 #main-booth .nav {
   display: inline-flex;
@@ -11308,6 +11309,18 @@ textarea.form-control-lg {
 #main-booth .nav .nav-item .nav-link.active {
   background: #F6B32C;
   color: #FFFFFF !important;
+}
+#main-booth .booth a {
+  color: #243876;
+  text-decoration: none;
+}
+#main-booth .booth .fadein {
+  opacity: 1;
+  transition: 1s ease;
+}
+#main-booth .booth .fadein img:hover {
+  opacity: 0.8;
+  transition: 1s ease;
 }
 
 #booth1 button {
