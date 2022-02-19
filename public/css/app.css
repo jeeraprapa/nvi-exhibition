@@ -11362,7 +11362,7 @@ textarea.form-control-lg {
 #booth1 .text-link {
   display: none;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   #booth1 .text-link {
     display: inline-block;
   }
@@ -11376,6 +11376,12 @@ textarea.form-control-lg {
   margin: 0px 5px;
   font-size: small;
   color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .box-title {
+    padding: 11px 18px;
+    font-size: 1.25rem;
+  }
 }
 @media screen and (min-width: 768px) {
   #booth1 .box-title {
@@ -11403,6 +11409,11 @@ textarea.form-control-lg {
     display: flex;
   }
 }
+@media screen and (min-width: 320px) {
+  #booth1 .content-header img {
+    height: 10px;
+  }
+}
 #booth1 .background-header {
   background-image: url("/images/bg_booth.png");
   background-repeat: no-repeat;
@@ -11418,6 +11429,16 @@ textarea.form-control-lg {
   }
 }
 @media screen and (min-width: 992px) {
+  #booth1 .content-poster {
+    top: 175px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth1 .content-poster {
+    top: 175px;
+  }
+}
+@media screen and (min-width: 1200px) {
   #booth1 .content-poster {
     top: 240px;
   }
@@ -11467,8 +11488,20 @@ textarea.form-control-lg {
     left: 115px;
   }
 }
+@media screen and (min-width: 1024px) {
+  #booth1 .box_logo_booth {
+    bottom: 55px;
+    left: 82px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth1 .box_logo_booth {
+    bottom: 75px;
+    left: 110px;
+  }
+}
 #booth1 .logo_booth {
-  border-radius: 35px;
+  border-radius: 75px;
   width: 30%;
 }
 @media screen and (min-width: 768px) {
@@ -11479,6 +11512,16 @@ textarea.form-control-lg {
 @media screen and (min-width: 992px) {
   #booth1 .logo_booth {
     width: 90%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .logo_booth {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth1 .logo_booth {
+    width: 100%;
   }
 }
 

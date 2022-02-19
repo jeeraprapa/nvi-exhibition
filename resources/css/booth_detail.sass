@@ -7,7 +7,7 @@
         text-decoration: auto
     .text-link
         display: none
-        @include screen('lg')
+        @include screen('xl')
             display: inline-block
     .box-title
         background: #F6B32C
@@ -18,6 +18,9 @@
         margin: 0px 5px
         font-size: small
         color: #ffffff
+        @include screen('md')
+            padding: 11px 18px
+            font-size: 1.25rem
         @include screen('md')
             padding: 11px 18px
             font-size: 1.25rem
@@ -34,6 +37,9 @@
             padding-right: 3rem
             padding-left: 3rem
             display: flex
+        img
+            @include screen('xs')
+                height: 10px
     .background-header
         background-image: url("/images/bg_booth.png")
         background-repeat: no-repeat
@@ -44,6 +50,10 @@
         @include screen('md')
             top: 130px
         @include screen('lg')
+            top: 175px
+        @include screen('ipad')
+            top: 175px
+        @include screen('xl')
             top: 240px
     .box-icon-yellow
         top: 0
@@ -69,10 +79,20 @@
         @include screen('lg')
             bottom: 80px
             left: 115px
+        @include screen('ipad')
+            bottom: 55px
+            left: 82px
+        @include screen('wide')
+            bottom: 75px
+            left: 110px
     .logo_booth
-        border-radius: 35px
+        border-radius: 75px
         width: 30%
         @include screen('md')
             width: 60%
         @include screen('lg')
             width: 90%
+        @include screen('lg')
+            width: 75%
+        @include screen('wide')
+            width: 100%
