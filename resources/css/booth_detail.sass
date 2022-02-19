@@ -16,11 +16,8 @@
         border-radius: 100px
         padding: 11px 10px
         margin: 0px 5px
-        font-size: small
+        font-size: 10px
         color: #ffffff
-        @include screen('md')
-            padding: 11px 18px
-            font-size: 1.25rem
         @include screen('md')
             padding: 11px 18px
             font-size: 1.25rem
@@ -96,3 +93,10 @@
             width: 75%
         @include screen('wide')
             width: 100%
+    .poster
+        cursor: pointer
+.modal-xl
+    .modal-content
+        min-height: 100vh
+        background: transparent
+        border: none

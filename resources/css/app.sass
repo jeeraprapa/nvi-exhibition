@@ -51,34 +51,6 @@ h1
                 width: 55px
             @include screen('xwide')
                 width: 75px
-        a:after
-            display: none
-        .dropdown-menu
-            min-width: 360px
-            li
-                a
-                    font-size: 14px
-                    padding: 20px 40px 20px 40px
-                    position: relative
-                    &:hover
-                        background: #AAE3FF
-                        padding-left: 60px
-                        &:before
-                            background: url('../images/pin.png') no-repeat
-                            background-size: contain
-                            content: ''
-                            display: block
-                            position: absolute
-                            left: 40px
-                            width: 20px
-                            height: 20px
-        .navbar-nav
-            .dropdown-menu
-                padding: 0
-                overflow: hidden
-                background: #FFFFFF
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-                border-radius: 20px
 
     footer
         .social
@@ -114,10 +86,6 @@ h1
 
 
     #map
-        //background: url('../images/home_bg.png')
-        //background-size:     cover
-        //background-repeat:   no-repeat
-        //background-position: center center
         width: 100%
         .maphilighted
             background-size:     cover !important
@@ -152,3 +120,32 @@ h1
                     width: 24px
                 @include screen('lg')
                     width: 30px
+
+a.nav-link:after
+    display: none
+.dropdown-menu
+    min-width: 360px
+    li
+        a
+            font-size: 14px
+            padding: 20px 40px 20px 40px
+            position: relative
+            &:hover
+                background: #AAE3FF
+                padding-left: 60px
+                &:before
+                    background: url('../images/pin.png') no-repeat
+                    background-size: contain
+                    content: ''
+                    display: block
+                    position: absolute
+                    left: 40px
+                    width: 20px
+                    height: 20px
+    .navbar-nav
+        .dropdown-menu
+            padding: 0
+            overflow: hidden
+            background: #FFFFFF
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+            border-radius: 20px

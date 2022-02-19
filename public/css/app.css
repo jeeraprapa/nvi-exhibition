@@ -11342,13 +11342,32 @@ textarea.form-control-lg {
   color: #243876;
   text-decoration: none;
 }
-#main-booth .booth .fadein {
+#main-booth .booth p {
+  position: relative;
+}
+#main-booth .booth p:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #243876;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+#main-booth .booth .fadein:hover {
   opacity: 1;
   transition: 1s ease;
 }
-#main-booth .booth .fadein img:hover {
+#main-booth .booth .fadein:hover img {
   opacity: 0.8;
   transition: 1s ease;
+}
+#main-booth .booth .fadein:hover p:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 #booth1 button {
@@ -11374,14 +11393,8 @@ textarea.form-control-lg {
   border-radius: 100px;
   padding: 11px 10px;
   margin: 0px 5px;
-  font-size: small;
+  font-size: 10px;
   color: #ffffff;
-}
-@media screen and (min-width: 768px) {
-  #booth1 .box-title {
-    padding: 11px 18px;
-    font-size: 1.25rem;
-  }
 }
 @media screen and (min-width: 768px) {
   #booth1 .box-title {
@@ -11524,6 +11537,15 @@ textarea.form-control-lg {
     width: 100%;
   }
 }
+#booth1 .poster {
+  cursor: pointer;
+}
+
+.modal-xl .modal-content {
+  min-height: 100vh;
+  background: transparent;
+  border: none;
+}
 
 body {
   font-family: "Prompt", sans-serif;
@@ -11590,38 +11612,6 @@ h1, .h1 {
   #home-page header img {
     width: 75px;
   }
-}
-#home-page header a:after {
-  display: none;
-}
-#home-page header .dropdown-menu {
-  min-width: 360px;
-}
-#home-page header .dropdown-menu li a {
-  font-size: 14px;
-  padding: 20px 40px 20px 40px;
-  position: relative;
-}
-#home-page header .dropdown-menu li a:hover {
-  background: #AAE3FF;
-  padding-left: 60px;
-}
-#home-page header .dropdown-menu li a:hover:before {
-  background: url("../images/pin.png") no-repeat;
-  background-size: contain;
-  content: "";
-  display: block;
-  position: absolute;
-  left: 40px;
-  width: 20px;
-  height: 20px;
-}
-#home-page header .navbar-nav .dropdown-menu {
-  padding: 0;
-  overflow: hidden;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
 }
 #home-page footer .social img {
   width: 20px;
@@ -11719,4 +11709,38 @@ h1, .h1 {
   #app footer .social img {
     width: 30px;
   }
+}
+
+a.nav-link:after {
+  display: none;
+}
+
+.dropdown-menu {
+  min-width: 360px;
+}
+.dropdown-menu li a {
+  font-size: 14px;
+  padding: 20px 40px 20px 40px;
+  position: relative;
+}
+.dropdown-menu li a:hover {
+  background: #AAE3FF;
+  padding-left: 60px;
+}
+.dropdown-menu li a:hover:before {
+  background: url("../images/pin.png") no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+}
+.dropdown-menu .navbar-nav .dropdown-menu {
+  padding: 0;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
 }

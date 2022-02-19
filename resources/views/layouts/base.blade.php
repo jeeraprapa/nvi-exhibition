@@ -10,16 +10,18 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
+    <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
     <link rel="icon" href="{{asset('images/logo2.png')}}" type="image/x-icon">
+    @stack('css')
 </head>
 <body>
 <div id="app">
-    <header class="py-2 px-4">
+    <header class="py-2 px-4 d-none d-xl-block">
         <div class="d-flex flex-column flex-md-row align-items-center">
             <a href="/" class="d-flex align-items-center text-dark text-decoration-none logo">
                 <img src="{{asset('images/logo2.png')}}" alt="">
@@ -72,13 +74,42 @@
                     </div>
                 </div>
             </nav>
-
         </div>
     </header>
+
+    <header class="d-xl-none">
+        <nav>
+            <div class="container p-4">
+                <a class="navbar-brand" href="{{route('home')}}">
+                    <img src="{{asset('images/logo2.png')}}">
+                </a>
+
+                <ul class="navbar-nav float-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="{{asset('images/hamburger.png')}}" alt="" class="d-inline-block align-text-top">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
+                            <li><a class="dropdown-item" href="#">เครือข่ายการวิจัยพัฒนา</a></li>
+                            <li><a class="dropdown-item" href="{{route('booth.production-network')}}">เครือข่ายการผลิต</a></li>
+                            <li><a class="dropdown-item" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
+                            <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
+                            <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
+                            <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+
     <main>
         @yield('content')
     </main>
-    <footer>
+    <footer class="mt-4">
        <div class="container p-4">
            <div class="row">
                <div class="copyright col-sm-12 col-md-6">
@@ -93,6 +124,7 @@
            </div>
        </div>
     </footer>
+    @stack('js')
 </div>
 </body>
 </html>
