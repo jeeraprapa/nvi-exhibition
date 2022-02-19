@@ -54,9 +54,32 @@ h1
         a:after
             display: none
         .dropdown-menu
-            min-width: 300px
+            min-width: 360px
             li
-                padding-right: 2rem
+                a
+                    font-size: 14px
+                    padding: 20px 40px 20px 40px
+                    position: relative
+                    &:hover
+                        background: #AAE3FF
+                        padding-left: 60px
+                        &:before
+                            background: url('../images/pin.png') no-repeat
+                            background-size: contain
+                            content: ''
+                            display: block
+                            position: absolute
+                            left: 40px
+                            width: 20px
+                            height: 20px
+        .navbar-nav
+            .dropdown-menu
+                padding: 0
+                overflow: hidden
+                background: #FFFFFF
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+                border-radius: 20px
+
     footer
         .social
             img
