@@ -44,7 +44,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
                             <li><a class="dropdown-item" href="#">เครือข่ายการวิจัยพัฒนา</a></li>
-                            <li><a class="dropdown-item" href="#">เครือข่ายการผลิต</a></li>
+                            <li><a class="dropdown-item" href="{{route('booth.production-network')}}">เครือข่ายการผลิต</a></li>
                             <li><a class="dropdown-item" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
                             <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
                             <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
@@ -66,7 +66,7 @@
 
             <area class="area-map" data-name="เครือข่ายการวิจัยพัฒนา" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="869,447,839,464,834,485,837,497,997,598,1028,610,1071,582,1158,529,1232,483,1243,466,1228,443,1167,402,1128,379,1111,376,1110,300,1088,285,1077,269,1073,223,1054,215,1042,207,1028,212,1003,206,1009,223,1018,232,1034,237,1031,252,1015,269,1017,281,1018,300,1017,326,1015,359,990,348,978,367,973,381,947,399,933,376,919,368,919,404,913,416,893,431" shape="poly">
 
-            <area class="area-map" data-name="เครือข่ายการผลิต" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="1100,110,1300,9,1880,390,1609,600" shape="poly">
+            <area class="area-map" data-name="เครือข่ายการผลิต" data-link="{{route('booth.production-network')}}" onclick="" href="javascript:void(0)" coords="1100,110,1300,9,1880,390,1609,600" shape="poly">
             {{--          xy  300,904=<   ,509,700 =^   ,620,809 =>3  ,450,1032=v  --}}
 
             <area class="area-map" data-name="เครือข่ายการประกันคุณภาพและการใช้วัคซีน" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="1220,807,1411,604,1887,916,1567,1046" shape="poly">

@@ -2,11 +2,24 @@
 
 @section('content')
     <div id="main-booth">
-        <div class="container">
-            <div class="p-4 mx-auto text-center">
-                <ul class="nav justify-content-center">
+        <div class="container-lg">
+            <div class="py-4 px-lg-4 mx-auto text-center">
+
+                <ul class="nav justify-content-lg-center d-lg-none">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
+                        <a class="nav-link active" href="#">เครือข่ายการผลิต</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">เครือข่ายการวิจัยพัฒนา</a>
+                    </li>
+                </ul>
+
+                <ul class="nav justify-content-lg-center d-none d-lg-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">เครือข่ายการผลิต</a>

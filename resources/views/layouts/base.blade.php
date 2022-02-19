@@ -43,7 +43,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="{{route('booth.production-network')}}">
                                     เครือข่ายการผลิต
                                 </a>
                             </li>

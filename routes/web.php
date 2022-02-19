@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 Route::get('/booth/production-network', function () {
     return view('booth.index');
-});
+})->name('booth.production-network');
 
 Route::get('/booth/detail/1', function () {
     return view('booth.detail1');
