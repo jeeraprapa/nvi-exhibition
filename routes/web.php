@@ -25,7 +25,7 @@ Route::get('/booth/production-network', function () {
 
 Route::get('/booth/detail/1', function () {
     return view('booth.detail1');
-});
+})->name('booth.production-network.detail');
 
 Route::get('/booth/detail/2', function () {
     return view('booth.detail2');

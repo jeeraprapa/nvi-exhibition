@@ -17,7 +17,7 @@
                     </li>
                 </ul>
 
-                <ul class="nav justify-content-lg-center d-none d-lg-flex">
+                <ul class="nav justify-content-lg-center d-none d-lg-inline-flex">
                     <li class="nav-item">
                         <a class="nav-link" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
                     </li>
@@ -32,13 +32,13 @@
             @for($i=1;$i<6;$i++)
             <div class="row booth">
                 <div class="col-md-6 col-sm-12 fadein">
-                    <a href="#">
+                    <a href="{{route('booth.production-network.detail')}}">
                         <img src="{{asset('images/booth/baiya.png')}}" alt="" class="img-fluid p-4">
                         <p class="fw-bold text-center">บริษัท ใบยา ไฟโตฟาร์ม จำกัด </p>
                     </a>
                 </div>
                 <div class="col-md-6 col-sm-12 fadein">
-                    <a href="#">
+                    <a href="{{route('booth.production-network.detail')}}">
                         <img src="{{asset('images/booth/baiya.png')}}" alt="" class="img-fluid p-4">
                         <p class="fw-bold text-center">บริษัท ใบยา ไฟโตฟาร์ม จำกัด </p>
                     </a>
