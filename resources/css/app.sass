@@ -26,6 +26,13 @@ h1
     .container
         @include screen('xwide')
             max-width: 1550px
+    .cars
+        img
+            width: 40px
+            @include screen('xl')
+                width: 45px
+            @include screen('mwide')
+                width: auto
     .key
         h1
             font-size: 18px

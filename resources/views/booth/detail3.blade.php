@@ -7,43 +7,24 @@
 @section('content')
     <div class="container-fluid p-0" id="booth1">
         <div class="background-header">
-            @php
-                if($previous and $next){
-	                $class = "justify-content-between";
-                }elseif(empty($previous) and empty($next)){
-	                $class = "justify-content-center";
-                }elseif(empty($previous)){
-	                $class = "justify-content-end";
-                }elseif(empty($next)){
-	                $class = "justify-content-start";
-                }
-            @endphp
-            <div class="content-header w-100 text-center d-flex py-3">
-                @if($previous)
-                    <button type="button" class="btn btn-link float-start" >
-                        <img src="{{asset('images/booth/icon_left.png')}}" class="" alt="icon_left">
-                        <span class="text-link text-center">{{$previous->name}}</span>
-                    </button>
-                @endif
-
-                <div class="box-title text-center mx-auto">{{$booth->name}}</div>
-
-                @if($next)
-                    <button type="button" class="btn btn-link float-end" >
-                        <span class="text-link text-center">{{$next->name}}</span>
-                        <img src="{{asset('images/booth/icon_right.png')}}" class="" alt="icon_right">
-                    </button>
-                @endif
+            <div class="content-header justify-content-between d-flex py-3">
+                <button type="button" class="btn btn-link" >
+                    <img src="/images/booth/icon_left.png" class="" alt="icon_left">
+                    <span class="text-link text-center">ศูนย์วิจัยวัคซีน จุฬาลงกรณ์มหาวิทยาลัย</span>
+                </button>
+                <div class="box-title text-center">คณะเภสัชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย</div>
+                <button type="button" class="btn btn-link" >
+                    <span class="text-link text-center">คณะเวชศาสตร์เขตร้อน ศูนย์ทดสอบวัคซีน มหาวิทยาลัยมหิดล</span>
+                    <img src="/images/booth/icon_right.png" class="" alt="icon_right">
+                </button>
             </div>
             <div class="container position-relative">
 
-                <img src="/images/booth/bg_content1.png" class="img-fluid" alt="img-content1">
+                <img src="/images/booth/bg_content3.png" class="img-fluid" alt="img-content1">
+                <div class="position-absolute box_logo_booth">
+                    <img src="/images/booth/logo_booth.png" class="img-fluid logo_booth" alt="logo_booth">
+                </div>
 
-                @if($booth->logo)
-                    <div class="position-absolute box_logo_booth">
-                        <img src="{{$booth->logo_url}}" class="img-fluid logo_booth" alt="logo_booth">
-                    </div>
-                @endif
                 <div class="content-poster d-flex justify-content-around position-absolute start-50 translate-middle-x">
                     <div class="poster position-relative" onclick="posterSelectPage(1)">
                         <div class="position-absolute box-icon-yellow">

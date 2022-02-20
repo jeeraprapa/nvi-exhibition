@@ -11342,21 +11342,6 @@ textarea.form-control-lg {
   color: #243876;
   text-decoration: none;
 }
-#main-booth .booth p {
-  position: relative;
-}
-#main-booth .booth p:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #243876;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
 #main-booth .booth .fadein:hover {
   opacity: 1;
   transition: 1s ease;
@@ -11364,10 +11349,6 @@ textarea.form-control-lg {
 #main-booth .booth .fadein:hover img {
   opacity: 0.8;
   transition: 1s ease;
-}
-#main-booth .booth .fadein:hover p:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }
 
 #booth1 button {
@@ -11567,6 +11548,19 @@ h1, .h1 {
 @media screen and (min-width: 1600px) {
   #home-page .container {
     max-width: 1550px;
+  }
+}
+#home-page .cars img {
+  width: 40px;
+}
+@media screen and (min-width: 1200px) {
+  #home-page .cars img {
+    width: 45px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #home-page .cars img {
+    width: auto;
   }
 }
 #home-page .key h1, #home-page .key .h1 {

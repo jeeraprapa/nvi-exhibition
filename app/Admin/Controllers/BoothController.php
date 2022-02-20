@@ -32,9 +32,8 @@ class BoothController extends AdminController
         $grid->column('type', __('Type'));
         $grid->column('youtube', __('Youtube'));
         $grid->column('logo', __('Logo'));
+        $grid->column('booth_image', __('Booth Image'));
         $grid->column('created_at', __('Created at'));
-        $grid->column('updated_at', __('Updated at'));
-        $grid->column('deleted_at', __('Deleted at'));
 
         return $grid;
     }
@@ -55,6 +54,7 @@ class BoothController extends AdminController
         $show->field('type', __('Type'));
         $show->field('youtube', __('Youtube'));
         $show->field('logo', __('Logo'));
+        $show->field('booth_image', __('Booth Image'));
         $show->field('created_at', __('Created at'));
         $show->field('updated_at', __('Updated at'));
         $show->field('deleted_at', __('Deleted at'));
@@ -73,9 +73,15 @@ class BoothController extends AdminController
 
         $form->text('name', __('Name'));
         $form->text('short', __('Short'));
-        $form->text('type', __('Type'));
+        $form->select('type', __('type'))
+             ->options([
+                 'PRODUCTION_NETWORK' => 'เครือข่ายการผลิต',
+                 'RESEARCH'           => 'เครือข่ายการวิจัยพัฒนา',
+                 'ASSURANCE_VACCINE'  => 'เครือข่ายการประกันคุณภาพและการใช้วัคซีน'
+             ]);
         $form->text('youtube', __('Youtube'));
         $form->image('logo', __('Logo'));
+        $form->image('booth_image', __('Booth Image'));
 
         return $form;
     }

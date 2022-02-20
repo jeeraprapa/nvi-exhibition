@@ -37,7 +37,7 @@
             </div>
             <div class="container position-relative">
 
-                <img src="/images/booth/bg_content1.png" class="img-fluid" alt="img-content1">
+                <img src="/images/booth/bg_content2.png" class="img-fluid" alt="img-content1">
 
                 @if($booth->logo)
                     <div class="position-absolute box_logo_booth">

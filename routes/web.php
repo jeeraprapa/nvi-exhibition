@@ -16,24 +16,33 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-})->name('home');
+})->name('http::home');
+
+Route::get('/booth/production-network',
+    [App\Http\Controllers\Booth\ProductionNetworkController::class, 'index'])
+     ->name('http::booth.production-network');
+
+Route::get('/booth/production-network/{booth}',
+    [App\Http\Controllers\Booth\ProductionNetworkController::class, 'detail'])
+     ->name('http::booth.production-network.detail');
+
+Route::get('/booth/research',
+    [App\Http\Controllers\Booth\ResearchController::class, 'index'])
+     ->name('http::booth.research');
+
+Route::get('/booth/research/{booth}',
+    [App\Http\Controllers\Booth\ResearchController::class, 'detail'])
+     ->name('http::booth.research.detail');
 
 
-Route::get('/booth/production-network', function () {
-    return view('booth.index');
-})->name('booth.production-network');
+Route::get('/booth/assurance-vaccine',
+    [App\Http\Controllers\Booth\AssuranceVaccineController::class, 'index'])
+     ->name('http::booth.assurance-vaccine');
 
-Route::get('/booth/detail/1', function () {
-    return view('booth.detail1');
-})->name('booth.production-network.detail');
+Route::get('/booth/assurance-vaccine/{booth}',
+    [App\Http\Controllers\Booth\AssuranceVaccineController::class, 'detail'])
+     ->name('http::booth.assurance-vaccine.detail');
 
-Route::get('/booth/detail/2', function () {
-    return view('booth.detail2');
-});
-
-Route::get('/booth/detail/3', function () {
-    return view('booth.detail3');
-});
 
 Auth::routes();
 

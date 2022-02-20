@@ -27,6 +27,10 @@
         @media screen and (min-width: 1440px)
             @content
 
+    @else if $screen == mwide
+        @media screen and (min-width: 1500px)
+            @content
+
     @else if $screen == xwide
         @media screen and (min-width: 1600px)
             @content

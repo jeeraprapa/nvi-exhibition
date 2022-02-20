@@ -11,12 +11,33 @@ class Booth extends Model
 
     protected $table = "nvi_booths";
 
-    protected $fillable = [
+    protected $appends = ['logo_url'];
 
-    ];
 
     public function posters ()
     {
         return $this->hasMany(File::class,'booth_id');
+    }
+
+    public function scopeProductionNetwork ($q)
+    {
+        return $q->where('type','PRODUCTION_NETWORK');
+    }
+
+    public function scopeResearch ($q)
+    {
+        return $q->where('type','RESEARCH');
+    }
+
+    public function scopeAssuranceVaccine ($q)
+    {
+        return $q->where('type','ASSURANCE_VACCINE');
+    }
+
+    public function getLogoUrlAttribute ()
+    {
+        if($this->logo) {
+            return \Storage::disk('s3')->url($this->logo);
+        }
     }
 }

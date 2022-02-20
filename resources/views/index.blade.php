@@ -32,7 +32,7 @@
     <header>
         <nav class="fixed-top">
             <div class="container pt-4">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{route('http::home')}}">
                     <img src="{{asset('images/logo2.png')}}">
                 </a>
 
@@ -43,9 +43,9 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
-                            <li><a class="dropdown-item" href="#">เครือข่ายการวิจัยพัฒนา</a></li>
-                            <li><a class="dropdown-item" href="{{route('booth.production-network')}}">เครือข่ายการผลิต</a></li>
-                            <li><a class="dropdown-item" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
                             <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
                             <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
                             <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
@@ -63,21 +63,21 @@
         </div>
 
         <map name="area-map">
-            <area class="area-map" data-name="รางวัลประกวดคลิปวีดิโอ" data-link="https://virtualexpo.asa.or.th/content/page7" href="javascript:void(0)" coords="418,216,444,198,474,182,468,145,548,116,551,83,582,64,610,61,635,69,652,94,652,136,678,159,716,171,730,173,737,188,779,213,796,221,793,199,818,195,833,202,840,215,840,241,843,257,840,278,804,298,778,316,709,356,672,381,646,391,604,374,478,303,432,271,409,244" shape="poly">
+            <area class="area-map" data-name="รางวัลประกวดคลิปวีดิโอ" data-link="https://virtualexpo.asa.or.th/content/page7" href="javascript:void(0)" coords="721,594,487,465,482,433,526,345,568,296,621,252,697,228,757,255,795,287,835,352,934,417,934,460,923,488,837,530" shape="poly">
 
-            <area class="area-map" data-name="เครือข่ายการวิจัยพัฒนา" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="869,447,839,464,834,485,837,497,997,598,1028,610,1071,582,1158,529,1232,483,1243,466,1228,443,1167,402,1128,379,1111,376,1110,300,1088,285,1077,269,1073,223,1054,215,1042,207,1028,212,1003,206,1009,223,1018,232,1034,237,1031,252,1015,269,1017,281,1018,300,1017,326,1015,359,990,348,978,367,973,381,947,399,933,376,919,368,919,404,913,416,893,431" shape="poly">
+            <area class="area-map" data-name="เครือข่ายการวิจัยพัฒนา" data-link="{{route('http::booth.research')}}" onclick="" href="javascript:void(0)" coords="1099,795,1127,789,1336,655,1328,627,1312,608,1314,564,1293,538,1275,534,1253,543,1219,533,1196,517,1193,465,1169,427,1170,392,1155,351,1111,337,1069,354,1057,399,1087,413,1084,442,1079,490,1034,506,996,507,978,542,972,572,960,594,914,616,902,637,901,657,911,675,989,730,1072,784" shape="poly">
 
-            <area class="area-map" data-name="เครือข่ายการผลิต" data-link="{{route('booth.production-network')}}" onclick="" href="javascript:void(0)" coords="1100,110,1300,9,1880,390,1609,600" shape="poly">
+            <area class="area-map" data-name="เครือข่ายการผลิต" data-link="{{route('http::booth.production-network')}}" onclick="" href="javascript:void(0)" coords="1207,336,1276,296,1294,267,1310,263,1323,295,1342,307,1348,275,1392,285,1383,293,1419,298,1414,345,1440,338,1470,358,1520,369,1535,401,1544,413,1564,427,1593,403,1606,387,1627,385,1641,399,1649,407,1659,395,1706,414,1701,445,1725,468,1746,488,1862,558,1858,586,1634,721,1606,727,1386,597,1373,573,1377,553,1142,412,1141,386" shape="poly">
             {{--          xy  300,904=<   ,509,700 =^   ,620,809 =>3  ,450,1032=v  --}}
 
-            <area class="area-map" data-name="เครือข่ายการประกันคุณภาพและการใช้วัคซีน" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="1220,807,1411,604,1887,916,1567,1046" shape="poly">
+            <area class="area-map" data-name="เครือข่ายการประกันคุณภาพและการใช้วัคซีน" data-link="{{route('http::booth.assurance-vaccine')}}" onclick="" href="javascript:void(0)" coords="1200,950,1411,750,1920,1076,1440,1076" shape="poly">
 
 
-            <area class="area-map" data-name="การแสดงโปสเตอร์วิชาการ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="466,709,522,672,562,657,582,644,609,624,633,604,652,576,650,554,633,533,602,534,340,387,150,494,139,506,139,531,140,540,430,709,449,712" shape="poly">
+            <area class="area-map" data-name="การแสดงโปสเตอร์วิชาการ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="210,669,409,543,421,539,436,540,681,685,700,680,723,683,739,701,744,724,747,744,746,774,663,823,597,861,534,897,499,896,398,827,293,759,258,735,217,706,204,692" shape="poly">
 
-            <area class="area-map" data-name="รางวัลผู้ทําคุณประโยชน์" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="300,1004,509,700,760,879,450,1100" shape="poly">
+            <area class="area-map" data-name="รางวัลผู้ทําคุณประโยชน์" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="487,1074,468,1057,475,1042,511,1007,506,952,507,920,523,893,557,859,580,848,608,859,622,856,639,845,653,808,686,785,723,782,745,806,745,835,760,865,764,912,779,919,796,929,819,945,839,958,854,963,862,975,850,990,770,1044,724,1076,682,1075,658,1076" shape="poly">
 
-            <area class="area-map" data-name="นิทรรศการสถาบันวัคซีนแห่งชาติ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="907,849,1042,772,1041,755,1059,713,1031,685,997,689,1008,719,932,680,927,638,910,623,918,607,906,589,892,582,878,587,865,590,861,613,856,629,783,600,782,427,760,414,758,365,740,384,721,345,717,370,707,386,706,409,695,421,693,446,684,613,619,654,617,671,627,688" shape="poly">
+            <area class="area-map" data-name="นิทรรศการสถาบันวัคซีนแห่งชาติ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="957,1008,694,848,673,823,681,806,780,745,781,564,778,488,857,483,871,565,874,717,937,757,943,729,953,708,992,713,1009,727,1007,747,1019,767,1018,808,1092,848,1082,830,1100,810,1126,814,1144,831,1149,868,1154,902,1144,931,1042,993,989,1023" shape="poly">
 
         </map>
 
@@ -85,7 +85,7 @@
             <img src="{{asset('images/car/car1.png')}}" alt="" id="car-1" class="position-absolute">
             <img src="{{asset('images/car/car2.png')}}" alt="" id="car-2" class="position-absolute">
             <img src="{{asset('images/car/car3.png')}}" alt="" id="car-3" class="position-absolute">
-            <img src="{{asset('images/car/train1.png')}}" alt="" id="train-1"  class="position-absolute">
+{{--            <img src="{{asset('images/car/train1.png')}}" alt="" id="train-1"  class="position-absolute">--}}
             <img src="{{asset('images/car/train2.png')}}" alt="" id="train-2"  class="position-absolute">
         </div>
     </div>
@@ -118,7 +118,7 @@
         $('img[usemap]').rwdImageMaps();
 
         $('img[usemap]').maphilight({
-            fillOpacity: 0.2,
+            fillOpacity: 0.15,
             stroke: false,
             fillColor: 'E8ECF2FF'
         });

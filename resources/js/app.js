@@ -4,18 +4,18 @@ const {delay} = require("lodash/function");
 car_drive1();
 car_drive2();
 car_drive3();
-train_drive1();
+// train_drive1();
 train_drive2();
 
 function car_drive1(){
     var count = 0;
     var left = 0;
     setInterval(() => {
-        if(count <= 38){
+        if(count <= 28){
             motion_left = 62+left;
-            motion_top = 28+left;
+            motion_top = 42+left;
             $('#car-1').fadeIn();
-            if(count >= 19 ){
+            if(count >= 14 ){
                 // $('#car-1').css('top',motion_top+'%');
                 // $('#car-1').css('left',motion_left+'%');
                 $('#car-1').fadeOut(260);
@@ -45,8 +45,8 @@ function car_drive2(){
     var right = 0;
     setInterval(() => {
         if(count <= 26){
-            motion_right = 17.5+right;
-            motion_top = 42+right;
+            motion_right = 17+right;
+            motion_top = 61+right;
             if(count >= 13 ){
                 $('#car-2').fadeOut(260);
                 count = 0;
@@ -66,7 +66,7 @@ function car_drive2(){
             motion_top = 0;
         }
         count++;
-    }, 280);
+    }, 300);
 }
 
 function car_drive3(){
@@ -74,8 +74,8 @@ function car_drive3(){
     var right = 0;
     setInterval(() => {
         if(count <= 26){
-            motion_right = 48+right;
-            motion_top = 18+right;
+            motion_right = 45+right;
+            motion_top = 40+right;
             if(count >= 13 ){
                 $('#car-3').fadeOut(260);
                 count = 0;
@@ -95,7 +95,7 @@ function car_drive3(){
             motion_top = 0;
         }
         count++;
-    }, 220);
+    }, 250);
 }
 
 
@@ -126,7 +126,7 @@ function train_drive1(){
             motion_top = 0;
         }
         count++;
-    }, 100);
+    }, 200);
 }
 
 function train_drive2(){
@@ -134,8 +134,8 @@ function train_drive2(){
     var right = 0;
     setInterval(() => {
         if(count <= 18){
-            motion_right = 76.5+right;
-            motion_top = 0+right;
+            motion_right = 68+right;
+            motion_top = 18+right;
             if(count >= 9 ){
                 $('#train-2').fadeOut(100);
                 count = 0;
@@ -146,7 +146,7 @@ function train_drive2(){
                 $('#train-2').css('top',motion_top+'%');
                 $('#train-2').css('right',motion_right+'%');
                 $('#train-2').fadeIn();
-                right +=0.5;
+                right +=0.4;
             }
         }else{
             count = 0;

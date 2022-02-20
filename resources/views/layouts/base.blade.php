@@ -23,7 +23,7 @@
 <div id="app">
     <header class="py-2 px-4 d-none d-xl-block">
         <div class="d-flex flex-column flex-md-row align-items-center">
-            <a href="/" class="d-flex align-items-center text-dark text-decoration-none logo">
+            <a href="{{route('http::home')}}" class="d-flex align-items-center text-dark text-decoration-none logo">
                 <img src="{{asset('images/logo2.png')}}" alt="">
             </a>
 
@@ -40,17 +40,17 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="{{route('http::booth.research')}}">
                                     เครือข่ายการวิจัยพัฒนา
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('booth.production-network')}}">
+                                <a class="nav-link" href="{{route('http::booth.production-network')}}">
                                     เครือข่ายการผลิต
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="{{route('http::booth.assurance-vaccine')}}">
                                     เครือข่ายการประกันคุณภาพและการใช้วัคซีน
                                 </a>
                             </li>
@@ -80,7 +80,7 @@
     <header class="d-xl-none">
         <nav>
             <div class="container p-4">
-                <a class="navbar-brand" href="{{route('home')}}">
+                <a class="navbar-brand" href="{{route('http::home')}}">
                     <img src="{{asset('images/logo2.png')}}">
                 </a>
 
@@ -91,9 +91,9 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
-                            <li><a class="dropdown-item" href="#">เครือข่ายการวิจัยพัฒนา</a></li>
-                            <li><a class="dropdown-item" href="{{route('booth.production-network')}}">เครือข่ายการผลิต</a></li>
-                            <li><a class="dropdown-item" href="#">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
                             <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
                             <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
                             <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
