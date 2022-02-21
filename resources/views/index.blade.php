@@ -118,8 +118,8 @@
                 </div>
 
                 <div class="control position-absolute">
-                    <button id="zoom-in" class="btn btn-light">+</button>
-                    <button id="zoom-out" class="btn btn-light">-</button>
+                    <button id="zoom-in" class="btn btn-sm btn-light">+</button>
+                    <button id="zoom-out" class="btn btn-sm btn-light">-</button>
 {{--                    <button id="zoom-reset">Reset</button>--}}
                 </div>
             </div>
@@ -211,7 +211,8 @@
         const panzoom = Panzoom(element, {
             animate: true,
             easing: 'ease-in-out',
-            minScale: 1
+            minScale: 1,
+            panOnlyWhenZoomed: true
         });
 
 
