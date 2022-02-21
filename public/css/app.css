@@ -11349,7 +11349,7 @@ textarea.form-control-lg {
   transform: scale(1.1);
 }
 
-#booth1 button {
+#booth1 button, #booth2 button, #booth3 button {
   border: 3px solid #ffffff;
   border-radius: 30px;
   background-image: linear-gradient(to bottom, #e1e1e1c7, #ffffff);
@@ -11357,173 +11357,372 @@ textarea.form-control-lg {
   -webkit-text-decoration: auto;
           text-decoration: auto;
 }
-#booth1 .text-link {
+#booth1 .text-link, #booth2 .text-link, #booth3 .text-link {
   display: none;
 }
 @media screen and (min-width: 1200px) {
-  #booth1 .text-link {
+  #booth1 .text-link, #booth2 .text-link, #booth3 .text-link {
     display: inline-block;
   }
 }
-#booth1 .box-title {
+#booth1 .box-title, #booth2 .box-title, #booth3 .box-title {
   background: #F6B32C;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 100px;
   padding: 11px 10px;
   margin: 0px 5px;
-  font-size: 10px;
+  font-size: small;
   color: #ffffff;
 }
 @media screen and (min-width: 768px) {
-  #booth1 .box-title {
+  #booth1 .box-title, #booth2 .box-title, #booth3 .box-title {
     padding: 11px 18px;
     font-size: 1.25rem;
   }
 }
-#booth1 .content-header {
+@media screen and (min-width: 768px) {
+  #booth1 .box-title, #booth2 .box-title, #booth3 .box-title {
+    padding: 11px 18px;
+    font-size: 1.25rem;
+  }
+}
+#booth1 .content-header, #booth2 .content-header, #booth3 .content-header {
   padding-right: 1rem;
   padding-left: 1rem;
   display: -webkit-box;
   overflow: auto;
 }
 @media screen and (min-width: 768px) {
-  #booth1 .content-header {
+  #booth1 .content-header, #booth2 .content-header, #booth3 .content-header {
     padding-right: 2rem;
     padding-left: 2rem;
     display: flex;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth1 .content-header {
+  #booth1 .content-header, #booth2 .content-header, #booth3 .content-header {
     padding-right: 3rem;
     padding-left: 3rem;
     display: flex;
   }
 }
 @media screen and (min-width: 320px) {
-  #booth1 .content-header img {
+  #booth1 .content-header img, #booth2 .content-header img, #booth3 .content-header img {
     height: 10px;
   }
 }
-#booth1 .background-header {
+#booth1 .background-header, #booth2 .background-header, #booth3 .background-header {
   background-image: url("/images/bg_booth.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#booth1 .content-poster {
+#booth1 .content-poster, #booth2 .content-poster, #booth3 .content-poster {
   top: 65px;
   z-index: 5;
 }
 @media screen and (min-width: 768px) {
-  #booth1 .content-poster {
+  #booth1 .content-poster, #booth2 .content-poster, #booth3 .content-poster {
     top: 130px;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth1 .content-poster {
+  #booth1 .content-poster, #booth2 .content-poster, #booth3 .content-poster {
     top: 175px;
   }
 }
 @media screen and (min-width: 1024px) {
-  #booth1 .content-poster {
+  #booth1 .content-poster, #booth2 .content-poster, #booth3 .content-poster {
     top: 175px;
   }
 }
 @media screen and (min-width: 1200px) {
-  #booth1 .content-poster {
+  #booth1 .content-poster, #booth2 .content-poster, #booth3 .content-poster {
     top: 240px;
   }
 }
-#booth1 .box-icon-yellow {
+#booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
+  height: 90px;
+}
+@media screen and (min-width: 768px) {
+  #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
+    height: 160px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
+    height: 175px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
+    height: 225px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
+    height: 320px;
+  }
+}
+#booth1 .box-icon-yellow, #booth2 .box-icon-yellow, #booth3 .box-icon-yellow {
   top: 0;
   right: -6px;
 }
 @media screen and (min-width: 768px) {
-  #booth1 .box-icon-yellow {
+  #booth1 .box-icon-yellow, #booth2 .box-icon-yellow, #booth3 .box-icon-yellow {
     top: 0;
     right: -10px;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth1 .box-icon-yellow {
+  #booth1 .box-icon-yellow, #booth2 .box-icon-yellow, #booth3 .box-icon-yellow {
     top: 0;
     right: -25px;
   }
 }
-#booth1 .box-icon-yellow img {
+#booth1 .box-icon-yellow img, #booth2 .box-icon-yellow img, #booth3 .box-icon-yellow img {
   width: 25px;
 }
 @media screen and (min-width: 768px) {
-  #booth1 .box-icon-yellow img {
+  #booth1 .box-icon-yellow img, #booth2 .box-icon-yellow img, #booth3 .box-icon-yellow img {
     width: 50px;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth1 .box-icon-yellow img {
+  #booth1 .box-icon-yellow img, #booth2 .box-icon-yellow img, #booth3 .box-icon-yellow img {
     width: 75%;
   }
 }
-#booth1 .box_logo_booth {
+#booth1 .box_logo_booth, #booth2 .box_logo_booth, #booth3 .box_logo_booth {
   bottom: 20px;
   left: 39px;
 }
 @media screen and (min-width: 768px) {
-  #booth1 .box_logo_booth {
+  #booth1 .box_logo_booth, #booth2 .box_logo_booth, #booth3 .box_logo_booth {
     bottom: 35px;
     left: 60px;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth1 .box_logo_booth {
+  #booth1 .box_logo_booth, #booth2 .box_logo_booth, #booth3 .box_logo_booth {
     bottom: 80px;
     left: 115px;
   }
 }
 @media screen and (min-width: 1024px) {
-  #booth1 .box_logo_booth {
+  #booth1 .box_logo_booth, #booth2 .box_logo_booth, #booth3 .box_logo_booth {
     bottom: 55px;
     left: 82px;
   }
 }
 @media screen and (min-width: 1440px) {
-  #booth1 .box_logo_booth {
+  #booth1 .box_logo_booth, #booth2 .box_logo_booth, #booth3 .box_logo_booth {
     bottom: 75px;
     left: 110px;
   }
 }
-#booth1 .logo_booth {
+#booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
   border-radius: 75px;
   width: 30%;
 }
 @media screen and (min-width: 768px) {
-  #booth1 .logo_booth {
+  #booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
     width: 60%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth1 .logo_booth {
+  #booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
     width: 90%;
   }
 }
 @media screen and (min-width: 992px) {
-  #booth1 .logo_booth {
+  #booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
     width: 75%;
   }
 }
 @media screen and (min-width: 1440px) {
-  #booth1 .logo_booth {
+  #booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
     width: 100%;
   }
 }
-#booth1 .poster {
-  cursor: pointer;
+
+#booth2 .content-poster {
+  top: 55px;
+  z-index: 5;
+}
+@media screen and (min-width: 768px) {
+  #booth2 .content-poster {
+    top: 110px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth2 .content-poster {
+    top: 145px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth2 .content-poster {
+    top: 145px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth2 .content-poster {
+    top: 170px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth2 .content-poster {
+    top: 205px;
+  }
+}
+#booth2 .content-poster .img-poster {
+  height: 90px;
+}
+@media screen and (min-width: 768px) {
+  #booth2 .content-poster .img-poster {
+    height: 160px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth2 .content-poster .img-poster {
+    height: 220px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth2 .content-poster .img-poster {
+    height: 220px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth2 .content-poster .img-poster {
+    height: 290px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth2 .content-poster .img-poster {
+    height: 305px;
+  }
 }
 
-.modal-xl .modal-content {
-  min-height: 100vh;
-  background: transparent;
-  border: none;
+#booth3 .content-poster {
+  top: 65px;
+  z-index: 5;
+}
+@media screen and (min-width: 768px) {
+  #booth3 .content-poster {
+    top: 125px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth3 .content-poster {
+    top: 170px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth3 .content-poster {
+    top: 170px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth3 .content-poster {
+    top: 200px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth3 .content-poster {
+    top: 235px;
+  }
+}
+#booth3 .content-poster .img-poster {
+  height: 70px;
+}
+@media screen and (min-width: 768px) {
+  #booth3 .content-poster .img-poster {
+    height: 140px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth3 .content-poster .img-poster {
+    height: 180px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth3 .content-poster .img-poster {
+    height: 180px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth3 .content-poster .img-poster {
+    height: 220px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth3 .content-poster .img-poster {
+    height: 255px;
+  }
+}
+
+#booth2 .box_logo_booth, #booth3 .box_logo_booth {
+  bottom: 28px;
+  left: 156px;
+}
+@media screen and (min-width: 768px) {
+  #booth2 .box_logo_booth, #booth3 .box_logo_booth {
+    bottom: 53px;
+    left: 285px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth2 .box_logo_booth, #booth3 .box_logo_booth {
+    bottom: 68px;
+    left: 380px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth2 .box_logo_booth, #booth3 .box_logo_booth {
+    bottom: 72px;
+    left: 380px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth2 .box_logo_booth, #booth3 .box_logo_booth {
+    bottom: 84px;
+    left: 452px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth2 .box_logo_booth, #booth3 .box_logo_booth {
+    bottom: 99px;
+    left: 522px;
+  }
+}
+#booth2 .logo_booth, #booth3 .logo_booth {
+  width: 26%;
+}
+@media screen and (min-width: 768px) {
+  #booth2 .logo_booth, #booth3 .logo_booth {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth2 .logo_booth, #booth3 .logo_booth {
+    width: 67%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #booth2 .logo_booth, #booth3 .logo_booth {
+    width: 65%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth2 .logo_booth, #booth3 .logo_booth {
+    width: 77%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #booth2 .logo_booth, #booth3 .logo_booth {
+    width: 90%;
+  }
 }
 
 body {

@@ -1,4 +1,4 @@
-#booth1
+#booth1, #booth2, #booth3
     button
         border: 3px solid #ffffff
         border-radius: 30px
@@ -16,8 +16,11 @@
         border-radius: 100px
         padding: 11px 10px
         margin: 0px 5px
-        font-size: 10px
+        font-size: small
         color: #ffffff
+        @include screen('md')
+            padding: 11px 18px
+            font-size: 1.25rem
         @include screen('md')
             padding: 11px 18px
             font-size: 1.25rem
@@ -52,6 +55,16 @@
             top: 175px
         @include screen('xl')
             top: 240px
+        .img-poster 
+            height: 90px
+            @include screen('md')
+                height: 160px
+            @include screen('lg')
+                height: 175px
+            @include screen('ipad')
+                height: 225px
+            @include screen('xl')
+                height: 320px
     .box-icon-yellow
         top: 0
         right: -6px
@@ -93,10 +106,87 @@
             width: 75%
         @include screen('wide')
             width: 100%
-    .poster
-        cursor: pointer
-.modal-xl
-    .modal-content
-        min-height: 100vh
-        background: transparent
-        border: none
+
+#booth2
+    .content-poster
+        top: 55px
+        z-index: 5
+        @include screen('md')
+            top: 110px
+        @include screen('lg')
+            top: 145px
+        @include screen('ipad')
+            top: 145px
+        @include screen('xl')
+            top: 170px
+        @include screen('wide')
+            top: 205px
+        .img-poster 
+            height: 90px
+            @include screen('md')
+                height: 160px
+            @include screen('lg')
+                height: 220px
+            @include screen('ipad')
+                height: 220px
+            @include screen('xl')
+                height: 290px
+            @include screen('wide')
+                height: 305px
+#booth3
+    .content-poster
+        top: 65px
+        z-index: 5
+        @include screen('md')
+            top: 125px
+        @include screen('lg')
+            top: 170px
+        @include screen('ipad')
+            top: 170px
+        @include screen('xl')
+            top: 200px
+        @include screen('wide')
+            top: 235px
+        .img-poster 
+            height: 70px
+            @include screen('md')
+                height: 140px
+            @include screen('lg')
+                height: 180px
+            @include screen('ipad')
+                height: 180px
+            @include screen('xl')
+                height: 220px
+            @include screen('wide')
+                height: 255px
+#booth2, #booth3
+    .box_logo_booth
+        bottom: 28px
+        left: 156px
+        @include screen('md')
+            bottom: 53px
+            left: 285px
+        @include screen('lg')
+            bottom: 68px
+            left: 380px
+        @include screen('ipad')
+            bottom: 72px
+            left: 380px
+        @include screen('xl')
+            bottom: 84px
+            left: 452px
+        @include screen('wide')
+            bottom: 99px
+            left: 522px
+    .logo_booth
+        width: 26%
+        @include screen('md')
+            width: 50%
+        @include screen('lg')
+            width: 67%
+        @include screen('ipad')
+            width: 65%
+        @include screen('xl')
+            width: 77%
+        @include screen('wide')
+            width: 90%

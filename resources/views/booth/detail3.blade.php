@@ -5,7 +5,7 @@
 @endpush
 
 @section('content')
-    <div class="container-fluid p-0" id="booth1">
+    <div class="container-fluid p-0" id="booth3">
         <div class="background-header">
             <div class="content-header justify-content-between d-flex py-3">
                 <button type="button" class="btn btn-link" >
@@ -25,24 +25,24 @@
                     <img src="/images/booth/logo_booth.png" class="img-fluid logo_booth" alt="logo_booth">
                 </div>
 
-                <div class="content-poster d-flex justify-content-around position-absolute start-50 translate-middle-x">
+                <div class="w-75 px-4 content-poster d-flex justify-content-around position-absolute start-50 translate-middle-x">
                     <div class="poster position-relative" onclick="posterSelectPage(1)">
                         <div class="position-absolute box-icon-yellow">
                             <img src="/images/booth/icon_yellow.png" class="img-fluid" alt="icon_yellow">
                         </div>
-                        <img src="/images/booth/poster1_1.png" class="img-fluid" alt="img-poster1_1">
+                        <img src="/images/booth/poster1_1.png" class="img-poster img-fluid" alt="img-poster1_1">
                     </div>
                     <div class="poster position-relative" onclick="posterSelectPage(2)">
                         <div class="position-absolute box-icon-yellow">
                             <img src="/images/booth/icon_yellow.png" class="img-fluid" alt="icon_yellow">
                         </div>
-                        <img src="/images/booth/poster1_2.png" class="img-fluid" alt="img-poster1_2">
+                        <img src="/images/booth/poster1_2.png" class="img-poster img-fluid" alt="img-poster1_2">
                     </div>
                     <div class="poster position-relative" onclick="posterSelectPage(3)">
                         <div class="position-absolute box-icon-yellow">
                             <img src="/images/booth/icon_yellow.png" class="img-fluid" alt="icon_yellow">
                         </div>
-                        <img src="/images/booth/poster1_3.png" class="img-fluid" alt="img-poster1_3">
+                        <img src="/images/booth/poster1_3.png" class="img-poster img-fluid" alt="img-poster1_3">
                     </div>
                 </div>
             </div>
