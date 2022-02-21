@@ -23,59 +23,69 @@ h1
 
 #home-page
     background: #AAE3FF
-    .container
-        @include screen('xwide')
-            max-width: 1550px
-    .cars
-        img
-            width: 40px
-            @include screen('xl')
-                width: 45px
-            @include screen('mwide')
-                width: auto
-    .key
-        h1
-            font-size: 18px
-            background: #FFFFFF
-            border-radius: 0px 0px 20px 20px
-            max-width: 65vw
-            @include screen('xl')
-                font-size: 24px
+    #home-lg
+        .container
             @include screen('xwide')
-                font-size: 28px
-            span
-                display: block
-                color: #32ABDA
-                font-size: 16px
-                @include screen('xl')
-                    font-size: 18px
-                @include screen('xwide')
-                    font-size: 21px
-    header
-        img
-            width: 40px
-            @include screen('lg')
-                width: 55px
-            @include screen('xwide')
-                width: 75px
-
-    footer
-        .social
+                max-width: 1550px
+        .cars
             img
-                width: 20px
-                margin-right: 1rem
-                @include screen('md')
-                    width: 24px
+                width: 40px
+                @include screen('xl')
+                    width: 45px
+                @include screen('mwide')
+                    width: auto
+        .key
+            h1
+                font-size: 18px
+                background: #FFFFFF
+                border-radius: 0px 0px 20px 20px
+                max-width: 65vw
+                @include screen('xl')
+                    font-size: 24px
+                @include screen('xwide')
+                    font-size: 28px
+                span
+                    display: block
+                    color: #32ABDA
+                    font-size: 16px
+                    @include screen('xl')
+                        font-size: 18px
+                    @include screen('xwide')
+                        font-size: 21px
+        header
+            img
+                width: 40px
                 @include screen('lg')
-                    width: 30px
-        .link
-            margin: 0 auto
-            #link-conference
-                width: 60%
-                @include screen('md')
-                    width: 40%
-                @include screen('lg')
-                    width: 25%
+                    width: 55px
+                @include screen('xwide')
+                    width: 75px
+
+        footer
+            .social
+                img
+                    width: 20px
+                    margin-right: 1rem
+                    @include screen('md')
+                        width: 24px
+                    @include screen('lg')
+                        width: 30px
+            .link
+                margin: 0 auto
+                #link-conference
+                    width: 60%
+                    @include screen('md')
+                        width: 40%
+                    @include screen('lg')
+                        width: 25%
+        #map
+            width: 100%
+            .maphilighted
+                background-size:     cover !important
+                background-repeat:   no-repeat !important
+                background-position: center center !important
+                object-fit: cover
+
+        #home-sm
 
     #tooltip
         position: fixed
@@ -92,14 +102,6 @@ h1
             margin-right: 0.5rem
 
 
-    #map
-        width: 100%
-        .maphilighted
-            background-size:     cover !important
-            background-repeat:   no-repeat !important
-            background-position: center center !important
-            object-fit: cover
-
 #app
     >header
         font-weight: 500
@@ -111,14 +113,20 @@ h1
                 width: 47.55px
         .navbar-nav
             li
-                font-size: 16px
+                font-size: 14px
+                @include screen('mwide')
+                    font-size: 16px
                 @include screen('xwide')
                     font-size: 18px
+
 
     main
         min-height: calc(100vh - 155px)
     footer
         border-top: 1px solid rgba(0, 0, 0, 0.2)
+        font-size: 14px
+        @include screen('xwide')
+            font-size: 18px
         .social
             img
                 width: 20px

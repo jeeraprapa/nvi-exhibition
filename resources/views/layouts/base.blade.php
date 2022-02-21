@@ -112,7 +112,7 @@
     <footer class="mt-4">
        <div class="container p-4">
            <div class="row">
-               <div class="copyright col-sm-12 col-md-6">
+               <div class="copyright col-md-6 d-none d-md-flex">
                    <small>
                        © nvi-vaccine-conference10. ALL RIGHTS RESERVED. 2022
                    </small>

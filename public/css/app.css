@@ -11342,13 +11342,11 @@ textarea.form-control-lg {
   color: #243876;
   text-decoration: none;
 }
-#main-booth .booth .fadein:hover {
-  opacity: 1;
-  transition: 1s ease;
+#main-booth .booth .fadein {
+  transition: transform 0.2s;
 }
-#main-booth .booth .fadein:hover img {
-  opacity: 0.8;
-  transition: 1s ease;
+#main-booth .booth .fadein:hover {
+  transform: scale(1.1);
 }
 
 #booth1 button {
@@ -11546,96 +11544,106 @@ h1, .h1 {
   background: #AAE3FF;
 }
 @media screen and (min-width: 1600px) {
-  #home-page .container {
+  #home-page #home-lg .container {
     max-width: 1550px;
   }
 }
-#home-page .cars img {
+#home-page #home-lg .cars img {
   width: 40px;
 }
 @media screen and (min-width: 1200px) {
-  #home-page .cars img {
+  #home-page #home-lg .cars img {
     width: 45px;
   }
 }
 @media screen and (min-width: 1500px) {
-  #home-page .cars img {
+  #home-page #home-lg .cars img {
     width: auto;
   }
 }
-#home-page .key h1, #home-page .key .h1 {
+#home-page #home-lg .key h1, #home-page #home-lg .key .h1 {
   font-size: 18px;
   background: #FFFFFF;
   border-radius: 0px 0px 20px 20px;
   max-width: 65vw;
 }
 @media screen and (min-width: 1200px) {
-  #home-page .key h1, #home-page .key .h1 {
+  #home-page #home-lg .key h1, #home-page #home-lg .key .h1 {
     font-size: 24px;
   }
 }
 @media screen and (min-width: 1600px) {
-  #home-page .key h1, #home-page .key .h1 {
+  #home-page #home-lg .key h1, #home-page #home-lg .key .h1 {
     font-size: 28px;
   }
 }
-#home-page .key h1 span, #home-page .key .h1 span {
+#home-page #home-lg .key h1 span, #home-page #home-lg .key .h1 span {
   display: block;
   color: #32ABDA;
   font-size: 16px;
 }
 @media screen and (min-width: 1200px) {
-  #home-page .key h1 span, #home-page .key .h1 span {
+  #home-page #home-lg .key h1 span, #home-page #home-lg .key .h1 span {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 1600px) {
-  #home-page .key h1 span, #home-page .key .h1 span {
+  #home-page #home-lg .key h1 span, #home-page #home-lg .key .h1 span {
     font-size: 21px;
   }
 }
-#home-page header img {
+#home-page #home-lg header img {
   width: 40px;
 }
 @media screen and (min-width: 992px) {
-  #home-page header img {
+  #home-page #home-lg header img {
     width: 55px;
   }
 }
 @media screen and (min-width: 1600px) {
-  #home-page header img {
+  #home-page #home-lg header img {
     width: 75px;
   }
 }
-#home-page footer .social img {
+#home-page #home-lg footer .social img {
   width: 20px;
   margin-right: 1rem;
 }
 @media screen and (min-width: 768px) {
-  #home-page footer .social img {
+  #home-page #home-lg footer .social img {
     width: 24px;
   }
 }
 @media screen and (min-width: 992px) {
-  #home-page footer .social img {
+  #home-page #home-lg footer .social img {
     width: 30px;
   }
 }
-#home-page footer .link {
+#home-page #home-lg footer .link {
   margin: 0 auto;
 }
-#home-page footer .link #link-conference {
+#home-page #home-lg footer .link #link-conference {
   width: 60%;
 }
 @media screen and (min-width: 768px) {
-  #home-page footer .link #link-conference {
+  #home-page #home-lg footer .link #link-conference {
     width: 40%;
   }
 }
 @media screen and (min-width: 992px) {
-  #home-page footer .link #link-conference {
+  #home-page #home-lg footer .link #link-conference {
     width: 25%;
   }
+}
+#home-page #home-lg #map {
+  width: 100%;
+}
+#home-page #home-lg #map .maphilighted {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #home-page #tooltip {
   position: fixed;
@@ -11652,16 +11660,6 @@ h1, .h1 {
   height: 18px;
   margin-right: 0.5rem;
 }
-#home-page #map {
-  width: 100%;
-}
-#home-page #map .maphilighted {
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 
 #app > header {
   font-weight: 500;
@@ -11677,7 +11675,12 @@ h1, .h1 {
   }
 }
 #app > header .navbar-nav li {
-  font-size: 16px;
+  font-size: 14px;
+}
+@media screen and (min-width: 1500px) {
+  #app > header .navbar-nav li {
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 1600px) {
   #app > header .navbar-nav li {
@@ -11689,6 +11692,12 @@ h1, .h1 {
 }
 #app footer {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+@media screen and (min-width: 1600px) {
+  #app footer {
+    font-size: 18px;
+  }
 }
 #app footer .social img {
   width: 20px;
