@@ -11418,7 +11418,7 @@ textarea.form-control-lg {
   background-size: cover;
 }
 #booth1 .content-poster, #booth2 .content-poster, #booth3 .content-poster {
-  top: 65px;
+  top: 31%;
   z-index: 5;
 }
 @media screen and (min-width: 768px) {
@@ -11442,7 +11442,7 @@ textarea.form-control-lg {
   }
 }
 #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
-  height: 90px;
+  height: 85%;
 }
 @media screen and (min-width: 768px) {
   #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
@@ -11466,7 +11466,7 @@ textarea.form-control-lg {
 }
 #booth1 .box-icon-yellow, #booth2 .box-icon-yellow, #booth3 .box-icon-yellow {
   top: 0;
-  right: -6px;
+  right: 10%;
 }
 @media screen and (min-width: 768px) {
   #booth1 .box-icon-yellow, #booth2 .box-icon-yellow, #booth3 .box-icon-yellow {
@@ -11494,8 +11494,8 @@ textarea.form-control-lg {
   }
 }
 #booth1 .box_logo_booth, #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-  bottom: 20px;
-  left: 39px;
+  bottom: 9%;
+  left: 10%;
 }
 @media screen and (min-width: 768px) {
   #booth1 .box_logo_booth, #booth2 .box_logo_booth, #booth3 .box_logo_booth {
@@ -11523,7 +11523,7 @@ textarea.form-control-lg {
 }
 #booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
   border-radius: 75px;
-  width: 30%;
+  width: 27%;
 }
 @media screen and (min-width: 768px) {
   #booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
@@ -11546,8 +11546,37 @@ textarea.form-control-lg {
   }
 }
 
+#booth2 .box-icon-yellow {
+  top: -9%;
+  left: 45%;
+}
+@media screen and (min-width: 768px) {
+  #booth2 .box-icon-yellow {
+    top: 0;
+    left: 58%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth2 .box-icon-yellow {
+    top: 0;
+    left: 58%;
+  }
+}
+#booth2 .box-icon-yellow img {
+  width: 51%;
+}
+@media screen and (min-width: 768px) {
+  #booth2 .box-icon-yellow img {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth2 .box-icon-yellow img {
+    width: 75%;
+  }
+}
 #booth2 .content-poster {
-  top: 55px;
+  top: 27%;
   z-index: 5;
 }
 @media screen and (min-width: 768px) {
@@ -11576,7 +11605,7 @@ textarea.form-control-lg {
   }
 }
 #booth2 .content-poster .img-poster {
-  height: 90px;
+  height: 75%;
 }
 @media screen and (min-width: 768px) {
   #booth2 .content-poster .img-poster {
@@ -11604,8 +11633,37 @@ textarea.form-control-lg {
   }
 }
 
+#booth3 .box-icon-yellow {
+  top: -4%;
+  left: 31%;
+}
+@media screen and (min-width: 768px) {
+  #booth3 .box-icon-yellow {
+    top: 0;
+    left: 53%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth3 .box-icon-yellow {
+    top: 0;
+    left: 56%;
+  }
+}
+#booth3 .box-icon-yellow img {
+  width: 53%;
+}
+@media screen and (min-width: 768px) {
+  #booth3 .box-icon-yellow img {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #booth3 .box-icon-yellow img {
+    width: 75%;
+  }
+}
 #booth3 .content-poster {
-  top: 65px;
+  top: 31%;
   z-index: 5;
 }
 @media screen and (min-width: 768px) {
@@ -11634,7 +11692,7 @@ textarea.form-control-lg {
   }
 }
 #booth3 .content-poster .img-poster {
-  height: 70px;
+  height: 63%;
 }
 @media screen and (min-width: 768px) {
   #booth3 .content-poster .img-poster {
@@ -11663,8 +11721,8 @@ textarea.form-control-lg {
 }
 
 #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-  bottom: 28px;
-  left: 156px;
+  bottom: 13%;
+  left: 40%;
 }
 @media screen and (min-width: 768px) {
   #booth2 .box_logo_booth, #booth3 .box_logo_booth {
@@ -11697,7 +11755,7 @@ textarea.form-control-lg {
   }
 }
 #booth2 .logo_booth, #booth3 .logo_booth {
-  width: 26%;
+  width: 23%;
 }
 @media screen and (min-width: 768px) {
   #booth2 .logo_booth, #booth3 .logo_booth {
