@@ -11543,6 +11543,11 @@ h1, .h1 {
 #home-page {
   background: #AAE3FF;
 }
+@media screen and (min-width: 1200px) {
+  #home-page {
+    overflow: hidden;
+  }
+}
 @media screen and (min-width: 1600px) {
   #home-page #home-lg .container {
     max-width: 1550px;
@@ -11644,6 +11649,39 @@ h1, .h1 {
   background-position: center center !important;
   -o-object-fit: cover;
      object-fit: cover;
+}
+#home-page #home-sm header {
+  height: 70px;
+}
+#home-page #home-sm .img-logo {
+  width: 30px;
+}
+#home-page #home-sm a {
+  color: #414D7A;
+  text-decoration: none;
+}
+#home-page #home-sm .social img {
+  width: 24px;
+  margin-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  #home-page #home-sm .social img {
+    width: 24px;
+  }
+}
+#home-page #home-sm .menu nav {
+  position: relative;
+  width: 100%;
+}
+#home-page #home-sm .menu nav ul {
+  min-width: 100%;
+}
+#home-page #home-sm .map-sm {
+  overflow: scroll;
+}
+#home-page #home-sm .map-sm .control {
+  top: 10%;
+  left: 10px;
 }
 #home-page #tooltip {
   position: fixed;

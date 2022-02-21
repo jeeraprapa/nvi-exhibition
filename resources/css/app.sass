@@ -23,6 +23,8 @@ h1
 
 #home-page
     background: #AAE3FF
+    @include screen('xl')
+        overflow: hidden
     #home-lg
         .container
             @include screen('xwide')
@@ -85,7 +87,31 @@ h1
                 background-position: center center !important
                 object-fit: cover
 
-        #home-sm
+    #home-sm
+        header
+            height: 70px
+        .img-logo
+            width: 30px
+        a
+            color: $primary-color
+            text-decoration: none
+        .social
+            img
+                width: 24px
+                margin-right: 1rem
+                @include screen('md')
+                    width: 24px
+        .menu
+            nav
+                position: relative
+                width: 100%
+                ul
+                    min-width: 100%
+        .map-sm
+            overflow: scroll
+            .control
+                top: 10%
+                left: 10px
 
     #tooltip
         position: fixed

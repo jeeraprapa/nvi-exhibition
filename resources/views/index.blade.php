@@ -14,13 +14,13 @@
     <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/vendors/jquery.maphilight.js') }}" defer></script>
     <script src="{{ asset('js/vendors/jquery.rwdImageMaps.min.js') }}" defer></script>
-
+    <script src="https://unpkg.com/@panzoom/panzoom@4.4.4/dist/panzoom.min.js"></script>
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
     <link rel="icon" href="{{asset('images/logo2.png')}}">
 </head>
-<body id="home-page" class="overflow-hidden">
+<body id="home-page">
     <div class="d-none d-xl-block" id="home-lg">
         <div class="key fixed-top text-center d-flex justify-content-center">
             <h1 class="p-3 fw-bold">
@@ -104,12 +104,43 @@
         </footer>
         <div id="tooltip" style=""><span></span></div>
     </div>
+
     <div class="d-xl-none" id="home-sm">
-        <header class="bg-white">
+        <header class="bg-white text-center p-4">
             <a class="navbar-brand" href="{{route('http::home')}}">
-                <img src="{{asset('images/logo2.png')}}">
+                <img src="{{asset('images/logo2.png')}}" class="img-logo">
             </a>
         </header>
+        <main class="position-relative">
+            <div class="map-sm">
+                <div class="map-size" id="panzoom-element">
+                    <img src="{{asset('images/main.png')}}" alt="" class="w-100 img-fluid">
+                </div>
+
+                <div class="control position-absolute">
+                    <button id="zoom-in" class="btn btn-light">+</button>
+                    <button id="zoom-out" class="btn btn-light">-</button>
+{{--                    <button id="zoom-reset">Reset</button>--}}
+                </div>
+            </div>
+            <div class="menu bg-white">
+                <nav>
+                    <ul class="dropdown-menu d-block w-100">
+                        <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
+                        <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
+                        <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
+                        <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
+                        <li class="text-end social">
+                            <img src="{{asset('images/Facebook.png')}}" alt="" class="img-logo">
+                            <img src="{{asset('images/YouTube.png')}}" alt="" class="img-logo">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </main>
     </div>
 </body>
 <script>
@@ -175,6 +206,27 @@
             // hide tooltip
             $('#tooltip').stop(false, true).fadeOut(2000);
         });
+
+        const element = document.getElementById('panzoom-element')
+        const panzoom = Panzoom(element, {
+            animate: true,
+            easing: 'ease-in-out',
+            minScale: 1
+        });
+
+
+        $('#zoom-in').click(function (){
+            panzoom.zoomIn();
+        })
+
+        $('#zoom-out').click(function (){
+            panzoom.zoomOut();
+        });
+
+        $('#zoom-reset').click(function (){
+            panzoom.reset();
+        });
+
     });
 </script>
 </html>
