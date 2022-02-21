@@ -11720,6 +11720,16 @@ textarea.form-control-lg {
   }
 }
 
+.poster {
+  cursor: pointer;
+}
+
+.modal-xl .modal-content {
+  min-height: 100vh;
+  background: transparent;
+  border: none;
+}
+
 #booth2 .box_logo_booth, #booth3 .box_logo_booth {
   bottom: 13%;
   left: 40%;
