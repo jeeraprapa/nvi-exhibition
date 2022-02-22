@@ -44,7 +44,7 @@
                         <img src="{{$booth->logo_url}}" class="img-fluid logo_booth" alt="logo_booth">
                     </div>
                 @endif
-                <div class="w-75 px-4 content-poster d-flex justify-content-around position-absolute start-50 translate-middle-x">
+                <div class="w-75 px-4 content-poster d-flex justify-content-evenly position-absolute start-50 translate-middle-x">
                     @foreach($booth->posters->take(5) as $poster)
                         <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
                             <div class="position-absolute box-icon-yellow">

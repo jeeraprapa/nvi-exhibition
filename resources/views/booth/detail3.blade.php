@@ -7,16 +7,22 @@
 @section('content')
     <div class="container-fluid p-0" id="booth3">
         <div class="background-header">
-            <div class="content-header justify-content-between d-flex py-3">
-                <button type="button" class="btn btn-link" >
-                    <img src="/images/booth/icon_left.png" class="" alt="icon_left">
-                    <span class="text-link text-center">ศูนย์วิจัยวัคซีน จุฬาลงกรณ์มหาวิทยาลัย</span>
-                </button>
-                <div class="box-title text-center">คณะเภสัชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย</div>
-                <button type="button" class="btn btn-link" >
-                    <span class="text-link text-center">คณะเวชศาสตร์เขตร้อน ศูนย์ทดสอบวัคซีน มหาวิทยาลัยมหิดล</span>
-                    <img src="/images/booth/icon_right.png" class="" alt="icon_right">
-                </button>
+            <div class="content-header w-100 text-center d-flex py-3">
+                @if($previous)
+                    <button type="button" class="btn btn-link float-start" >
+                        <img src="{{asset('images/booth/icon_left.png')}}" class="" alt="icon_left">
+                        <span class="text-link text-center">{{$previous->name}}</span>
+                    </button>
+                @endif
+
+                <div class="box-title text-center mx-auto">{{$booth->name}}</div>
+
+                @if($next)
+                    <button type="button" class="btn btn-link float-end" >
+                        <span class="text-link text-center">{{$next->name}}</span>
+                        <img src="{{asset('images/booth/icon_right.png')}}" class="" alt="icon_right">
+                    </button>
+                @endif
             </div>
             <div class="container position-relative">
 
@@ -25,7 +31,7 @@
                     <img src="/images/booth/logo_booth.png" class="img-fluid logo_booth" alt="logo_booth">
                 </div>
 
-                <div class="w-75 px-4 content-poster d-flex justify-content-around position-absolute start-50 translate-middle-x">
+                <div class="w-75 px-4 content-poster d-flex justify-content-evenly position-absolute start-50 translate-middle-x">
                     @foreach($booth->posters->take(5) as $poster)
                         <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
                             <div class="position-absolute box-icon-yellow">
