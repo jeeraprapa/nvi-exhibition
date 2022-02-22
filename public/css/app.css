@@ -11791,32 +11791,32 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 768px) {
   #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-    bottom: 53px;
-    left: 285px;
+    bottom: 13%;
+    left: 39%;
   }
 }
 @media screen and (min-width: 992px) {
   #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-    bottom: 68px;
-    left: 380px;
+    bottom: 13%;
+    left: 39%;
   }
 }
 @media screen and (min-width: 1024px) {
   #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-    bottom: 72px;
-    left: 380px;
+    bottom: 13%;
+    left: 39%;
   }
 }
 @media screen and (min-width: 1200px) {
   #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-    bottom: 14%;
-    left: 40%;
+    bottom: 13%;
+    left: 39%;
   }
 }
 @media screen and (min-width: 1440px) {
   #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-    bottom: 99px;
-    left: 522px;
+    bottom: 13%;
+    left: 39%;
   }
 }
 #booth2 .logo_booth, #booth3 .logo_booth {
