@@ -47,8 +47,8 @@
                                 <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
                                 <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
                                 <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
-                                <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
-                                <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
+                                <li><a class="dropdown-item" href="{{route('http::video-award')}}">รางวัลประกวดคลิปวีดิโอ</a></li>
+                                <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">รางวัลผู้ทําคุณประโยชน์</a></li>
                                 <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
                             </ul>
                         </li>
@@ -63,7 +63,7 @@
             </div>
 
             <map name="area-map">
-                <area class="area-map" data-name="รางวัลประกวดคลิปวีดิโอ" data-link="https://virtualexpo.asa.or.th/content/page7" href="javascript:void(0)" coords="721,594,487,465,482,433,526,345,568,296,621,252,697,228,757,255,795,287,835,352,934,417,934,460,923,488,837,530" shape="poly">
+                <area class="area-map" data-name="รางวัลประกวดคลิปวีดิโอ" data-link="{{route('http::video-award')}}" href="javascript:void(0)" coords="721,594,487,465,482,433,526,345,568,296,621,252,697,228,757,255,795,287,835,352,934,417,934,460,923,488,837,530" shape="poly">
 
                 <area class="area-map" data-name="เครือข่ายการวิจัยพัฒนา" data-link="{{route('http::booth.research')}}" onclick="" href="javascript:void(0)" coords="1099,795,1127,789,1336,655,1328,627,1312,608,1314,564,1293,538,1275,534,1253,543,1219,533,1196,517,1193,465,1169,427,1170,392,1155,351,1111,337,1069,354,1057,399,1087,413,1084,442,1079,490,1034,506,996,507,978,542,972,572,960,594,914,616,902,637,901,657,911,675,989,730,1072,784" shape="poly">
 
@@ -75,7 +75,7 @@
 
                 <area class="area-map" data-name="การแสดงโปสเตอร์วิชาการ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="210,669,409,543,421,539,436,540,681,685,700,680,723,683,739,701,744,724,747,744,746,774,663,823,597,861,534,897,499,896,398,827,293,759,258,735,217,706,204,692" shape="poly">
 
-                <area class="area-map" data-name="รางวัลผู้ทําคุณประโยชน์" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="487,1074,468,1057,475,1042,511,1007,506,952,507,920,523,893,557,859,580,848,608,859,622,856,639,845,653,808,686,785,723,782,745,806,745,835,760,865,764,912,779,919,796,929,819,945,839,958,854,963,862,975,850,990,770,1044,724,1076,682,1075,658,1076" shape="poly">
+                <area class="area-map" data-name="รางวัลผู้ทําคุณประโยชน์" data-link="{{route('http::hall-of-fame')}}" onclick="" href="javascript:void(0)" coords="487,1074,468,1057,475,1042,511,1007,506,952,507,920,523,893,557,859,580,848,608,859,622,856,639,845,653,808,686,785,723,782,745,806,745,835,760,865,764,912,779,919,796,929,819,945,839,958,854,963,862,975,850,990,770,1044,724,1076,682,1075,658,1076" shape="poly">
 
                 <area class="area-map" data-name="นิทรรศการสถาบันวัคซีนแห่งชาติ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="957,1008,694,848,673,823,681,806,780,745,781,564,778,488,857,483,871,565,874,717,937,757,943,729,953,708,992,713,1009,727,1007,747,1019,767,1018,808,1092,848,1082,830,1100,810,1126,814,1144,831,1149,868,1154,902,1144,931,1042,993,989,1023" shape="poly">
 
@@ -130,8 +130,8 @@
                         <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
                         <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
                         <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
-                        <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
-                        <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::video-award')}}">รางวัลประกวดคลิปวีดิโอ</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">รางวัลผู้ทําคุณประโยชน์</a></li>
                         <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
                         <li class="text-end social">
                             <img src="{{asset('images/Facebook.png')}}" alt="" class="img-logo">

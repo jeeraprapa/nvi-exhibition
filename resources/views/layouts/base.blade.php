@@ -55,12 +55,12 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="{{route('http::hall-of-fame')}}">
                                     รางวัลประกวดคลิปวีดิโอ
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="{{route('http::hall-of-fame')}}">
                                     รางวัลผู้ทําคุณประโยชน์
                                 </a>
                             </li>
@@ -94,8 +94,8 @@
                             <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
                             <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
                             <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
-                            <li><a class="dropdown-item" href="#">รางวัลประกวดคลิปวีดิโอ</a></li>
-                            <li><a class="dropdown-item" href="#">รางวัลผู้ทําคุณประโยชน์</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::video-award')}}">รางวัลประกวดคลิปวีดิโอ</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">รางวัลผู้ทําคุณประโยชน์</a></li>
                             <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
                         </ul>
                     </li>
@@ -109,7 +109,7 @@
     <main>
         @yield('content')
     </main>
-    <footer class="mt-4">
+    <footer>
        <div class="container p-4">
            <div class="row">
                <div class="copyright col-md-6 d-none d-md-flex">

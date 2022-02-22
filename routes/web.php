@@ -43,7 +43,10 @@ Route::get('/booth/assurance-vaccine/{booth}',
     [App\Http\Controllers\Booth\AssuranceVaccineController::class, 'detail'])
      ->name('http::booth.assurance-vaccine.detail');
 
+Route::get('/video-award', function () {
+    return view('video_award');
+})->name('http::video-award');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/hall-of-fame', function () {
+    return view('trophy');
+})->name('http::hall-of-fame');
