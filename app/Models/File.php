@@ -20,4 +20,11 @@ class File extends Model
         return $this->belongsTo(Booth::class,'booth_id');
     }
 
+    public function getFileUrlAttribute ()
+    {
+        if($this->file) {
+            return \Storage::disk('s3')->url($this->file);
+        }
+    }
+
 }

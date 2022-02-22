@@ -57,6 +57,8 @@
             top: 240px
         .img-poster
             height: 85%
+            border: solid 3px #000000
+            border-radius: 10px
             @include screen('md')
                 height: 160px
             @include screen('lg')
@@ -106,6 +108,10 @@
             width: 75%
         @include screen('wide')
             width: 100%
+    .splide__pagination
+        position: fixed
+        bottom: 1em
+
 
 #booth2
     .box-icon-yellow
@@ -228,3 +234,4 @@
             width: 77%
         @include screen('wide')
             width: 90%
+

@@ -11443,6 +11443,8 @@ textarea.form-control-lg {
 }
 #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
   height: 85%;
+  border: solid 3px #000000;
+  border-radius: 10px;
 }
 @media screen and (min-width: 768px) {
   #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
@@ -11544,6 +11546,10 @@ textarea.form-control-lg {
   #booth1 .logo_booth, #booth2 .logo_booth, #booth3 .logo_booth {
     width: 100%;
   }
+}
+#booth1 .splide__pagination, #booth2 .splide__pagination, #booth3 .splide__pagination {
+  position: fixed;
+  bottom: 1em;
 }
 
 #booth2 .box-icon-yellow {

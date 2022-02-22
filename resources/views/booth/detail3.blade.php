@@ -26,24 +26,14 @@
                 </div>
 
                 <div class="w-75 px-4 content-poster d-flex justify-content-around position-absolute start-50 translate-middle-x">
-                    <div class="poster position-relative" onclick="posterSelectPage(1)">
-                        <div class="position-absolute box-icon-yellow">
-                            <img src="/images/booth/icon_yellow.png" class="img-fluid" alt="icon_yellow">
+                    @foreach($booth->posters->take(5) as $poster)
+                        <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
+                            <div class="position-absolute box-icon-yellow">
+                                <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                            </div>
+                            <img src="{{$poster->file_url}}" class="img-poster img-fluid" alt="img-poster1_1">
                         </div>
-                        <img src="/images/booth/poster1_1.png" class="img-poster img-fluid" alt="img-poster1_1">
-                    </div>
-                    <div class="poster position-relative" onclick="posterSelectPage(2)">
-                        <div class="position-absolute box-icon-yellow">
-                            <img src="/images/booth/icon_yellow.png" class="img-fluid" alt="icon_yellow">
-                        </div>
-                        <img src="/images/booth/poster1_2.png" class="img-poster img-fluid" alt="img-poster1_2">
-                    </div>
-                    <div class="poster position-relative" onclick="posterSelectPage(3)">
-                        <div class="position-absolute box-icon-yellow">
-                            <img src="/images/booth/icon_yellow.png" class="img-fluid" alt="icon_yellow">
-                        </div>
-                        <img src="/images/booth/poster1_3.png" class="img-poster img-fluid" alt="img-poster1_3">
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -55,15 +45,11 @@
                         <div class="splide">
                             <div class="splide__track">
                                 <ul class="splide__list">
-                                    <li class="splide__slide text-center">
-                                        <img src="{{asset('images/booth/poster1_1.png')}}" alt="0" class="h-100 w-80 img-fluid">
-                                    </li>
-                                    <li class="splide__slide text-center">
-                                        <img src="{{asset('images/booth/poster1_2.png')}}" alt="1" class="h-100 w-80 img-fluid">
-                                    </li>
-                                    <li class="splide__slide text-center">
-                                        <img src="{{asset('images/booth/poster1_3.png')}}" alt="2" class="h-100 w-80 img-fluid">
-                                    </li>
+                                    @foreach($booth->posters as $poster)
+                                        <li class="splide__slide text-center">
+                                            <img src="{{$poster->file_url}}" alt="0" class="h-100 w-80 img-fluid">
+                                        </li>
+                                    @endforeach
                                 </ul>
                             </div>
                         </div>
