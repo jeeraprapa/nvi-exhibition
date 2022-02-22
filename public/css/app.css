@@ -11483,7 +11483,7 @@ textarea.form-control-lg {
   }
 }
 #booth1 .box-icon-yellow img, #booth2 .box-icon-yellow img, #booth3 .box-icon-yellow img {
-  width: 25px;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   #booth1 .box-icon-yellow img, #booth2 .box-icon-yellow img, #booth3 .box-icon-yellow img {
@@ -11553,13 +11553,13 @@ textarea.form-control-lg {
 }
 
 #booth2 .box-icon-yellow {
-  top: -9%;
-  left: 45%;
+  top: -13%;
+  left: -25%;
 }
 @media screen and (min-width: 768px) {
   #booth2 .box-icon-yellow {
-    top: 0;
-    left: 58%;
+    top: -8%;
+    left: 70%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -11568,8 +11568,14 @@ textarea.form-control-lg {
     left: 58%;
   }
 }
+@media screen and (min-width: 992px) {
+  #booth2 .box-icon-yellow {
+    top: -7%;
+    left: 80%;
+  }
+}
 #booth2 .box-icon-yellow img {
-  width: 51%;
+  width: 25px;
 }
 @media screen and (min-width: 768px) {
   #booth2 .box-icon-yellow img {
@@ -11578,40 +11584,45 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth2 .box-icon-yellow img {
-    width: 75%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #booth2 .box-icon-yellow img {
+    width: 90%;
   }
 }
 #booth2 .content-poster {
-  top: 27%;
+  top: 20%;
   z-index: 5;
 }
 @media screen and (min-width: 768px) {
   #booth2 .content-poster {
-    top: 110px;
+    top: 20%;
   }
 }
 @media screen and (min-width: 992px) {
   #booth2 .content-poster {
-    top: 145px;
+    top: 20%;
   }
 }
 @media screen and (min-width: 1024px) {
   #booth2 .content-poster {
-    top: 145px;
+    top: 20%;
   }
 }
 @media screen and (min-width: 1200px) {
   #booth2 .content-poster {
-    top: 170px;
+    top: 20%;
   }
 }
 @media screen and (min-width: 1440px) {
   #booth2 .content-poster {
-    top: 205px;
+    top: 155px;
   }
 }
 #booth2 .content-poster .img-poster {
-  height: 75%;
+  height: 70px;
 }
 @media screen and (min-width: 768px) {
   #booth2 .content-poster .img-poster {
@@ -11620,22 +11631,22 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth2 .content-poster .img-poster {
-    height: 220px;
+    height: 205px;
   }
 }
 @media screen and (min-width: 1024px) {
   #booth2 .content-poster .img-poster {
-    height: 220px;
+    height: 205px;
   }
 }
 @media screen and (min-width: 1200px) {
   #booth2 .content-poster .img-poster {
-    height: 290px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 1440px) {
   #booth2 .content-poster .img-poster {
-    height: 305px;
+    height: 285px;
   }
 }
 
@@ -11760,8 +11771,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1200px) {
   #booth2 .box_logo_booth, #booth3 .box_logo_booth {
-    bottom: 84px;
-    left: 452px;
+    bottom: 14%;
+    left: 40%;
   }
 }
 @media screen and (min-width: 1440px) {

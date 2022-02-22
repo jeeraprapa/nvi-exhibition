@@ -77,7 +77,7 @@
             top: 0
             right: -25px
         img
-            width: 25px
+            width: 100%
             @include screen('md')
                 width: 50px
             @include screen('lg')
@@ -112,48 +112,52 @@
         position: fixed
         bottom: 1em
 
-
 #booth2
     .box-icon-yellow
-        top: -9%
-        left: 45%
+        top: -13%
+        left: -25%
         @include screen('md')
-            top: 0
-            left: 58%
+            top: -8%
+            left: 70%
         @include screen('lg')
             top: 0
             left: 58%
+        @include screen('lg')
+            top: -7%
+            left: 80%
         img
-            width: 51%
+            width: 25px
             @include screen('md')
                 width: 50px
             @include screen('lg')
-                width: 75%
+                width: 100%
+            @include screen('xl')
+                width: 90%
     .content-poster
-        top: 27%
+        top: 20%
         z-index: 5
         @include screen('md')
-            top: 110px
+            top: 20%
         @include screen('lg')
-            top: 145px
+            top: 20%
         @include screen('ipad')
-            top: 145px
+            top: 20%
         @include screen('xl')
-            top: 170px
+            top: 20%
         @include screen('wide')
-            top: 205px
+            top: 155px
         .img-poster
-            height: 75%
+            height: 70px
             @include screen('md')
                 height: 160px
             @include screen('lg')
-                height: 220px
+                height: 205px
             @include screen('ipad')
-                height: 220px
+                height: 205px
             @include screen('xl')
-                height: 290px
+                height: 250px
             @include screen('wide')
-                height: 305px
+                height: 285px
 #booth3
     .box-icon-yellow
         top: -4%
@@ -217,8 +221,8 @@
             bottom: 72px
             left: 380px
         @include screen('xl')
-            bottom: 84px
-            left: 452px
+            bottom: 14%
+            left: 40%
         @include screen('wide')
             bottom: 99px
             left: 522px
