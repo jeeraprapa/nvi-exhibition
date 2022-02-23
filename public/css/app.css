@@ -11899,6 +11899,158 @@ textarea.form-control-lg {
   }
 }
 
+#video-award {
+  background: url("../images/award_bg.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+@media screen and (min-width: 1500px) {
+  #video-award {
+    min-height: 100vh;
+    background-position: center center;
+  }
+}
+#video-award header {
+  padding-top: 30px;
+}
+@media screen and (min-width: 1024px) {
+  #video-award header {
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+}
+#video-award h1, #video-award .h1 {
+  -webkit-text-stroke: 0.5px #FFFFFF;
+  -webkit-text-fill-color: #243876;
+  text-shadow: 0px 0px 30px #FFFFFF;
+  color: #243876;
+  font-size: 20px;
+  width: 100%;
+  z-index: 99999;
+}
+@media screen and (min-width: 768px) {
+  #video-award h1, #video-award .h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #video-award h1, #video-award .h1 {
+    width: auto;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #video-award h1, #video-award .h1 {
+    text-shadow: 0px 0px 15px #FFFFFF;
+    -webkit-text-stroke: 1px #FFFFFF;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #video-award h1, #video-award .h1 {
+    -webkit-text-stroke: 2px #FFFFFF;
+    font-size: 40px;
+  }
+}
+#video-award .small {
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  #video-award .small {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #video-award .small {
+    font-size: 28px;
+  }
+}
+#video-award #prize-1 {
+  display: flex;
+  justify-content: center;
+}
+#video-award #prize-1 .video-partial {
+  top: -7%;
+  right: 0%;
+  width: 30%;
+}
+@media screen and (min-width: 768px) {
+  #video-award #prize-1 .video-partial {
+    right: 20%;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #video-award #prize-1 .video-partial {
+    top: -20%;
+    right: 20%;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #video-award #prize-1 .video-partial {
+    top: -10%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #video-award #prize-2-3 {
+    margin-top: -13%;
+  }
+}
+#video-award .img-prize1 {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #video-award .img-prize1 {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #video-award .img-prize1 {
+    width: 20vw;
+  }
+}
+#video-award .img-prize2, #video-award .img-prize3 {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #video-award .img-prize2, #video-award .img-prize3 {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #video-award .img-prize2, #video-award .img-prize3 {
+    width: 30vw;
+    padding: 40px;
+  }
+}
+#video-award #videos {
+  margin-top: 30px;
+}
+@media screen and (min-width: 1200px) {
+  #video-award #videos {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #video-award #videos {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #video-award #videos .prize-1-group {
+    margin-bottom: -100px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #video-award #videos .prize-1-group {
+    margin-bottom: -55px;
+  }
+}
+
 body {
   font-family: "Prompt", sans-serif;
   color: #414D7A;

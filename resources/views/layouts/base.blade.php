@@ -55,7 +55,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('http::hall-of-fame')}}">
+                                <a class="nav-link" href="{{route('http::video-award')}}">
                                     รางวัลประกวดคลิปวีดิโอ
                                 </a>
                             </li>
