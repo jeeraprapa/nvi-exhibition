@@ -11349,14 +11349,6 @@ textarea.form-control-lg {
   transform: scale(1.1);
 }
 
-#booth1 button, #booth2 button, #booth3 button {
-  border: 3px solid #ffffff;
-  border-radius: 30px;
-  background-image: linear-gradient(to bottom, #e1e1e1c7, #ffffff);
-  color: #414D7A;
-  -webkit-text-decoration: auto;
-          text-decoration: auto;
-}
 #booth1 .text-link, #booth2 .text-link, #booth3 .text-link {
   display: none;
 }
@@ -11779,10 +11771,32 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
+.modal-xl {
+  max-width: 100%;
+  margin: 0;
+}
+.modal-xl .modal-body {
+  padding: 0;
+}
 .modal-xl .modal-content {
   min-height: 100vh;
   background: transparent;
   border: none;
+}
+.modal-xl button.btn-link {
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, #e1e1e1c7, #ffffff);
+  color: #414D7A;
+  -webkit-text-decoration: auto;
+          text-decoration: auto;
+  position: fixed;
+  bottom: 2%;
+  right: 50%;
+}
+.modal-xl .splide__list {
+  margin: 0;
+  padding: 0;
 }
 
 #booth2 .box_logo_booth, #booth3 .box_logo_booth {
@@ -11931,7 +11945,7 @@ textarea.form-control-lg {
   color: #243876;
   font-size: 20px;
   width: 100%;
-  z-index: 99999;
+  z-index: 9;
 }
 @media screen and (min-width: 768px) {
   #video-award h1, #video-award .h1 {
@@ -12019,6 +12033,7 @@ textarea.form-control-lg {
   }
 }
 #video-award .img-prize2, #video-award .img-prize3 {
+  cursor: pointer;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -12045,6 +12060,9 @@ textarea.form-control-lg {
     margin-top: 30px;
   }
 }
+#video-award #videos .prize-1-group {
+  cursor: pointer;
+}
 @media screen and (min-width: 992px) {
   #video-award #videos .prize-1-group {
     margin-bottom: -100px;
@@ -12054,6 +12072,21 @@ textarea.form-control-lg {
   #video-award #videos .prize-1-group {
     margin-bottom: -55px;
   }
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 body {
@@ -12243,11 +12276,11 @@ h1, .h1 {
   }
 }
 #app > header .navbar-nav li {
-  font-size: 14px;
+  font-size: 12px;
 }
 @media screen and (min-width: 1500px) {
   #app > header .navbar-nav li {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 1600px) {

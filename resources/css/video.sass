@@ -23,7 +23,7 @@
         color: #243876
         font-size: 20px
         width: 100%
-        z-index: 99999
+        z-index: 9
         @include screen('md')
             font-size: 28px
         @include screen('wide')
@@ -70,6 +70,7 @@
         @include screen('lg')
             width: 20vw
     .img-prize2,.img-prize3
+        cursor: pointer
         width: 100%
         @include screen('md')
             width: 60%
@@ -84,7 +85,21 @@
         @include screen('mwide')
             margin-top: 30px
         .prize-1-group
+            cursor: pointer
             @include screen('lg')
                 margin-bottom: -100px
             @include screen('xwide')
                 margin-bottom: -55px
+
+.videoWrapper
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 25px
+    height: 0
+
+.videoWrapper iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
