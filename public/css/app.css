@@ -11851,7 +11851,7 @@ textarea.form-control-lg {
 #hall {
   background: url("../images/hall_bg.png") no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 100% center;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
