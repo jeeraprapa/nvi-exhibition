@@ -11992,7 +11992,12 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1500px) {
   #video-award #prize-1 .video-partial {
-    top: -10%;
+    top: -30%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #video-award #prize-1 .video-partial {
+    top: -15%;
   }
 }
 @media screen and (min-width: 1024px) {
