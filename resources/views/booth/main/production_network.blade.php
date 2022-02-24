@@ -7,7 +7,7 @@
 
                 <ul class="nav justify-content-lg-center d-lg-none">
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{route('http::booth.research')}}">เครือข่ายการผลิต</a>
+                        <a class="nav-link active" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
@@ -22,7 +22,7 @@
                         <a class="nav-link" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{route('http::booth.research')}}">เครือข่ายการผลิต</a>
+                        <a class="nav-link active" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a>
