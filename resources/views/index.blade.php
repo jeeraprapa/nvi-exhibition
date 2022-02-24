@@ -93,8 +93,12 @@
             <div class="container text-center">
                 <div class="position-relative">
                     <div class="social text-start position-absolute">
-                        <img src="{{asset('images/Facebook.png')}}" alt="">
-                        <img src="{{asset('images/YouTube.png')}}" alt="">
+                        <a href="https://facebook.com/nvikm" target="_blank">
+                            <img src="{{asset('images/Facebook.png')}}" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCJricRxCPa5SShe5pf8VZZA" target="_blank">
+                            <img src="{{asset('images/YouTube.png')}}" alt="">
+                        </a>
                     </div>
                     <div class="link">
                         <img src="{{asset('images/link.png')}}" alt="" id="link-conference">
@@ -134,8 +138,12 @@
                         <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">รางวัลผู้ทําคุณประโยชน์</a></li>
                         <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
                         <li class="text-end social">
-                            <img src="{{asset('images/Facebook.png')}}" alt="" class="img-logo">
-                            <img src="{{asset('images/YouTube.png')}}" alt="" class="img-logo">
+                            <a href="https://facebook.com/nvikm" target="_blank">
+                                <img src="{{asset('images/Facebook.png')}}" alt="" class="img-logo">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCJricRxCPa5SShe5pf8VZZA" target="_blank">
+                                <img src="{{asset('images/YouTube.png')}}" alt="" class="img-logo">
+                            </a>
                         </li>
                     </ul>
                 </nav>

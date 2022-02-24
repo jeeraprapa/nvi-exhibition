@@ -12103,6 +12103,10 @@ h1, .h1 {
   color: #414D7A;
 }
 
+a {
+  text-decoration: none;
+}
+
 #home-page {
   background: #AAE3FF;
 }

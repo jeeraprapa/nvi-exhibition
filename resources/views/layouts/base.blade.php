@@ -118,8 +118,12 @@
                    </small>
                </div>
                <div class="social col-sm-12 col-md-6 text-end">
-                   <img src="{{asset('images/Facebook.png')}}" alt="">
-                   <img src="{{asset('images/YouTube.png')}}" alt="">
+                   <a href="https://facebook.com/nvikm" target="_blank">
+                       <img src="{{asset('images/Facebook.png')}}" alt="">
+                   </a>
+                   <a href="https://www.youtube.com/channel/UCJricRxCPa5SShe5pf8VZZA" target="_blank">
+                        <img src="{{asset('images/YouTube.png')}}" alt="">
+                   </a>
                </div>
            </div>
        </div>
