@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <button type="button" class="btn btn-link w-auto mx-auto px-2" data-bs-dismiss="modal" aria-label="Close">
+                            <button type="button" class="btn btn-link mx-auto px-2" data-bs-dismiss="modal" aria-label="Close">
                                 ปิด
                             </button>
                         </div>

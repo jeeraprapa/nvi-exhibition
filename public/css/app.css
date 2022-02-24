@@ -11349,6 +11349,14 @@ textarea.form-control-lg {
   transform: scale(1.1);
 }
 
+#booth1 button.btn-link, #booth2 button.btn-link, #booth3 button.btn-link {
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, #e1e1e1c7, #ffffff);
+  color: #414D7A;
+  -webkit-text-decoration: auto;
+          text-decoration: auto;
+}
 #booth1 .text-link, #booth2 .text-link, #booth3 .text-link {
   display: none;
 }
@@ -11568,7 +11576,7 @@ textarea.form-control-lg {
 }
 #booth1 .splide__pagination, #booth2 .splide__pagination, #booth3 .splide__pagination {
   position: fixed;
-  bottom: 1em;
+  bottom: 0;
 }
 
 #booth2 .box-icon-yellow {
@@ -11792,7 +11800,9 @@ textarea.form-control-lg {
           text-decoration: auto;
   position: fixed;
   bottom: 2%;
-  right: 50%;
+  width: 80px;
+  right: 0;
+  left: 0;
 }
 .modal-xl .splide__list {
   margin: 0;
