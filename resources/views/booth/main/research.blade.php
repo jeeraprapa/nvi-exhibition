@@ -35,7 +35,11 @@
                 @foreach($booths as $booth)
                     <div class="col-md-6 col-sm-12 fadein">
                         <a href="{{route('http::booth.research.detail',$booth->id)}}">
-                            <img src="{{asset('images/booth/baiya.png')}}" alt="" class="img-fluid p-4">
+                            @if($booth->booth_image_url)
+                                <img src="{{$booth->booth_image_url}}" alt="" class="img-fluid p-4">
+                            @else
+                                <img src="{{asset('images/booth/bg_content1.png')}}" alt="" class="img-fluid p-4">
+                            @endif
                             <p class="fw-bold text-center">
                                 {{$booth->name}}
                             </p>
