@@ -29,18 +29,18 @@
                     </li>
                 </ul>
             </div>
-            @foreach($booths as $booth)
             <div class="row booth">
-                <div class="col-md-6 col-sm-12 fadein">
-                    <a href="{{route('http::booth.assurance-vaccine.detail',$booth->id)}}">
-                        <img src="{{asset('images/booth/baiya.png')}}" alt="" class="img-fluid p-4">
-                        <p class="fw-bold text-center">
-                            {{$booth->name}}
-                        </p>
-                    </a>
-                </div>
+                @foreach($booths as $booth)
+                    <div class="col-md-6 col-sm-12 fadein">
+                        <a href="{{route('http::booth.assurance-vaccine.detail',$booth->id)}}">
+                            <img src="{{asset('images/booth/baiya.png')}}" alt="" class="img-fluid p-4">
+                            <p class="fw-bold text-center">
+                                {{$booth->name}}
+                            </p>
+                        </a>
+                    </div>
+                @endforeach
             </div>
-            @endforeach
         </div>
     </div>
 @endsection
