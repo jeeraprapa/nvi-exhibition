@@ -12,11 +12,13 @@
     <!-- Scripts -->
     <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
-
+    <script src="{{ asset('js/vendors/splide.min.js')}}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-
+    <link rel="stylesheet" href="{{ asset('css/splide/splide.min.css') }}">
     <link rel="icon" href="{{asset('images/logo2.png')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
     @stack('css')
 </head>
 <body>

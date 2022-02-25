@@ -43,7 +43,7 @@
                                 <img src="{{asset('images/hamburger.png')}}" alt="" class="d-inline-block align-text-top">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
+                                <li><a class="dropdown-item" href="{{route('http::exhibition-vaccine')}}">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
                                 <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
                                 <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
                                 <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
@@ -130,7 +130,7 @@
             <div class="menu bg-white">
                 <nav>
                     <ul class="dropdown-menu d-block w-100">
-                        <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::exhibition-vaccine')}}">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
                         <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
                         <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
                         <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>

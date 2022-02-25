@@ -50,3 +50,7 @@ Route::get('/video-award', function () {
 Route::get('/hall-of-fame', function () {
     return view('trophy');
 })->name('http::hall-of-fame');
+
+Route::get('/exhibition-vaccine', function () {
+	return view('exhibition-vaccine');
+})->name('http::exhibition-vaccine');

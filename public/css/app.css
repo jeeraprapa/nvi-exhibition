@@ -11926,6 +11926,7 @@ textarea.form-control-lg {
   }
 }
 
+<<<<<<< Updated upstream
 #video-award {
   background: url("../images/award_bg.png") no-repeat;
   background-size: cover;
@@ -12100,6 +12101,447 @@ textarea.form-control-lg {
   left: 0;
   width: 100%;
   height: 100vh;
+=======
+#main-exhibition .splide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+#main-exhibition .splide .one__pointer__one {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(49.9% - 100px);
+  top: calc(51.5% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .one__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .one__pointer__two {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: calc(44.7% - 100px);
+  bottom: calc(39.3% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .one__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__one {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(37% - 100px);
+  top: calc(22% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__two {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(28% - 100px);
+  top: calc(41% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__three {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(31% - 100px);
+  bottom: calc(50% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__four {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(59% - 100px);
+  bottom: calc(29% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .two__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__one {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(25.5% - 100px);
+  top: calc(19% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__two {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(40.3% - 100px);
+  top: calc(21.5% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__three {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(34% - 100px);
+  top: calc(30% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__four {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(46% - 100px);
+  top: calc(40% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .three__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .four__pointer__discovery {
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  left: calc(28% - 100px);
+  top: calc(21% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__discovery:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__hr {
+  width: 346px;
+  height: 70px;
+  position: absolute;
+  left: calc(43% - 100px);
+  top: calc(24% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__hr:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__networking {
+  width: 176px;
+  height: 70px;
+  position: absolute;
+  right: calc(46% - 100px);
+  top: calc(33% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__networking:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__pp {
+  width: 217px;
+  height: 70px;
+  position: absolute;
+  right: calc(27% - 100px);
+  top: calc(45% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__pp:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__rl {
+  width: 272px;
+  height: 70px;
+  position: absolute;
+  right: calc(37% - 100px);
+  top: calc(53% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__rl:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__pd {
+  width: 287px;
+  height: 70px;
+  position: absolute;
+  right: calc(27% - 100px);
+  top: calc(20% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__pd:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__lc {
+  width: 257px;
+  height: 70px;
+  position: absolute;
+  right: calc(33% - 100px);
+  bottom: calc(36% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__lc:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__production {
+  width: 172px;
+  height: 70px;
+  position: absolute;
+  left: calc(28% - 100px);
+  bottom: calc(36% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__production:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__ct {
+  width: 189px;
+  height: 70px;
+  position: absolute;
+  left: calc(22% - 100px);
+  bottom: calc(62% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .four__pointer__ct:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 60px;
+}
+#main-exhibition .splide .five__pointer__one {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(26.5% - 100px);
+  top: calc(24% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__two {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(32.8% - 100px);
+  top: calc(24% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__three {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(39% - 100px);
+  top: calc(24% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__four {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(45.5% - 100px);
+  top: calc(24% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__five {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(51.8% - 100px);
+  top: calc(24% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__five:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__green {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(58% - 100px);
+  top: calc(49% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__green:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__red {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(39% - 100px);
+  top: calc(32% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__red:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__blue {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(26% - 100px);
+  top: calc(48% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__blue:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__car {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: calc(50% - 100px);
+  bottom: calc(28% - 100px);
+  transition: transform 0.2s;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide .five__pointer__car:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide__pagination li {
+  padding: 10px;
+}
+#main-exhibition .splide__pagination li .splide__pagination__page {
+  background-image: url("../../images/exhibition/paginate.png");
+  width: 27px;
+  height: 27px;
+  background-color: transparent;
+}
+#main-exhibition .splide__pagination li .is-active {
+  background-image: url("../../images/exhibition/paginate-active.png");
+  width: 46px;
+  height: 46px;
+  background-color: transparent;
+>>>>>>> Stashed changes
 }
 
 body {
