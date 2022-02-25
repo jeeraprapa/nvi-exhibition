@@ -1,5 +1,5 @@
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="one__pointer__one" id="one__pointer__one">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -14,7 +14,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="one__pointer__two" id="one__pointer__two">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3" style="text-indent: 30px;">
@@ -30,7 +30,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__one" id="two__pointer__one">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -44,7 +44,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__two" id="two__pointer__two">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -66,7 +66,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__three" id="two__pointer__three">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -87,7 +87,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__four" id="two__pointer__four">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -108,7 +108,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__one" id="three__pointer__one">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3 pl-3">
@@ -121,7 +121,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__two" id="three__pointer__two">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3 pl-3">
@@ -135,7 +135,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__three" id="three__pointer__three">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -149,7 +149,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__four" id="three__pointer__four">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3 pl-3">
@@ -164,7 +164,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__discovery" id="four__pointer__discovery">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -181,7 +181,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__pd" id="four__pointer__pd">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -201,7 +201,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__pp" id="four__pointer__pp">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -220,7 +220,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__ct" id="four__pointer__ct">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -243,7 +243,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__rl" id="four__pointer__rl">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -263,7 +263,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__production" id="four__pointer__production">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -282,7 +282,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__lc" id="four__pointer__lc">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -296,7 +296,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__hr" id="four__pointer__hr">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -313,7 +313,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__networking" id="four__pointer__networking">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -327,7 +327,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__one" id="five__pointer__one">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -341,7 +341,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__two" id="five__pointer__two">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -355,7 +355,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__three" id="five__pointer__three">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -369,7 +369,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__four" id="five__pointer__four">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -383,7 +383,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__five" id="five__pointer__five">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -397,7 +397,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__green" id="five__pointer__green">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -411,7 +411,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__red" id="five__pointer__red">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -425,7 +425,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__blue" id="five__pointer__blue">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -439,7 +439,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__car" id="five__pointer__car">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
