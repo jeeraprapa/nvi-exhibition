@@ -11903,8 +11903,8 @@ textarea.form-control-lg {
   #main-exhibition .splide .one__pointer__one {
     width: 60px;
     height: 60px;
-    left: calc(49.9% - 100px);
-    top: calc(51.5% - 100px);
+    left: calc(54.7% - 100px);
+    top: calc(58% - 100px);
     border: 12px solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
   }
@@ -12124,200 +12124,128 @@ textarea.form-control-lg {
 #main-exhibition .splide .four__pointer__discovery {
   position: absolute;
   transition: transform 0.2s;
-  width: 50px;
-  left: calc(46% - 100px);
-  top: calc(49% - 100px);
+  width: 93px;
+  height: 43px;
+  left: calc(31% - 100px);
+  top: calc(25% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__discovery {
-    width: 160px;
-    height: 70px;
-    left: calc(28% - 100px);
-    top: calc(21% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__discovery:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__discovery:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__hr {
   position: absolute;
   transition: transform 0.2s;
-  width: 120px;
-  left: calc(62% - 100px);
-  top: calc(50% - 100px);
+  width: 196px;
+  height: 43px;
+  left: calc(47% - 100px);
+  top: calc(30% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__hr {
-    width: 346px;
-    height: 70px;
-    left: calc(43% - 100px);
-    top: calc(24% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__hr:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__hr:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__networking {
   position: absolute;
   transition: transform 0.2s;
-  width: 60px;
-  right: calc(60% - 100px);
-  top: calc(62% - 100px);
+  width: 109px;
+  height: 46px;
+  right: calc(50% - 100px);
+  top: calc(38% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__networking {
-    width: 176px;
-    height: 70px;
-    right: calc(46% - 100px);
-    top: calc(33% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__networking:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__networking:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__pp {
   position: absolute;
   transition: transform 0.2s;
-  width: 67px;
-  right: calc(38% - 100px);
-  top: calc(70% - 100px);
+  width: 139px;
+  height: 47px;
+  right: calc(27% - 100px);
+  top: calc(55% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__pp {
-    width: 217px;
-    height: 70px;
-    right: calc(27% - 100px);
-    top: calc(45% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__pp:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__pp:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__rl {
   position: absolute;
   transition: transform 0.2s;
-  width: 85px;
-  right: calc(57% - 100px);
-  top: calc(82% - 100px);
+  width: 175px;
+  height: 48px;
+  right: calc(41% - 100px);
+  top: calc(59% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__rl {
-    width: 272px;
-    height: 70px;
-    right: calc(37% - 100px);
-    top: calc(53% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__rl:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__rl:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__pd {
   position: absolute;
   transition: transform 0.2s;
-  width: 87px;
-  right: calc(35% - 100px);
-  top: calc(45% - 100px);
+  width: 160px;
+  height: 42px;
+  right: calc(33% - 100px);
+  top: calc(25% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__pd {
-    width: 287px;
-    height: 70px;
-    right: calc(27% - 100px);
-    top: calc(20% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__pd:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__pd:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__lc {
   position: absolute;
   transition: transform 0.2s;
-  width: 80px;
-  right: calc(52% - 100px);
-  bottom: calc(72% - 100px);
+  width: 166px;
+  height: 48px;
+  right: calc(36% - 100px);
+  bottom: calc(40% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__lc {
-    width: 257px;
-    height: 70px;
-    right: calc(33% - 100px);
-    bottom: calc(36% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__lc:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__lc:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__production {
   position: absolute;
   transition: transform 0.2s;
-  width: 58px;
-  left: calc(48% - 100px);
-  bottom: calc(69% - 100px);
+  width: 106px;
+  height: 45px;
+  left: calc(28% - 100px);
+  bottom: calc(32% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__production {
-    width: 172px;
-    height: 70px;
-    left: calc(28% - 100px);
-    bottom: calc(36% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__production:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__production:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .four__pointer__ct {
   position: absolute;
   transition: transform 0.2s;
-  width: 58px;
-  left: calc(39% - 100px);
-  top: calc(83% - 100px);
+  width: 118px;
+  height: 46px;
+  left: calc(24% - 100px);
+  bottom: calc(57% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .four__pointer__ct {
-    width: 189px;
-    height: 70px;
-    left: calc(22% - 100px);
-    bottom: calc(62% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 60px;
-  }
-  #main-exhibition .splide .four__pointer__ct:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 60px;
-  }
+#main-exhibition .splide .four__pointer__ct:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
 #main-exhibition .splide .five__pointer__one {
   position: absolute;
@@ -12529,36 +12457,17 @@ textarea.form-control-lg {
 #main-exhibition .splide .splide__pagination li {
   padding: 5px;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .splide__pagination li {
-    padding: 10px;
-  }
-}
 #main-exhibition .splide .splide__pagination li .splide__pagination__page {
   background-image: url("../../images/exhibition/paginate-small.png");
   width: 15px;
   height: 15px;
   background-color: transparent;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .splide__pagination li .splide__pagination__page {
-    background-image: url("../../images/exhibition/paginate.png");
-    width: 27px;
-    height: 27px;
-  }
-}
 #main-exhibition .splide .splide__pagination li .is-active {
   background-image: url("../../images/exhibition/paginate-active-small.png");
   width: 20px;
   height: 20px;
   background-color: transparent;
-}
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .splide__pagination li .is-active {
-    background-image: url("../../images/exhibition/paginate-active.png");
-    width: 46px;
-    height: 46px;
-  }
 }
 
 .modal-content {
