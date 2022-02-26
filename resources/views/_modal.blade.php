@@ -532,14 +532,32 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        การจัดลำดับการให้วัคซีน<br>
+                        (Prioritizing Use of COVID-19 Vaccines)
+                    </h1>
+                    <div class="content">
+                        เนื่องจากความต้องการใช้วัคซีนโควิด 19 มีสูงมากจาก
+                        ทั่วโลก ในขณะที่กำลังการผลิตวัคซีนมีจำกัดโดยเฉพาะใน
+                        ช่วงแรกที่มีการพัฒนาวัคซีนสำเร็จ ดังนั้น เพื่อให้การใช้วัคซีน
+                        เกิดประโยชน์สูงสุดในการป้องกันการสูญเสียชีวิต และ
+                        สามารถประคองระบบสาธารณสุขให้สามารถดำเนินการต่อไปได้ จึงต้องมีการจัดลำดับความสำคัญของการได้รับ
+                        วัคซีนของประชากรในกลุ่มต่าง ๆ ที่มีความรุนแรงของการ
+                        เกิดโรคแตกต่างกัน
+                        องค์การอนามัยโลก (WHO) ได้จัดลำดับความสำคัญ
+                        ของประชาชนกลุ่มที่ควรได้รับวัคซีน ตั้งแต่ช่วงแรกของการมี
+                        วัคซีนโควิด 19 และมีการปรับปรุงคำแนะนำเมื่อสถานการณ์
+                        มีการเปลี่ยนแปลงและมีข้อมูลประกอบการพิจารณาเพิ่มเติม
+                    </div>
+                    <div class="p-link">
+                        <a href="https://www.who.int/publications/i/item/who-sage-roadmap-for-prioritizing-uses-of-covid-19-vaccines" target="_blank" class="link-out">
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary btn__close">
+                            ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -552,14 +570,17 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        การใช้วัคซีนรูปแบบเดียวกัน <br>
+                        (Homologous Vaccination)
+                    </h1>
+                    <div class="content">
+                        การใช้วัคซีนในรูปแบบเดียวกันเป็นการใช้วัคซีนตาม
+                        คำแนะนำในเอกสารกำกับยา ถือเป็นแนวทางมาตรฐานใน
+                        การใช้วัคซีน ซึ่งได้มาจากผลการทดสอบในมนุษย์ทั้งปริมาณ
+                        วัคซีน จำนวนโดส และระยะห่างที่เหมาะสม เพื่อให้วัคซีน
+                        สามารถกระตุ้นภูมิคุ้มกันและทำให้เกิดการป้องกันโรคได้
+                        สูงสุด และเพื่อความมั่นใจว่าผู้ได้รับวัคซีนจะมีความปลอดภัย
                     </div>
                 </div>
             </div>
@@ -572,14 +593,33 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        การใช้วัคซีนสูตรไขว้ <br>
+                        (Heterologous Vaccination)
+                    </h1>
+                    <div class="content">
+                        ในภาวะที่วัคซีนขาดแคลน และไม่สามารถจัดหา
+                        วัคซีนชนิดเดียวกันได้เพียงพอ จึงต้องมีการพิจารณาการใช้
+                        วัคซีนแบบต่างชนิดหรือสูตรไขว้ รวมทั้งมีเหตุผลอื่นร่วมด้วย เช่น เพื่อลดอาการไม่พึงประสงค์ภายหลังการฉีดวัคซีน และ
+                        เพื่อการสร้างภูมิคุ้มกันที่สูงกว่าการใช้วัคซีนชนิดเดียวกัน
+                        ปัจจุบันมีการใช้วัคซีนสูตรไขว้ในหลายประเทศ ซึ่งจะมีการ
+                        พิจารณาอย่างรอบคอบ ทั้งจากวัคซีนที่จัดหาได้ การ
+                        คาดการณ์การจัดหาวัคซีนที่จะเกิดขึ้น ความสามารถในการ
+                        เข้าถึงวัคซีน ควบคู่กับประโยชน์และความเสี่ยงที่อาจเกิดขึ้น
+                        จากผลิตภัณฑ์ที่ใช้ ซึ่งข้อมูลการศึกษาการใช้วัคซีนต่างชนิดที่
+                        หลายประเทศรวมถึงองค์การอนามัยโลก นำมาพิจารณา
+                        เพื่อให้คำแนะนำการใช้วัคซีนสูตรไขว้ ประกอบด้วย ข้อมูล
+                        การศึกษาประสิทธิผลของวัคซีน ข้อมูลการศึกษาการสร้าง
+                        ภูมิคุ้มกันที่เกิดขึ้นจากการฉีดวัคซีนต่างชนิด และข้อมูลความ
+                        ปลอดภัยในการใช้วัคซีนที่มีอยู่ในปัจจุบัน
+                        WHO ได้พิจารณากำหนดคำแนะนำสำหรับการใช้
+                        วัคซีนทั้งการฉีดวัคซีนสูตรไขว้ และการใช้วัคซีนต่างชนิดเป็น
+                        วัคซีนเข็มกระตุ้น
+                    </div>
+                    <div class="p-link">
+                        <a href="https://www.who.int/publications/i/item/WHO-2019-nCoV-vaccines-SAGE-recommendation-heterologous-schedules" target="_blank" class="link-out">
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -592,14 +632,21 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        การฉีดวัคซีนเข็มกระตุ้น (Booster Vaccine)
+                    </h1>
+                    <div class="content">
+                        การระบาดของโรคโควิด 19 เกิดขึ้นอย่างต่อเนื่องและ
+                        รุนแรง และพบว่าไวรัสโคโรนา 2019 มีการกลายพันธุ์อย่าง
+                        รวดเร็ว ผลการศึกษาการใช้วัคซีนโควิด 19 จากทั่วโลกพบว่า
+                        วัคซีนทุกชนิดสามารถป้องกันอาการป่วยที่รุนแรง ลดอัตรา
+                        การเข้ารับการรักษาในโรงพยาบาล และลดอัตราการเสียชีวิต
+                        จากโควิด 19 ได้ แต่ไม่มีวัคซีนชนิดใดป้องกันการติดเชื้อได้ 100% และเมื่อฉีดวัคซีนไปแล้วระยะหนึ่งภูมิคุ้มกันจะลดลง
+                        ตามธรรมชาติ ทำให้มีความจำเป็นที่ต้องมีการฉีดวัคซีนเข็ม
+                        กระตุ้น เพื่อเพิ่มระดับภูมิคุ้มกันให้สูงมากพอที่จะรับมือกับ
+                        ไวรัสกลายพันธุ์ได้ สำหรับโดยคำแนะนำในการฉีดวัคซีนเข็ม
+                        กระตุ้นนั้น ใช้แนวทางการพิจารณาเช่นเดียวกับการฉีดวัคซีน
+                        สูตรไขว้
                     </div>
                 </div>
             </div>
@@ -612,14 +659,35 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        การฉีดวัคซีนเข็มเสริมสำหรับผู้มีภูมิคุ้มกันต่ำ <br>
+                        (Additional doses)
+
+                    </h1>
+                    <div class="content">
+                        ผู้มีภูมิคุ้มกันต่ำ ได้แก่ ผู้ป่วยที่ได้รับการปลูกถ่าย
+                        อวัยวะ ผู้ป่วย HIV ที่ไม่ได้รับการรักษา ผู้มีโรคร่วมหลายโรค
+                        และผู้ป่วยกลุ่มโรคภูมิแพ้ตนเอง เนื่องจากผู้ป่วยจะสามารถ
+                        สร้างภูมิคุ้มกันได้น้อยกว่าคนปกติ และผู้ป่วยบางกลุ่มที่ได้รับ
+                        ยากดภูมิคุ้มกัน ทำให้จะไม่สามารถสร้างภูมิคุ้มกันได้อย่าง
+                        เต็มที่ หากมีการติดเชื้อโควิด 19 อาการจะหนักกว่าคนทั่วไป
+                        ข้อกังวลในการฉีดวัคซีนโควิด 19 ในกลุ่มนี้ คือ ประสิทธิผล
+                        ของวัคซีนโควิด 19 ภายหลังฉีดครบโดสจะน้อยกว่าในคน
+                        ปกติ อย่างไรก็ตาม ผลโดยการศึกษาการให้วัคซีนเข็มเสริม
+                        (Additional dose) ในผู้มีภูมิคุ้มกันต่ำ พบว่าผู้ป่วยมีการ
+                        สร้างภูมิคุ้มกันโรคดีขึ้น WHO องค์การอนามัยโลกจึงมี
+                        คำแนะนำการฉีดวัคซีนเข็มเสริมสำหรับผู้มีภูมิคุ้มกันต่ำ โดยให้นับเป็นการฉีดวัคซีนครบโดสของการฉีดวัคซีนโควิด 19
+                        (Primary series)
+                        ทั้งนี้ เนื่องจากผู้ป่วยแต่ละรายมีสภาวะของโรคและ
+                        การได้รับการรักษาที่ต่างกัน ระยะเวลาที่เหมาะสมสำหรับ
+                        การได้รับวัคซีนเข็มเสริมจึงต่างกันด้วย จึงควรปรึกษาแพทย์
+                        ผู้ให้การรักษาเพื่อเข้ารับการฉีดวัคซีนในระยะเวลาที่
+                        เหมาะสม เพื่อให้เกิดประสิทธิผลสูงสุดในการฉีดวัคซีน
+                    </div>
+                    <div class="p-link">
+                        <a href="https://www.who.int/publications/i/item/WHO-2019-nCoV-vaccines-SAGE_recommendation-immunocompromised-persons" target="_blank" class="link-out">
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -632,14 +700,29 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        ระยะที่ 1 ก่อนมีวัคซีน
+                    </h1>
+                    <div class="content">
+                        ให้ความรู้ และสร้างความเข้าใจในขั้นตอนการพัฒนา
+                        วัคซีน เพื่อลดความคาดหวังหากการพัฒนาวัคซีนไม่ประสบ
+                        ความสำเร็จ
+                        - ขั้นตอนและระยะเวลาในการพัฒนาวัคซีน
+                        - เทคโนโลยีต่าง ๆ ของการพัฒนาวัคซีน
+                        - ความก้าวหน้าการพัฒนาวัคซีนในระดับโลก
+                        - ทำไมประเทศไทยต้องวิจัยพัฒนาและผลิตวัคซีนเอง
+                        - ความก้าวหน้าของการพัฒนาวัคซีนในประเทศ
+                        - การสร้างความเข้าใจในรูปแบบของการอนุมัติทะเบียน
+                        วัคซีนแบบต่าง ๆ
+                    </div>
+                    <div class="p-link">
+                        <div class="book text-center">
+                            <a href="https://www.who.int/publications/i/item/who-sage-roadmap-for-prioritizing-uses-of-covid-19-vaccines" target="_blank" class="link-out-small">
+                                <img src="{{asset('images/exhibition/page5_button_green.png')}}" class="img-fluid"><br>
+                                ความก้าวหน้าของการพัฒนา<br>
+                                วัคซีนในประเทศ
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -648,18 +731,48 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__red" id="five__pointer__red">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        ระยะที่ 2 ระหว่างมีวัคซีน
+                    </h1>
+                    <div class="content">
+                        - อัปเดตความก้าวหน้าของวัคซีนทั้งในประเทศและ
+                        ต่างประเทศ
+                        - สร้างความเข้าใจและการรับรู้ที่ถูกต้องเกี่ยวกับการบริหาร
+                        จัดการวัคซีน ลำดับการให้ก่อน-หลัง
+                        - การสร้างความเชื่อมั่นในเรื่องความปลอดภัยของการใช้
+                        วัคซีน
+                    </div>
+                    <div class="text-center pt-4 d-sm-block d-lg-flex justify-content-center align-items-end">
+                        <div class="book">
+                            <a href="https://www.thaihealth.or.th/Books/714/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD+%E0%B8%A7%E0%B8%B1%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B9%89%E0%B9%82%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94+(%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%99).html" target="_blank" class="link-out-small">
+                                <img src="{{asset('images/exhibition/page5_button_red.png')}}" class="img-fluid"><br>
+                                คู่มือวัคซีนสู้โควิด ฉบับประชาชน
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="https://www.facebook.com/154755461366324/photos/pb.100066819803786.-2207520000../1841059292735924/?type=3" target="_blank" class="link-out-small">
+                                <img src="{{asset('images/exhibition/page5_button_red2.png')}}" class="img-th" width="125px"><br>
+                                อัปเดตความก้าวหน้าของวัคซีนในต่างประเทศ
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="p-link">
+                        <a href="https://fb.watch/bagv_63Vi_" target="_blank" class="link-out">
+                            <small>
+                                เสวนา THAILAND COVID-19 VACCINE FORUM 2021 <br>
+                                สถานการณ์ความก้าวหน้าการพัฒนาวัคซีนไทยสู้โควิดโดยทีมประเทศไทย
+                            </small> <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=IrxAk_PeJ4Y" target="_blank" class="link-out">
+                            <small>คลิป 2D motion เรื่อง “ความปลอดภัยของการใช้วัคซีนโควิด 19”</small>
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -668,18 +781,70 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__blue" id="five__pointer__blue">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        ระยะที่ 3 หลังมีวัคซีน
+                    </h1>
+                    <div class="content">
+                        - สร้างความเข้าใจที่ถูกต้องเกี่ยวกับการบริหารจัดการวัคซีน
+                        ที่เปลี่ยนแปลงไปตามสถานการณ์
+                        - ให้ข้อมูลการระบาดของไวรัสสายพันธุ์ ใหม่
+                        - สร้างความเข้าใจที่ถูกต้องและสร้างความตระหนักถึง
+                        ความสำคัญของการฉีดวัคซีนเข็มกระตุ้น เพื่อป้องกันการป่วย
+                        ที่รุนแรงและเสียชีวิตจากโควิด 19 ในกลุ่มเปราะบาง
+                        - ให้ข้อเท็จจริงเพื่อให้ประชาชนได้รับรู้ข้อมูลที่ถูกต้องในเรื่อง
+                        ของวัคซีนโควิด 19
+                    </div>
+
+                    <div class="p-link">
+                        <p class="fw-bold">1. คลิป 2D motion</p>
+                        <a href="https://www.youtube.com/watch?v=LtMD3gu5p7w&t=54s" target="_blank" class="link-out">
+                            <small>
+                                เรื่อง “การทำงานของวัคซีนต่อเชื้อไวรัส
+                                กลายพันธุ์”
+                            </small> <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
+                        <br>
+                        <p class="fw-bold pt-4">2. เสวนาวิชาการ</p>
+                        <a href="https://www.facebook.com/NCOTHOHUN/videos/624248442288822/" target="_blank" class="link-out">
+                            <small>- เสวนาออนไลน์ “วัคซีน mRNA ในเด็ก
+                                ดีจริงไหม อันตรายหรือไม่ ตัดสินใจยังไงดี
+                                ?</small>
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
+                        <br>
+                        <a href="https://fb.watch/baf1UHHjD7/" target="_blank" class="link-out">
+                            <small>
+                                - เสวนาออนไลน์ “เปิดข้อมูล (ไม่) ลับ กับ
+                                สถาบันวัคซีนแห่งชาติ”
+                                ตอน ร่วมเปิดใจ พร้อมไขทุกข้อสงสัย
+                                “วัคซีนโควิด 19 กับก้าวต่อไปของคน
+                                ไทย”
+                            </small>
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
+                        <br>
+                        <a href="https://fb.watch/baeY4o9L8J/" target="_blank" class="link-out">
+                            <small>
+                                - เสวนาวิชาการออนไลน์ “เปิดข้อมูล (ไม่)
+                                ลับ กับสถาบันวัคซีนแห่งชาติ”
+                                ตอน เผยทุกข้อมูลเรื่องวัคซีนโควิด 19
+                                “รับมืออย่างไรเมื่อไวรัสสายพันธุ์ใหม่มา
+                                เยือน”
+                            </small>
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
+                        <br>
+                        <a href="https://fb.watch/baeSFtRFpE/" target="_blank" class="link-out">
+                            <small>
+                                - เสวนาวิชาการออนไลน์ “วัคซีน mRNA
+                                ฉีดในเด็ก 5-11 ปี: เรื่องที่พ่อ-แม่ ต้องรู้”
+                            </small>
+                            <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -692,15 +857,41 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>
+                        นโยบายการให้วัคซีนแก่ประชาชน
+                    </h1>
+                    <div class="content">
+                        ในภาวะปกติประเทศไทยโดยกรมควบคุมโรค
+                        กระทรวงสาธารณสุข ได้กำหนดให้มีการให้บริการวัคซีน
+                        พื้นฐานกับประชาชน เรียกว่า แผนงานสร้างเสริมภูมิคุ้มกัน
+                        โรค (Expanded Program on Immunization, EPI) โดย
+                        เริ่มดำเนินการตั้งแต่ปี พ.ศ. 2520 มีเป้าหมายเพื่อลดอัตรา
+                        ป่วยและอัตราตายของโรคติดต่อที่ป้องกันได้ด้วยวัคซีน ให้
+                        เป็นไปตามเจตนารมณ์ของรัฐธรรมนูญแห่งราชอาณาจักรไทย
+                        ทุกฉบับ
+                        ปัจจุบันมีวัคซีนในแผนงาน EPI จำนวน 13 รายการ
+                        ทั้งวัคซีนสำหรับเด็กและผู้ใหญ่ ซึ่งประชาชนกลุ่มเป้าหมายจะ
+                        ได้รับบริการโดยไม่คิดมูลค่า
+                        ทั้งนี้ ในสถานการณ์ที่มีการระบาดใหญ่ของโรคอุบัติ
+                        ใหม่ องค์การอนามัยโลก (WHO) จะมีการกำหนดนโยบาย
+                        การใช้วัคซีน เพื่อเป็นคำแนะนำให้แก่ประเทศต่าง ๆ ในการ
+                        กำหนดนโยบายการใช้วัคซีนเพื่อการตอบโต้โรคอุบัติใหม่ที่
+                        เหมาะสมกับบริบทของแต่ละประเทศ
+                        สำหรับประเทศไทยได้มีการกำหนด นโยบาย/แนว
+                        ทางการให้วัคซีนโควิด 19 โดยกระทรวงสาธารณสุข ประเทศ
+                        ไทย พิจารณาดำเนินการภายใต้
+                        1. คำแนะนำของคณะอนุกรรมการสร้างเสริม
+                        ภูมิคุ้มกันโรค (ภายใต้คณะกรรมการวัคซีนแห่งชาติ) ซึ่งอาศัย
+                        ข้อมูลวิชาการที่มีในขณะนั้น ร่วมกับนโยบาย/แนวทางให้
+                        วัคซีนในระดับนานาชาติ เพื่อประกอบการตัดสินใจให้
+                        คำแนะนำสำหรับการใช้วัคซีนให้เหมาะสมกับบริบทของ
+                        ประเทศ
+                        2. ผลการศึกษาประสิทธิผลการใช้วัคซีนตามที่
+                        ให้บริการจริงในประเทศ (Real-world vaccine
+                        effectiveness)
+                        3. เงื่อนไขในการบริหารจัดการวัคซีนให้มีประสิทธิภาพสูงสุด
                     </div>
+{{--                    todo: logo กรมควบคุมโรค และมี link ไปยังบูท กองโรคติดต่อทั่วไป กรมควบคุมโรค(ในนิทรรศการหน่วยงานเครือข่าย)--}}
                 </div>
             </div>
         </div>
