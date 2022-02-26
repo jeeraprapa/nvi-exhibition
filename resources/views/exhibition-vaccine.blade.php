@@ -128,31 +128,64 @@
         $('.one__pointer__two').click(function(){
             $('#one__pointer__two').modal('show');
         });
+        $("#close_one_one").click(function(){
+            $("#one__pointer__one").modal('hide');
+        });
+        $("#close_one_two").click(function(){
+            $("#one__pointer__two").modal('hide');
+        });
         //slide2
         $('.two__pointer__one').click(function () {
             $('#two__pointer__one').modal('show');
         });
+        $("#close_two_one").click(function(){
+            $("#two__pointer__one").modal('hide');
+        });
         $('.two__pointer__two').click(function () {
            $('#two__pointer__two').modal('show');
         });
+        $("#close_two_two").click(function(){
+            $("#two__pointer__two").modal('hide');
+        });
+
         $('.two__pointer__three').click(function () {
             $('#two__pointer__three').modal('show');
         });
+        $("#close_two_three").click(function(){
+            $("#two__pointer__three").modal('hide');
+        });
+
         $('.two__pointer__four').click(function () {
             $('#two__pointer__four').modal('show');
+        });
+        $("#close_two_four").click(function(){
+            $("#two__pointer__four").modal('hide');
         });
         //slide3
         $('.three__pointer__one').click(function () {
             $('#three__pointer__one').modal('show');
         });
+        $("#close_three_one").click(function(){
+            $("#three__pointer__one").modal('hide');
+        });
+
         $('.three__pointer__two').click(function () {
             $('#three__pointer__two').modal('show');
+        });
+        $("#close_three_two").click(function(){
+            $("#three__pointer__two").modal('hide');
         });
         $('.three__pointer__three').click(function () {
             $('#three__pointer__three').modal('show');
         });
+        $("#close_three_three").click(function(){
+            $("#three__pointer__three").modal('hide');
+        });
         $('.three__pointer__four').click(function () {
             $('#three__pointer__four').modal('show');
+        });
+        $("#close_three_four").click(function(){
+            $("#three__pointer__four").modal('hide');
         });
         //slide4
         $('.four__pointer__discovery').click(function () {

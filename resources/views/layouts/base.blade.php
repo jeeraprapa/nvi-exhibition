@@ -18,6 +18,7 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/splide/splide.min.css') }}">
     <link rel="icon" href="{{asset('images/logo2.png')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/all.min.css') }}">
     @stack('css')
 </head>
 <body>
