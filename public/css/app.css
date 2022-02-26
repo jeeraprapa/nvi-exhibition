@@ -11892,6 +11892,7 @@ textarea.form-control-lg {
   width: 100%;
 }
 #main-exhibition .splide .one__pointer__one {
+<<<<<<< Updated upstream
   position: absolute;
   width: 20px;
   height: 20px;
@@ -12144,6 +12145,8 @@ textarea.form-control-lg {
   }
 }
 #main-exhibition .splide .four__pointer__hr {
+=======
+>>>>>>> Stashed changes
   position: absolute;
   transition: transform 0.2s;
   width: 120px;
@@ -12637,11 +12640,24 @@ textarea.form-control-lg {
   display: inline-table;
   margin: 0 20px;
 }
+<<<<<<< Updated upstream
 .modal-content .btn__close {
   font-size: 18px;
   border-radius: 60px;
   padding: 5px 30px;
   margin-bottom: 15px;
+=======
+#main-exhibition .splide__pagination li .is-active {
+  background-image: url("../../images/exhibition/paginate-active.png");
+  width: 46px;
+  height: 46px;
+  background-color: transparent;
+}
+
+h1, .h1 {
+  font-size: 2rem !important;
+  font-weight: 900;
+>>>>>>> Stashed changes
 }
 
 #video-award {
