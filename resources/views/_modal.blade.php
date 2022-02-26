@@ -951,7 +951,7 @@
                     <div class="p-link">
                         <div class="book text-center">
                             <a href="https://www.facebook.com/154755461366324/photos/pb.100066819803786.-2207520000../1643967499111772/?type=3" target="_blank" class="link-out-small">
-                                <img src="http://nvi.test/images/exhibition/book-6.png" class="img-fluid"><br>
+                                <img src="{{asset('images/exhibition/book-6.png')}}" class="img-fluid"><br>
                                 ความก้าวหน้าของการ<br>พัฒนาวัคซีนในประเทศ
                             </a>
                         </div>
@@ -1061,7 +1061,7 @@
                         <br>
                         <p class="fw-bold pt-4">เสวนาวิชาการ</p>
                         <a href="https://www.facebook.com/NCOTHOHUN/videos/624248442288822/" target="_blank" class="link-out">
-                            <small>- เสวนาออนไลน์ “วัคซีน mRNA ในเด็ก
+                            <small>เสวนาออนไลน์ “วัคซีน mRNA ในเด็ก
                                 ดีจริงไหม อันตรายหรือไม่ ตัดสินใจยังไงดี
                                 ?</small>
                             <i class="fa fa-external-link icon-yellow"></i>
@@ -1069,7 +1069,7 @@
                         <br>
                         <a href="https://fb.watch/baf1UHHjD7/" target="_blank" class="link-out">
                             <small>
-                                - เสวนาออนไลน์ “เปิดข้อมูล (ไม่) ลับ กับ
+                                เสวนาออนไลน์ “เปิดข้อมูล (ไม่) ลับ กับ
                                 สถาบันวัคซีนแห่งชาติ”
                                 ตอน ร่วมเปิดใจ พร้อมไขทุกข้อสงสัย
                                 “วัคซีนโควิด 19 กับก้าวต่อไปของคน
@@ -1080,7 +1080,7 @@
                         <br>
                         <a href="https://fb.watch/baeY4o9L8J/" target="_blank" class="link-out">
                             <small>
-                                - เสวนาวิชาการออนไลน์ “เปิดข้อมูล (ไม่)
+                                เสวนาวิชาการออนไลน์ “เปิดข้อมูล (ไม่)
                                 ลับ กับสถาบันวัคซีนแห่งชาติ”
                                 ตอน เผยทุกข้อมูลเรื่องวัคซีนโควิด 19
                                 “รับมืออย่างไรเมื่อไวรัสสายพันธุ์ใหม่มา
@@ -1091,7 +1091,7 @@
                         <br>
                         <a href="https://fb.watch/baeSFtRFpE/" target="_blank" class="link-out">
                             <small>
-                                - เสวนาวิชาการออนไลน์ “วัคซีน mRNA
+                                เสวนาวิชาการออนไลน์ “วัคซีน mRNA
                                 ฉีดในเด็ก 5-11 ปี: เรื่องที่พ่อ-แม่ ต้องรู้”
                             </small>
                             <i class="fa fa-external-link icon-yellow"></i>
