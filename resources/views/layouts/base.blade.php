@@ -37,7 +37,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="{{route('http::exhibition-vaccine')}}">
                                     นิทรรศการสถาบันวัคซีนแห่งชาติ
                                 </a>
                             </li>
@@ -92,7 +92,7 @@
                             <img src="{{asset('images/hamburger.png')}}" alt="" class="d-inline-block align-text-top">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
+                            <li><a class="dropdown-item" href="{{route('http::exhibition-vaccine')}}">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
                             <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
                             <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
                             <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
