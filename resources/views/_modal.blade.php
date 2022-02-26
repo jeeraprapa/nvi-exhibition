@@ -276,22 +276,20 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__discovery" id="four__pointer__discovery">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        การวิจัยขั้นพื้นฐาน เริ่มจากการศึกษาธรรมชาติของเชื้อก่อโรค
-                        กลไกการเกิดโรค
-                        ศึกษาแอนติเจนสำคัญที่นำไปสู่การพัฒนาวัคซีนเพื่อป้องกันโรค
-                        ไปจนถึงการคิดค้นวัคซีนรูปแบบใหม่ เป็นต้น
-                        ซึ่งผลของการวิจัยขั้นพื้นฐานนี้เป็นหลักฐานทางวิทยาศาสตร์สำคัญและนำไปสู่การพัฒนาต่อยอดและใช้งานจริงต่อไป
-                        โดยใช้เวลามากหรือน้อยขึ้นอยู่กับความซับซ้อนของเชื้อก่อโรคหรือเทคโนโลยีที่นำมาศึกษา
-                        ซึ่งอาจจะใช้เวลาแค่ 1-2 ปี หรือบางทีอาจจะนานเป็น 10 ปี
+                    <h1>Discovery</h1>
+                    <div class="content">
+                        การวิจัยขั้นพื้นฐาน เริ่มจากการศึกษาธรรมชาติของเชื้อก่อโรค กลไกการเกิดโรค ศึกษาแอนติเจนสำคัญที่นำไปสู่การพัฒนาวัคซีนเพื่อป้องกันโรค ไปจนถึงการคิดค้นวัคซีนรูปแบบใหม่ เป็นต้น ซึ่งผลของการวิจัยขั้นพื้นฐานนี้เป็นหลักฐานทางวิทยาศาสตร์สำคัญและนำไปสู่การพัฒนาต่อยอดและใช้งานจริงต่อไป โดยใช้เวลามากหรือน้อยขึ้นอยู่กับความซับซ้อนของเชื้อก่อโรคหรือเทคโนโลยีที่นำมาศึกษา ซึ่งอาจจะใช้เวลาแค่ 1-2 ปี หรือบางทีอาจจะนานเป็น 10 ปี
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content pb-3">
                         สำหรับการวิจัยพัฒนาพื้นฐานในประเทศ
                         ส่วนใหญ่จะดำเนินการโดยมหาวิทยาลัยเป็นหลัก
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_discovery" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -300,11 +298,12 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__pd" id="four__pointer__pd">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
+                    <h1>Preclinical development</h1>
+                    <div class="content">
                         เมื่อผ่านขั้นตอนการวิจัยพัฒนาในห้องปฏิบัติการแล้ว
                         ขั้นตอนต่อไปคือการทดสอบคุณสมบัติของวัคซีนต้นแบบในสัตว์ทดลอง
                         โดยทำการทดสอบในห้องปฏิบัติการสัตว์ทดลอง (Animal testing center)
@@ -315,15 +314,18 @@
                         และการศึกษาประสิทธิภาพของวัคซีนในการป้องกันโรค (Challenge test)
                         เป็นต้น
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content">
                         โดยสัตว์ที่ใช้ทดลอง มีตั้งแต่หนู กระต่าย ไปจนถึงลิง อย่างน้อย 2
                         ชนิด ซึ่งใช้เวลาประมาณ 1-2 ปี
                         หลังจากนั้นก็จะส่งผลให้สำนักงานคณะกรรมการอาหารและยา (อย.) พิจารณา
                         ก่อนจะทำการทดสอบในมนุษย์ต่อไป
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content pb-3">
                         ห้องปฏิบัติการสัตว์ทดลอง (Animal testing center) ที่ได้มาตรฐานสากล
                         (OECD-GLP) ในประเทศไทย
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_pd" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -333,11 +335,13 @@
 
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__pp" id="four__pointer__pp">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
+                    <h1>Small scale process development</h1>
+                    <div class="title">Pilot production</div>
+                    <div class="content">
                         การพัฒนาวัคซีนที่ประสบผลสำเร็จในห้องปฏิบัติการ
                         และมีแนวโน้มที่ดีในการทดสอบในสัตว์ทดลอง
                         จะถูกนำมาวิจัยพัฒนาในขั้นตอนที่เรียกว่า การขยายขนาดการผลิต (Pilot
@@ -345,11 +349,11 @@
                         (GMP) เพื่อให้มั่นใจว่าวัคซีนที่พัฒนาขึ้นนั้น
                         จะสามารถต่อยอดสู่การผลิตในอุตสาหกรรมได้
                     </div>
-                    <div style="text-indent: 30px;">นอกจากนี้ วัคซีนที่ผลิตจากโรงงานต้นแบบ
+                    <div class="content">นอกจากนี้ วัคซีนที่ผลิตจากโรงงานต้นแบบ
                         ยังสามารถนำไปทำการทดสอบวัคซีนเพื่อศึกษาด้านความปลอดภัย
                         และการกระตุ้นภูมิคุ้มกันในมนุษย์ระยะที่ 1-2 ต่อไปได้
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content pb-3">
                         โรงงานต้นแบบ (Pilot plant) ที่ได้รับการรับรองมาตรฐานสากล (GMP)
                         ในปัจจุบัน ได้แก่ โรงงานต้นแบบผลิตยาชีววัตถุแห่งชาติ
                         มหาวิทยาลัยพระจอมเกล้าธนบุรี โรงงานต้นแบบ ขององค์การเภสัชกรรม
@@ -358,6 +362,9 @@
                         โดยเฉพาะโรงงานต้นแบบที่มีห้องปฏิบัติการชีวนิรภัยระดับ 3 (BSL-3)
                         สำหรับการวิจัยพัฒนาวัคซีนโรคอุบัติใหม่ หรือโรคอุบัติซ้ำ
                     </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_pp" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -365,40 +372,43 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__ct" id="four__pointer__ct">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        การทดสอบในมนุษย์ แบ่งการทดสอบออกเป็น 3 ระยะดังนี้ ระยะที่ 1
+                    <h1>Clinical Trials (Phase 1-3)</h1>
+                    <div class="title">การทดสอบในมนุษย์ แบ่งการทดสอบออกเป็น 3 ระยะดังนี้</div>
+                    <div class="content_no_indent">
+                        <li>ระยะที่ 1
                         เป็นการทดสอบกับกลุ่มคนที่มีสุขภาพดี
                         อยู่ในสภาพแวดล้อมที่มีโอกาสติดเชื้อได้ตํ่าหรือแทบไม่มีเลย
                         จำนวนประมาณ 10-100 คน
                         เน้นศึกษาความปลอดภัยและความสามารถในการกระตุ้นภูมิคุ้มกันของวัคซีน
-                        โดยขั้นตอนนี้ใช้เวลาประมาณ 1 ปี
-                    </div>
-                    <div style="text-indent: 30px;">
-                        ระยะที่ 2
+                        โดยขั้นตอนนี้ใช้เวลาประมาณ 1 ปี</li>
+
+                        <li>ระยะที่ 2
                         ทดสอบในกลุ่มเสี่ยงที่อยู่ใกล้ชิดกับผู้ป่วยและมีความเสี่ยงต่อการติดเชื้อของโรคที่ทำการวิจัย
                         จำนวนประมาณ 100-1,000 คน โดยการทดสอบจะเป็นแบบสุ่ม บางคนได้ยาจริง
                         บางคนได้ยาหลอก
                         เพื่อศึกษาความปลอดภัยและความสามารถในการกระตุ้นภูมิคุ้มกันของวัคซีน
                         ตลอดจนประเมินความเหมาะสมของปริมาณและจำนวนวัคซีนที่จะใช้ในการทดสอบในระยะถัดไป
-                        ซึ่งใช้ระยะเวลาประมาณ 2 ปี
-                    </div>
-                    <div style="text-indent: 30px;">
-                        ระยะที่ 3
+                        ซึ่งใช้ระยะเวลาประมาณ 2 ปี</li>
+                        <li>ระยะที่ 3
                         ทดสอบในกลุ่มเสี่ยงที่อยู่ในสถานที่ที่มีการระบาดของโรคโดยตรง ประมาณ
                         1,000-10,000 คน และใช้งบประมาณจำนวนมากในการศึกษา
                         เน้นดูประสิทธิภาพของวัคซีนในการป้องกันโรค
                         ความปลอดภัยและผลข้างเคียงที่อาจเกิดขึ้น
-                        โดยในระยะนี้จะใช้เวลาประมาณ 3 ปี
+                        โดยในระยะนี้จะใช้เวลาประมาณ 3 ปี</li>
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content_no_indent pt-3 pd-3">
                         ปัจจุบัน ประเทศไทยมีศักยภาพในการทดสอบวัคซีนในมนุษย์หลายแห่ง เช่น
                         ศูนย์ทดสอบวัคซีน คณะเวชศาสตร์เขตร้อน มหาวิทยาลัยมหิดล
                         คณะแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย เป็นต้น
                     </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_ct" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -406,24 +416,25 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__rl" id="four__pointer__rl">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
+                    <h1>Registration/Licensing</h1>
+                    <div class="content">
                         หลังการทดสอบในมนุษย์ทั้ง 3 ระยะ
                         ให้ผลดีและวัคซีนมีประสิทธิภาพในการป้องกันโรค
                         ผู้ผลิตวัคซีนจะสามารถยื่นขอขึ้นทะเบียนวัคซีนกับหน่วยงานควบคุมกำกับในประเทศ
                         สำหรับประเทศไทยคือ สำนักงานคณะกรรมการอาหารและยา (อย.)
                         เพื่ออนุมัติและใช้ในเชิงพาณิชย์ต่อไปได้
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content">
                         โดยกลไกการขึ้นทะเบียนวัคซีนแต่ละชนิด ทั้งภาวะปกติและภาวะฉุกเฉิน
                         จะมีกลไกที่แตกต่างกัน แต่มีหลักการเชิงวิชาการ
                         และมาตรฐานในการควบคุมกำกับด้านคุณภาพเป็นไปตามมาตรฐานสากล (GMP
                         PIC/S)
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content pb-3">
                         โดยหน่วยงานที่มีบทบาทสำคัญในการควบคุมกำกับคุณภาพ ได้แก่
                         สถาบันชีววัถตุ กรมวิทยาศาสตร์การแพทย์
                         ที่ทำหน้าที่ตรวจวิเคราะห์คุณภาพวัคซีนทางห้องปฏิบัติการ
@@ -433,6 +444,9 @@
                         ตลอดจนการเฝ้าระวังความปลอดภัยจากการใช้วัคซีนร่วมกับกองระบาดวิทยา
                         กรมควบคุมโรค ภายหลังจากได้รับอนุมัติเพื่อจำหน่ายในท้องตลาดแล้ว
                     </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_rl" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -440,11 +454,12 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__production" id="four__pointer__production">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
+                    <h1>Production</h1>
+                    <div class="content">
                         วัคซีนที่ผ่านการวิจัยพัฒนาจนมีประสิทธิภาพในการป้องกันโรค
                         และสามารถขึ้นทะเบียนได้
                         จะถูกผลิตในโรงงานอุตสาหกรรมที่มีมาตรฐานสากล (GMP)
@@ -453,11 +468,14 @@
                         การสังเคราะห์กรดนิวคลิอิคและโปรตีนและเพิ่มจำนวนแอนติเจนโดยใช้จุลินทรีย์
                         เป็นต้น
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content pb-3">
                         โดยโรงงานผลิตวัคซีนระดับอุตสาหกรรม สามารถจำแนก
                         ตามขั้นตอนการผลิตได้หลายแบบ เช่น
                         <li>การผลิตทั้งกระบวนการตั้งแต่ต้นน้ำจนถึงปลายน้ำ</li>
                         <li>การผลิตปลายน้ำ ตั้งแต่การผสมสูตรจนถึงการบรรจุ</li>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_production" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -466,16 +484,20 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__lc" id="four__pointer__lc">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
+                    <h1>Logistics/cold chain</h1>
+                    <div class="content pb-3">
                         วัคซีนที่ผลิตและผ่านการรับรองคุณภาพทั้งจากที่ผลิตในประเทศและนำเข้าจากต่างประเทศ
                         จะถูกจัดเก็บและนำส่งไปยังหน่วยบริการสาธารณสุขในอุณหภูมิที่มีความเหมาะสม
                         เพื่อคงประสิทธิภาพของวัคซีนไว้
                         ถือเป็นกระบวนการที่สำคัญก่อนนำวัคซีนมาให้บริการกับประชาชน
                         กระบวนการนี้เรียกว่า ระบบลูกโซ่ความเย็น
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_lc" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -488,7 +510,8 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
+                    <h1>Human resource development</h1>
+                    <div class="content">
                         วงจรการพัฒนาวัคซีนตั้งแต่การวิจัยพัฒนาสู่การผลิตจนได้ผลิตภัณฑ์
                         มีความซับซ้อน และต้องใช้องค์ความรู้ในหลากหลายสาขา อีกทั้งปัจจุบัน
                         เทคโนโลยีการพัฒนาวัคซีน มีความก้าวหน้าอย่างรวดเร็ว ดังนั้น
@@ -496,10 +519,13 @@
                         นอกจากการพัฒนาด้านโครงสร้างพื้นฐานแล้ว
                         การพัฒนาบุคลากรจึงเป็นสิ่งสำคัญในการขับเคลื่อนงานด้านวัคซีนให้ประสบผลสำเร็จตามเป้าหมาย
                     </div>
-                    <div style="text-indent: 30px;">
+                    <div class="content pb-3">
                         เพื่อเสริมสร้างศักยภาพบุคลากรด้านวัคซีนของประเทศ
                         จึงมีการกำหนดยุทธศาสตร์เพื่อพัฒนาศักยภาพบุคลากรรองรับภารกิจความมั่นคงด้านวัคซีน
                         ซึ่งเป็นยุทธศาสตร์สำคัญของนโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_hr" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -508,11 +534,12 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__networking" id="four__pointer__networking">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
+                    <h1>Networking</h1>
+                    <div class="content pb-3">
                         การดำเนินงานด้านวัคซีน ตั้งแต่การวิจัยจนกระทั่งได้ผลิตภัณฑ์
                         และการนำไปใช้กับประชาชน ประกอบไปด้วยหน่วยงาน องค์กร
                         ภาคีเครือข่ายทั้งในและต่างประเทศ กล่าวคือ
@@ -521,6 +548,9 @@
                         แต่ต้องอาศัยความร่วมมือ ความเชื่อมโยง
                         การส่งเสริมและผลักดันในรูปแบบเครือข่ายจึงจะสำเร็จได้
                     </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_four_networking" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -528,18 +558,20 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__one" id="five__pointer__one">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>การจัดลำดับการให้วัคซีน
+                        (Prioritizing Use of COVID-19 Vaccines)</h1>
+                    <div class="content">
+                        เนื่องจากความต้องการใช้วัคซีนโควิด 19 มีสูงมากจากทั่วโลก ในขณะที่กำลังการผลิตวัคซีนมีจำกัดโดยเฉพาะในช่วงแรกที่มีการพัฒนาวัคซีนสำเร็จ ดังนั้น เพื่อให้การใช้วัคซีนเกิดประโยชน์สูงสุดในการป้องกันการสูญเสียชีวิต และสามารถประคองระบบสาธารณสุขให้สามารถดำเนินการต่อไปได้ จึงต้องมีการจัดลำดับความสำคัญของการได้รับวัคซีนของประชากรในกลุ่มต่าง ๆ ที่มีความรุนแรงของการเกิดโรคแตกต่างกัน
+                    </div>
+                    <div class="content pb-3">
+                        องค์การอนามัยโลก (WHO) ได้จัดลำดับความสำคัญของประชาชนกลุ่มที่ควรได้รับวัคซีน ตั้งแต่ช่วงแรกของการมีวัคซีนโควิด 19 และมีการปรับปรุงคำแนะนำเมื่อสถานการณ์มีการเปลี่ยนแปลงและมีข้อมูลประกอบการพิจารณาเพิ่มเติม
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_five_one" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -548,18 +580,16 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__two" id="five__pointer__two">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>การใช้วัคซีนรูปแบบเดียวกัน (Homologous Vaccination)</h1>
+                    <div class="content pb-3">
+                        การใช้วัคซีนในรูปแบบเดียวกันเป็นการใช้วัคซีนตามคำแนะนำในเอกสารกำกับยา ถือเป็นแนวทางมาตรฐานในการใช้วัคซีน ซึ่งได้มาจากผลการทดสอบในมนุษย์ทั้งปริมาณวัคซีน จำนวนโดส และระยะห่างที่เหมาะสม เพื่อให้วัคซีนสามารถกระตุ้นภูมิคุ้มกันและทำให้เกิดการป้องกันโรคได้สูงสุด และเพื่อความมั่นใจว่าผู้ได้รับวัคซีนจะมีความปลอดภัย
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="button" id="close_five_two" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -568,18 +598,23 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__three" id="five__pointer__three">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>การใช้วัคซีนสูตรไขว้ (Heterologous Vaccination)</h1>
+                    <div class="content">
+                        ในภาวะที่วัคซีนขาดแคลน และไม่สามารถจัดหาวัคซีนชนิดเดียวกันได้เพียงพอ จึงต้องมีการพิจารณาการใช้วัคซีนแบบต่างชนิดหรือสูตรไขว้ รวมทั้งมีเหตุผลอื่นร่วมด้วย เช่น เพื่อลดอาการไม่พึงประสงค์ภายหลังการฉีดวัคซีน และเพื่อการสร้างภูมิคุ้มกันที่สูงกว่าการใช้วัคซีนชนิดเดียวกัน ปัจจุบันมีการใช้วัคซีนสูตรไขว้ในหลายประเทศ ซึ่งจะมีการพิจารณาอย่างรอบคอบ ทั้งจากวัคซีนที่จัดหาได้ การคาดการณ์การจัดหาวัคซีนที่จะเกิดขึ้น ความสามารถในการเข้าถึงวัคซีน ควบคู่กับประโยชน์และความเสี่ยงที่อาจเกิดขึ้นจากผลิตภัณฑ์ที่ใช้ ซึ่งข้อมูลการศึกษาการใช้วัคซีนต่างชนิดที่หลายประเทศรวมถึงองค์การอนามัยโลก นำมาพิจารณาเพื่อให้คำแนะนำการใช้วัคซีนสูตรไขว้ ประกอบด้วย ข้อมูลการศึกษาประสิทธิผลของวัคซีน ข้อมูลการศึกษาการสร้างภูมิคุ้มกันที่เกิดขึ้นจากการฉีดวัคซีนต่างชนิด และข้อมูลความปลอดภัยในการใช้วัคซีนที่มีอยู่ในปัจจุบัน
+                    </div>
+                    <div class="content">
+                        WHO ได้พิจารณากำหนดคำแนะนำสำหรับการใช้วัคซีนทั้งการฉีดวัคซีนสูตรไขว้ และการใช้วัคซีนต่างชนิดเป็นวัคซีนเข็มกระตุ้น
+                    </div>
+                    <div class="p-link">
+                        <a href="https://www.who.int/publications/i/item/WHO-2019-nCoV-vaccines-SAGE-recommendation-heterologous-schedules" target="_blank" class="link-out">xxxxx
+                            <i class="fa fa-external-link icon-yellow"></i></a>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="close_five_three" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -588,18 +623,16 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__four" id="five__pointer__four">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>การฉีดวัคซีนเข็มกระตุ้น (Booster Vaccine)</h1>
+                    <div class="content pb-3">
+                        การระบาดของโรคโควิด 19 เกิดขึ้นอย่างต่อเนื่องและรุนแรง และพบว่าไวรัสโคโรนา 2019 มีการกลายพันธุ์อย่างรวดเร็ว ผลการศึกษาการใช้วัคซีนโควิด 19 จากทั่วโลกพบว่า วัคซีนทุกชนิดสามารถป้องกันอาการป่วยที่รุนแรง ลดอัตราการเข้ารับการรักษาในโรงพยาบาล และลดอัตราการเสียชีวิตจากโควิด 19 ได้ แต่ไม่มีวัคซีนชนิดใดป้องกันการติดเชื้อได้ 100% และเมื่อฉีดวัคซีนไปแล้วระยะหนึ่งภูมิคุ้มกันจะลดลงตามธรรมชาติ ทำให้มีความจำเป็นที่ต้องมีการฉีดวัคซีนเข็มกระตุ้น เพื่อเพิ่มระดับภูมิคุ้มกันให้สูงมากพอที่จะรับมือกับไวรัสกลายพันธุ์ได้ สำหรับโดยคำแนะนำในการฉีดวัคซีนเข็มกระตุ้นนั้น ใช้แนวทางการพิจารณาเช่นเดียวกับการฉีดวัคซีนสูตรไขว้
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="close_five_four" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -608,18 +641,43 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__five" id="five__pointer__five">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>การฉีดวัคซีนเข็มเสริมสำหรับผู้มีภูมิคุ้มกันต่ำ
+                        (Additional doses)</h1>
+                    <div class="content">
+                        ผู้มีภูมิคุ้มกันต่ำ ได้แก่ ผู้ป่วยที่ได้รับการปลูกถ่ายอวัยวะ ผู้ป่วย HIV ที่ไม่ได้รับการรักษา ผู้มีโรคร่วมหลายโรค และผู้ป่วยกลุ่มโรคภูมิแพ้ตนเอง เนื่องจากผู้ป่วยจะสามารถสร้างภูมิคุ้มกันได้น้อยกว่าคนปกติ และผู้ป่วยบางกลุ่มที่ได้รับยากดภูมิคุ้มกัน ทำให้จะไม่สามารถสร้างภูมิคุ้มกันได้อย่างเต็มที่ หากมีการติดเชื้อโควิด 19 อาการจะหนักกว่าคนทั่วไป ข้อกังวลในการฉีดวัคซีนโควิด 19 ในกลุ่มนี้ คือ ประสิทธิผลของวัคซีนโควิด 19 ภายหลังฉีดครบโดสจะน้อยกว่าในคนปกติ อย่างไรก็ตาม ผลโดยการศึกษาการให้วัคซีนเข็มเสริม (Additional dose) ในผู้มีภูมิคุ้มกันต่ำ พบว่าผู้ป่วยมีการสร้างภูมิคุ้มกันโรคดีขึ้น WHO องค์การอนามัยโลกจึงมีคำแนะนำการฉีดวัคซีนเข็มเสริมสำหรับผู้มีภูมิคุ้มกันต่ำ โดยให้นับเป็นการฉีดวัคซีนครบโดสของการฉีดวัคซีนโควิด 19 (Primary series)
+                    </div>
+                    <div class="content">
+                        ทั้งนี้ เนื่องจากผู้ป่วยแต่ละรายมีสภาวะของโรคและการได้รับการรักษาที่ต่างกัน ระยะเวลาที่เหมาะสมสำหรับการได้รับวัคซีนเข็มเสริมจึงต่างกันด้วย จึงควรปรึกษาแพทย์ผู้ให้การรักษาเพื่อเข้ารับการฉีดวัคซีนในระยะเวลาที่เหมาะสม เพื่อให้เกิดประสิทธิผลสูงสุดในการฉีดวัคซีน
+                    </div>
+                    <div class="p-link">
+                        <a href="https://www.who.int/publications/i/item/WHO-2019-nCoV-vaccines-SAGE_recommendation-immunocompromised-persons" target="_blank" class="link-out">xxxxx
+                            <i class="fa fa-external-link icon-yellow"></i></a>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="close_five_five" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__center" id="five__pointer__center">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="p-3">
+                    <h1>การสื่อสารความเสี่ยงในภาวะวิกฤติ</h1>
+                    <div class="title_no_weight pb-3">การสื่อสารความเสี่ยงในภาวะวิกฤติของโรคติดเชื้ออุบัติใหม่ โดย สถาบันวัคซีนแห่งชาติ</div>
+                    <div class="content pb-3">
+                        ในสถานการณ์ที่มีการระบาดของโรคโควิด 19 วัคซีนเป็นหนึ่งในมาตรการสำคัญที่มีการนำมาใช้เพื่อควบคุมการระบาดใหญ่ทั่วโลก สถาบันวัคซีนแห่งชาติ ได้ร่วมมือกับองค์กรในประเทศและต่างประเทศ ทั้งภาครัฐและภาคเอกชน ในการเผยแพร่ข้อมูลข่าวสารด้านวัคซีนที่ถูกต้อง และรวดเร็ว เพื่อสร้างความเข้าใจที่ถูกต้องเหมาะสมต่อกลุ่มเป้าหมายต่างๆ ได้แก่ ประชาชน ผู้ตัดสินเชิงนโยบาย และหน่วยงานเครือข่าย ซึ่งดำเนินการในเชิงรุก (Proactive) และเชิงรับ (active) เพื่อสร้างความเข้าใจเรื่องความมั่นคงและการพึ่งพาตนเองด้านวัคซีน ความตระหนักรู้ด้านการสร้างเสริมภูมิคุ้มกันโรค (Immunization Literacy) ทั้งความเข้าใจประโยชน์และความเสี่ยงจากการใช้วัคซีนในประชากรกลุ่มเป้าหมายต่าง ๆ รวมถึงการป้องกัน ตอบโต้ (Response) การแพร่ระบาดของข้อมูลเกี่ยวกับวัคซีนที่บิดเบือนและไม่ถูกต้อง (Infodemic) โดยแบ่งการดำเนินการออกเป็น 3 ระยะ
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="close_five_center" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -628,18 +686,31 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__green" id="five__pointer__green">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>ระยะที่ 1 ก่อนมีวัคซีน</h1>
+                    <div class="title_no_weight pb-3 mt-3">ให้ความรู้ และสร้างความเข้าใจในขั้นตอนการพัฒนาวัคซีน เพื่อลดความคาดหวังหากการพัฒนาวัคซีนไม่ประสบความสำเร็จ
+                    </div>
+                    <div class="content pb-3">
+                        <li>ขั้นตอนและระยะเวลาในการพัฒนาวัคซีน</li>
+                        <li>เทคโนโลยีต่าง ๆ ของการพัฒนาวัคซีน</li>
+                        <li>ความก้าวหน้าการพัฒนาวัคซีนในระดับโลก</li>
+                        <li>ทำไมประเทศไทยต้องวิจัยพัฒนาและผลิตวัคซีนเอง</li>
+                        <li>ความก้าวหน้าของการพัฒนาวัคซีนในประเทศ</li>
+                        <li>การสร้างความเข้าใจในรูปแบบของการอนุมัติทะเบียนวัคซีนแบบต่าง ๆ</li>
+                    </div>
+                    <div class="p-link">
+                        <div class="book text-center">
+                            <a href="https://www.facebook.com/154755461366324/photos/pb.100066819803786.-2207520000../1643967499111772/?type=3" target="_blank" class="link-out-small">
+                                <img src="{{ asset('images/exhibition/book-6.png') }}" class="img-fluid" /><br />
+                                ความก้าวหน้าของการ<br />พัฒนาวัคซีนในประเทศ
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="close_five_green" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -648,18 +719,38 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__red" id="five__pointer__red">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>ระยะที่ 2 ระหว่างมีวัคซีน</h1>
+                    <div class="content_no_indent mt-3">
+                        <li>อัปเดตความก้าวหน้าของวัคซีนทั้งในประเทศและต่างประเทศ</li>
+                        <li>สร้างความเข้าใจและการรับรู้ที่ถูกต้องเกี่ยวกับการบริหารจัดการวัคซีน ลำดับการให้ก่อน-หลัง</li>
+                        <li>การสร้างความเชื่อมั่นในเรื่องความปลอดภัยของการใช้วัคซีน</li>
+                    </div>
+                    <div class="p-link">
+                        <div class="book text-center">
+                            <a href="https://www.thaihealth.or.th/Books/714/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD+%E0%B8%A7%E0%B8%B1%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B9%89%E0%B9%82%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94+(%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%99).html" target="_blank" class="link-out-small">
+                                <img src="{{ asset('images/exhibition/book-7.png') }}" class="img-fluid" /><br />
+                                คู่มือวัคซีนสู้โควิด ฉบับประชาชน
+                            </a>
+                        </div>
+                        {{--<div class="book text-center">--}}
+                            {{--<a href="https://fb.watch/bagv_63Vi_/" target="_blank" class="link-out-small">--}}
+                            {{--เสวนา THAILAND COVID-19 VACCINE<br />FORUM 2021 สถานการณ์ความก้าวหน้า<br />การพัฒนาวัคซีนไทยสู้โควิด โดยทีมประเทศไทย</a>--}}
+                        {{--</div>--}}
+                        {{--<div class="book text-center">--}}
+                            {{--<a href="https://www.facebook.com/154755461366324/photos/pb.100066819803786.-2207520000../1841059292735924/?type=3" target="_blank" class="link-out-small"><img src="{{ asset('images/exhibition/book-8.png') }}" class="img-fluid" /><br />--}}
+                                {{--อัปเดตความก้าวหน้าของวัคซีนในต่างประเทศ</a>--}}
+                        {{--</div>--}}
+                        {{--<div class="book text-center">--}}
+                            {{--<a href="https://www.youtube.com/watch?v=IrxAk_PeJ4Y" target="_blank" class="link-out-small">--}}
+                                {{--คลิป 2D motion เรื่อง “ความปลอดภัยของการใช้วัคซีนโควิด 19”</a>--}}
+                        {{--</div>--}}
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="close_five_red" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>
@@ -668,18 +759,27 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__blue" id="five__pointer__blue">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <h1>ระยะที่ 3 หลังมีวัคซีน</h1>
+                    <div class="content_no_indent mt-3">
+                        <li>สร้างความเข้าใจที่ถูกต้องเกี่ยวกับการบริหารจัดการวัคซีน ที่เปลี่ยนแปลงไปตามสถานการณ์</li>
+                        <li>ให้ข้อมูลการระบาดของไวรัสสายพันธุ์ ใหม่</li>
+                        <li>สร้างความเข้าใจที่ถูกต้องและสร้างความตระหนักถึงความสำคัญของการฉีดวัคซีนเข็มกระตุ้น เพื่อป้องกันการป่วยที่รุนแรงและเสียชีวิตจากโควิด 19 ในกลุ่มเปราะบาง</li>
+                        <li>ให้ข้อเท็จจริงเพื่อให้ประชาชนได้รับรู้ข้อมูลที่ถูกต้องในเรื่องของวัคซีนโควิด 19</li>
+                    </div>
+                    <div class="p-link">
+                        <div class="book text-center">
+                            <a href="https://www.thaihealth.or.th/Books/714/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD+%E0%B8%A7%E0%B8%B1%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B9%89%E0%B9%82%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94+(%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%99).html" target="_blank" class="link-out-small">
+                                <img src="{{ asset('images/exhibition/book-7.png') }}" class="img-fluid" /><br />
+                                คู่มือวัคซีนสู้โควิด ฉบับประชาชน
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="close_five_blue" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
             </div>

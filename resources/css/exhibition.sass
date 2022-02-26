@@ -184,7 +184,7 @@
                 width: 139px
                 height: 47px
                 right: calc(27% - 100px)
-                top: calc(55% - 100px)
+                top: calc(51% - 100px)
                 border: 8px solid rgba(255,255,255,0.5)
                 border-radius: 30px
                 &:hover
@@ -222,8 +222,8 @@
                 transition: transform .2s
                 width: 166px
                 height: 48px
-                right: calc(36% - 100px)
-                bottom: calc(40% - 100px)
+                right: calc(34% - 100px)
+                bottom: calc(36% - 100px)
                 border: 8px solid rgba(255,255,255,0.5)
                 border-radius: 30px
                 &:hover
@@ -322,6 +322,19 @@
                     transform: scale(1.1)
                     box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5)
                     border-radius: 50%
+            &__center
+                position: absolute
+                transition: transform .2s
+                width: 60px
+                height: 60px
+                left: calc(70.3% - 100px)
+                top: calc(52% - 100px)
+                border: 12px solid rgba(255,255,255,0.5)
+                border-radius: 50%
+                &:hover
+                    transform: scale(1.1)
+                    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5)
+                    border-radius: 50%
             &__green
                 position: absolute
                 transition: transform .2s
@@ -406,7 +419,9 @@
         font-size: 16px
         font-weight: 600
         @include screen('lg')
-            font-size: 20px
+            font-size: 18px
+    .title_no_weight
+        font-size: 18px
 
     .content
         font-size: 14px
