@@ -11893,233 +11893,153 @@ textarea.form-control-lg {
 }
 #main-exhibition .splide .one__pointer__one {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  left: calc(68% - 100px);
-  top: calc(83% - 100px);
   transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(54.7% - 100px);
+  top: calc(58% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .one__pointer__one {
-    width: 60px;
-    height: 60px;
-    left: calc(54.7% - 100px);
-    top: calc(58% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .one__pointer__one:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .one__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .one__pointer__two {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  right: calc(63.2% - 100px);
-  bottom: calc(75% - 100px);
   transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(44.7% - 100px);
+  bottom: calc(39.3% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .one__pointer__two {
-    width: 60px;
-    height: 60px;
-    right: calc(44.7% - 100px);
-    bottom: calc(39.3% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .one__pointer__two:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .one__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .two__pointer__one {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  right: calc(54% - 100px);
-  top: calc(50% - 100px);
   transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(37% - 100px);
+  top: calc(22% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .two__pointer__one {
-    width: 60px;
-    height: 60px;
-    right: calc(37% - 100px);
-    top: calc(22% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .two__pointer__one:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .two__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .two__pointer__two {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  left: calc(48% - 100px);
-  top: calc(70% - 100px);
   transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(28% - 100px);
+  top: calc(41% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .two__pointer__two {
-    width: 60px;
-    height: 60px;
-    left: calc(28% - 100px);
-    top: calc(41% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .two__pointer__two:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .two__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .two__pointer__three {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  right: calc(50% - 100px);
-  bottom: calc(87% - 100px);
+  width: 60px;
+  height: 60px;
+  right: calc(31% - 100px);
+  bottom: calc(50% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .two__pointer__three {
-    width: 60px;
-    height: 60px;
-    right: calc(31% - 100px);
-    bottom: calc(50% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .two__pointer__three:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .two__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .two__pointer__four {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  right: calc(75% - 100px);
-  bottom: calc(67% - 100px);
+  width: 60px;
+  height: 60px;
+  right: calc(59% - 100px);
+  bottom: calc(29% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .two__pointer__four {
-    width: 60px;
-    height: 60px;
-    right: calc(59% - 100px);
-    bottom: calc(29% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .two__pointer__four:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .two__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .three__pointer__one {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(45.5% - 100px);
-  top: calc(48% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(25.5% - 100px);
+  top: calc(19% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .three__pointer__one {
-    width: 60px;
-    height: 60px;
-    left: calc(25.5% - 100px);
-    top: calc(19% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .three__pointer__one:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .three__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .three__pointer__two {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(60.5% - 100px);
-  top: calc(50% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(40.3% - 100px);
+  top: calc(21.5% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .three__pointer__two {
-    width: 60px;
-    height: 60px;
-    left: calc(40.3% - 100px);
-    top: calc(21.5% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .three__pointer__two:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .three__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .three__pointer__three {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  right: calc(64% - 100px);
-  top: calc(69% - 100px);
+  width: 60px;
+  height: 60px;
+  right: calc(34% - 100px);
+  top: calc(30% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .three__pointer__three {
-    width: 60px;
-    height: 60px;
-    right: calc(34% - 100px);
-    top: calc(30% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .three__pointer__three:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .three__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .three__pointer__four {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  right: calc(52% - 100px);
-  top: calc(60% - 100px);
+  width: 60px;
+  height: 60px;
+  right: calc(46% - 100px);
+  top: calc(40% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .three__pointer__four {
-    width: 60px;
-    height: 60px;
-    right: calc(46% - 100px);
-    top: calc(40% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .three__pointer__four:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .three__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .four__pointer__discovery {
   position: absolute;
@@ -12250,209 +12170,137 @@ textarea.form-control-lg {
 #main-exhibition .splide .five__pointer__one {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(45% - 100px);
-  top: calc(53% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(26.5% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__one {
-    width: 60px;
-    height: 60px;
-    left: calc(26.5% - 100px);
-    top: calc(24% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__one:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__two {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(51.2% - 100px);
-  top: calc(53% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(32.8% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__two {
-    width: 60px;
-    height: 60px;
-    left: calc(32.8% - 100px);
-    top: calc(24% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__two:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__three {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(57.5% - 100px);
-  top: calc(53% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(39% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__three {
-    width: 60px;
-    height: 60px;
-    left: calc(39% - 100px);
-    top: calc(24% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__three:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__four {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(64% - 100px);
-  top: calc(53% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(45.5% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__four {
-    width: 60px;
-    height: 60px;
-    left: calc(45.5% - 100px);
-    top: calc(24% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__four:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__five {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(70.3% - 100px);
-  top: calc(53% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(51.8% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__five {
-    width: 60px;
-    height: 60px;
-    left: calc(51.8% - 100px);
-    top: calc(24% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__five:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__five:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__green {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  left: calc(76.5% - 100px);
-  top: calc(80% - 100px);
+  width: 60px;
+  height: 60px;
+  left: calc(58% - 100px);
+  top: calc(49% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__green {
-    width: 60px;
-    height: 60px;
-    left: calc(58% - 100px);
-    top: calc(49% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__green:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__green:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__red {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  right: calc(57.5% - 100px);
-  top: calc(60% - 100px);
+  width: 60px;
+  height: 60px;
+  right: calc(39% - 100px);
+  top: calc(32% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__red {
-    width: 60px;
-    height: 60px;
-    right: calc(39% - 100px);
-    top: calc(32% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__red:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__red:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__blue {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  right: calc(44.5% - 100px);
-  top: calc(78% - 100px);
+  width: 60px;
+  height: 60px;
+  right: calc(26% - 100px);
+  top: calc(48% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__blue {
-    width: 60px;
-    height: 60px;
-    right: calc(26% - 100px);
-    top: calc(48% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__blue:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__blue:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .five__pointer__car {
   position: absolute;
   transition: transform 0.2s;
-  width: 20px;
-  height: 20px;
-  right: calc(66% - 100px);
-  bottom: calc(66% - 100px);
+  width: 60px;
+  height: 60px;
+  right: calc(50% - 100px);
+  bottom: calc(28% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
-@media screen and (min-width: 992px) {
-  #main-exhibition .splide .five__pointer__car {
-    width: 60px;
-    height: 60px;
-    right: calc(50% - 100px);
-    bottom: calc(28% - 100px);
-    border: 12px solid rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-  }
-  #main-exhibition .splide .five__pointer__car:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
-    border-radius: 50%;
-  }
+#main-exhibition .splide .five__pointer__car:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 #main-exhibition .splide .splide__pagination li {
   padding: 5px;
