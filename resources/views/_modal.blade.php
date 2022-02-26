@@ -1,16 +1,9 @@
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="one__pointer__one" id="one__pointer__one">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="one__pointer__one"
-     id="one__pointer__one">
-    <div class="modal-dialog modal-lg" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
                     <h1>วัคซีน</h1>
-<<<<<<< Updated upstream
                     <div class="content">วัคซีน เป็นเครื่องมือทางสาธารณสุขที่มีความสำคัญในการป้องกันและควบคุมโรค สามารถการป่วย การตาย และความพิการของประชาชนได้จำนวนมาก</div>
                     <div class="content">
                     ในอดีตที่ผ่านมา ประเทศไทยและทั่วโลกได้นำวัคซีนมาใช้ในการกวาดล้างโรคติดเชื้อได้สำเร็จหลายชนิด เช่น โรคฝีดาษ และโรคโปลิโอที่ใกล้จะบรรลุเป้าหมายในไม่ช้า และในอนาคตอันใกล้ การนำวัคซีนที่มีประสิทธิภาพและความปลอดภัยมาใช้ในการป้องกันควบคุมโรคโควิด 19 อย่างเพียงพอ จะนำไปสู่การควบคุมการระบาดโรคโควิด 19 ได้อย่างมีประสิทธิภาพต่อไป
@@ -26,39 +19,19 @@
                 </div>
                 <div class="text-center">
                     <button type="button" id="close_one_one" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
-=======
-                    <p>วัคซีน
-                        เป็นเครื่องมือทางสาธารณสุขที่มีความสำคัญในการป้องกันและควบคุมโรค
-                        สามารถการป่วย การตาย และความพิการของประชาชนได้จำนวนมาก</p>
-                    <p>
-                        ในอดีตที่ผ่านมา
-                        ประเทศไทยและทั่วโลกได้นำวัคซีนมาใช้ในการกวาดล้างโรคติดเชื้อได้สำเร็จหลายชนิด
-                        เช่น โรคฝีดาษ และโรคโปลิโอที่ใกล้จะบรรลุเป้าหมายในไม่ช้า
-                        และในอนาคตอันใกล้
-                        การนำวัคซีนที่มีประสิทธิภาพและความปลอดภัยมาใช้ในการป้องกันควบคุมโรคโควิด
-                        19 อย่างเพียงพอ จะนำไปสู่การควบคุมการระบาดโรคโควิด 19
-                        ได้อย่างมีประสิทธิภาพต่อไป
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
-</div>
 
-<<<<<<< Updated upstream
+
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="one__pointer__two" id="one__pointer__two" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="one__pointer__two"
-     id="one__pointer__two">
-    <div class="modal-dialog modal-lg" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
                     <h1>สถานการณ์การระบาดของโรค</h1>
-<<<<<<< Updated upstream
                     <div class="content">
                     ตั้งแต่อดีตจนถึงปัจจุบันประชาชนไทยยังต้องเผชิญกับ
                     สถานการณ์การระบาดของโรคที่ป้องกันได้ด้วยวัคซีน และ
@@ -77,38 +50,17 @@
                 </div>
                 <div class="text-center">
                     <button type="button" id="close_one_two" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
-=======
-                    <p>
-                        ตั้งแต่อดีตจนถึงปัจจุบันประชาชนไทยยังต้องเผชิญกับ
-                        สถานการณ์การระบาดของโรคที่ป้องกันได้ด้วยวัคซีน และ
-                        โรคอุบัติใหม่/อุบัติซ้ำอย่างต่อเนื่อง ส่งผลให้เกิดการเจ็บป่วย
-                        และเสียชีวิตเป็นจำนวนมาก โดยเฉพาะอย่างยิ่งการระบาด
-                        ของโรคโควิด 19 ที่นับเป็นการระบาดครั้งใหญ่ทั่วโลก
-                    </p>
-                    <p>
-                        สถานการณ์ผู้ติดเชื้อ COVID-19 อัพเดทรายวัน
-                        <a href=""><i class="fa fa-external-link"></i></a>
-                    </p>
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__one" id="two__pointer__one">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="two__pointer__one"
-     id="two__pointer__one">
-    <div class="modal-dialog modal-lg" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
                     <h1>นโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ</h1>
-<<<<<<< Updated upstream
                     <div class="content">เพื่อส่งเสริมสนับสนุนให้มีการวิจัยพัฒนาและการผลิตวัคซีน เพื่อความมั่นคงและการพึ่งตนเองด้านวัคซีนคณะกรรมการวัคซีนแห่งชาติ จึงได้กำหนดให้มีนโยบายและแผนยุทธศาสตร์วัคซีนแห่งชาติ ซึ่งได้รับความเห็นชอบจากคณะรัฐมนตรี ในปี พ.ศ. 2548
                     </div>
                     <div class="content">ต่อมาได้มีการตรา พ.ร.บ.ความมั่นคงด้านวัคซีนแห่งชาติ พ.ศ. 2561 ซึ่งได้กำหนดให้มี นโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ (ฉบับที่ 1 พ.ศ. 2563-2565 และฉบับที่ 2 พ.ศ. 2566-2570)
@@ -144,36 +96,17 @@
                         <button type="button" id="close_two_one" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
                 </div>
-=======
-                    <p>เพื่อส่งเสริมสนับสนุนให้มีการวิจัยพัฒนาและการผลิตวัคซีน
-                        เพื่อความมั่นคงและการพึ่งตนเองด้านวัคซีนคณะกรรมการวัคซีนแห่งชาติ
-                        จึงได้กำหนดให้มีนโยบายและแผนยุทธศาสตร์วัคซีนแห่งชาติ
-                        ซึ่งได้รับความเห็นชอบจากคณะรัฐมนตรี ในปี พ.ศ. 2548
-                    </p>
-                    <p>ต่อมาได้มีการตรา พ.ร.บ.ความมั่นคงด้านวัคซีนแห่งชาติ พ.ศ. 2561
-                        ซึ่งได้กำหนดให้มี
-                        นโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ (ฉบับที่ 1 พ.ศ.
-                        2563-2565 และฉบับที่ 2 พ.ศ. 2566-2570)</div>
->>>>>>> Stashed changes
             </div>
         </div>
     </div>
 </div>
-</div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__two" id="two__pointer__two">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="two__pointer__two"
-     id="two__pointer__two">
-    <div class="modal-dialog modal-lg" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
                     <h1>Blueprint เพื่อการเข้าถึงวัคซีนของประชาชนไทย</h1>
-<<<<<<< Updated upstream
                     <div class="content">เพื่อให้บรรลุเป้าหมายการเข้าถึงวัคซีนโควิด 19 อย่างทันการณ์ สถาบันวัคซีนแห่งชาติและหน่วยงานเครือข่ายได้จัดทำ Blueprint เพื่อการเข้าถึงวัคซีนป้องกันโควิด 19 ของประชาชนไทย ขึ้นโดยคณะกรรมการวัคซีนแห่งชาติได้เห็นชอบ เมื่อวันที่ 22 เมษายน 2563 ซึ่งประกอบด้วย 3 แนวทาง ได้แก่<br />
                         1) การจัดหาวัคซีนโควิด 19 โดยการจองซื้อวัคซีนล่วงหน้า<br />
                         2) การสร้างความร่วมมือเพื่อรับถ่ายทอดเทคโนโลยีการผลิตวัคซีนโควิด 19 จากต่างประเทศ<br />
@@ -188,37 +121,18 @@
                     <div class="text-center mt-3">
                         <button type="button" id="close_two_two" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
-=======
-                    <p>เพื่อให้บรรลุเป้าหมายการเข้าถึงวัคซีนโควิด 19 อย่างทันการณ์
-                        สถาบันวัคซีนแห่งชาติและหน่วยงานเครือข่ายได้จัดทำ Blueprint
-                        เพื่อการเข้าถึงวัคซีนป้องกันโควิด 19 ของประชาชนไทย
-                        ขึ้นโดยคณะกรรมการวัคซีนแห่งชาติได้เห็นชอบ เมื่อวันที่ 22 เมษายน
-                        2563 ซึ่งประกอบด้วย 3 แนวทาง ได้แก่<br/>
-                        1) การจัดหาวัคซีนโควิด 19 โดยการจองซื้อวัคซีนล่วงหน้า<br/>
-                        2) การสร้างความร่วมมือเพื่อรับถ่ายทอดเทคโนโลยีการผลิตวัคซีนโควิด
-                        19 จากต่างประเทศ<br/>
-                        3) การวิจัยและพัฒนาวัคซีนโควิด 19 ภายในประเทศ
-                    </p>
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__three" id="two__pointer__three">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="two__pointer__three"
-     id="two__pointer__three">
-    <div class="modal-dialog modal-lg" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
                     <h1>Vaccine Policy Body</h1>
-<<<<<<< Updated upstream
                     <div class="title">
                         กลไกนโยบายด้านวัคซีนของประเทศไทย
                     </div>
@@ -231,34 +145,18 @@
                     <div class="text-center mt-3">
                         <button type="button" id="close_two_three" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
-=======
-                    <p>
-                        กลไกนโยบายด้านวัคซีนของประเทศไทย (แสดงเป็นแผนผัง คลิกเข้าไปจะแสดงอำนาจหน้าที่ของแต่ละคณะ) คณะกรรมการวัคซีนแห่งชาติ ที่มีนายกรัฐมนตรีเป็นประธาน
-                        และมีคณะอนุกรรมการอีก 3 คณะ ได้แก่
-                        <li>คณะอนุกรรมการสร้างเสริมภูมิคุ้มกันโรค</li>
-                        <li>คณะอนุกรรมการส่งเสริมการวิจัยพัฒนาและผลิตวัคซีน</li>
-                        <li>คณะอนุกรรมการบริหารจัดการวัคซีนเพื่อความมั่นคง</li>
-                    </p>
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="two__pointer__four" id="two__pointer__four">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="two__pointer__four"
-     id="two__pointer__four">
-    <div class="modal-dialog modal-lg" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
                     <h1>Financial support</h1>
-<<<<<<< Updated upstream
                     <div class="title">แหล่งงบประมาณ</div>
                     <div class="content">
                         เพื่อขับเคลื่อนการพัฒนาวัคซีนและให้ประชาชนเข้าถึงวัคซีนที่มีประสิทธิภาพได้อย่างทั่วถึงและทันการณ์ รัฐบาลจะให้การสนับสนุนงบประมาณเพื่อการวิจัยแลการผลิตวัคซีนในการรับมือการระบาดของโรคอุบัติใหม่/อุบัติซ้ำ รวมทั้งการพัฒนาศักยภาพด้านโครงสร้างพื้นฐานเพื่อรองรับการพัฒนาวัคซีนในอนาคตต่อไป
@@ -280,34 +178,12 @@
                     <div class="text-center">
                         <button type="button" id="close_two_four" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
-=======
-                    <div>แหล่งงบประมาณ</div>
-                    <p>
-                        เพื่อขับเคลื่อนการพัฒนาวัคซีนและให้ประชาชนเข้าถึงวัคซีนที่มีประสิทธิภาพได้อย่างทั่วถึงและทันการณ์
-                        รัฐบาลจะให้การสนับสนุนงบประมาณเพื่อการวิจัยแลการผลิตวัคซีนในการรับมือการระบาดของโรคอุบัติใหม่/อุบัติซ้ำ
-                        รวมทั้งการพัฒนาศักยภาพด้านโครงสร้างพื้นฐานเพื่อรองรับการพัฒนาวัคซีนในอนาคตต่อไป
-                    </p>
-                    <p>
-                        โดยในสถานการณ์การระบาดของโควิด 19
-                        รัฐบาลได้จัดสรรงบประมาณเพื่อการวิจัยพัฒนาและการผลิตวัคซีน
-                        รวมทั้งการพัฒนาศักยภาพด้านโครงสร้างพื้นฐาน และการจัดหาวัคซีน
-                        (การจองซื้อวัคซีนล่วงหน้า/การจัดซื้อวัคซีน) หลายพันล้านบาท
-                    </p>
-                    <p>
-                        ปัจจุบันประเทศไทยได้มีกองทุนเพื่อการส่งเสริมวิทยาศาสตร์ วิจัย
-                        และนวัตกรรม (กองทุน ววน.)
-                        และสถาบันวัคซีนแห่งชาติได้รับมอบบทบาทหน้าที่ในการเป็น
-                        หน่วยงานด้านการให้ทุนสำหรับการวิจัยพัฒนาวัคซีน (PMU)
-                        จึงนับเป็นก้าวสำคัญในการเคลื่อนการวิจัยพัฒนาและการผลิตวัคซีนของประเทศได้อย่างยั่งยืนในอนาคต
-                    </p>
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__one" id="three__pointer__one">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -325,23 +201,12 @@
                     <div class="text-center">
                         <button type="button" id="close_three_one" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="three__pointer__one"
-     id="three__pointer__one">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="p-3 pl-3">
-                    - ประชาชนทุกคนบนผืนแผ่นดินไทยสามารถเข้าถึงวัคซีนได้อย่างครอบคลุม<br/>
-                    - ประเทศมีความมั่นคงและสามารถพึ่งพาตนเองด้านวัคซีน
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__two" id="three__pointer__two">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -361,26 +226,12 @@
                     <div class="text-center">
                         <button type="button" id="close_three_two" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="three__pointer__two"
-     id="three__pointer__two">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="p-3 pl-3">
-                    -
-                    ฟื้นฟูเศรษฐกิจของประเทศจากการนำวัคซีนที่มีประสิทธิภาพในการป้องกันและควบคุมโรคมาใช้<br/>
-                    -
-                    เพิ่มโอกาสการเป็นศูนย์กลางและผู้นำด้านการพัฒนาและการผลิตวัคซีนระดับภูมิภาคได้<br/>
-                    - เพิ่มรายได้จากการส่งออกวัคซีนในระดับภูมิภาคและระดับโลก
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__three" id="three__pointer__three">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -392,17 +243,6 @@
                     </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_three_three" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
-=======
-<div class="modal fade" tabindex="-1" role="dialog"
-     aria-labelledby="three__pointer__three" id="three__pointer__three">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="p-3">
-                    <div style="text-indent: 30px;">
-                        ประเทศไทยมีวัคซีนเพียงพอในสถานการณ์ปกติและสถานการณ์ฉุกเฉิน
-                        ทั้งจากการผลิตวัคซีนได้เองในประเทศและการมีระบบจัดหาเพื่อให้ได้มาซึ่งวัคซีนที่มีประสิทธิภาพอย่างเพียงพอ
->>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
@@ -410,7 +250,6 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="three__pointer__four" id="three__pointer__four">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -430,34 +269,14 @@
                     <div class="text-center">
                         <button type="button" id="close_three_four" class="btn btn-primary btn__close" data-dismiss="modal">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i></button>
                     </div>
-
-
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="three__pointer__four"
-     id="three__pointer__four">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="p-3 pl-3">
-                    - ประชาชนปลอดภัยจากโรคที่ป้องกันได้ด้วยวัคซีน<br/>
-                    - ลดอัตราการเสียชีวิตจากโรคที่ป้องกันได้ด้วยวัคซีน<br/>
-                    - ลดภาระค่าใช้จ่ายของภาครัฐในการรักษาพยาบาล<br/>
-                    - เสริมสร้างความเข้มแข็งของระบบสุขภาพของประเทศ
->>>>>>> Stashed changes
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__discovery" id="four__pointer__discovery">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog"
-     aria-labelledby="four__pointer__discovery" id="four__pointer__discovery">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -480,14 +299,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__pd" id="four__pointer__pd">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="four__pointer__pd"
-     id="four__pointer__pd">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -518,14 +331,9 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
+
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__pp" id="four__pointer__pp">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="four__pointer__pp"
-     id="four__pointer__pp">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -556,14 +364,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__ct" id="four__pointer__ct">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="four__pointer__ct"
-     id="four__pointer__ct">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -603,14 +405,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__rl" id="four__pointer__rl">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="four__pointer__rl"
-     id="four__pointer__rl">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -643,14 +439,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__production" id="four__pointer__production">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog"
-     aria-labelledby="four__pointer__production" id="four__pointer__production">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -675,14 +465,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__lc" id="four__pointer__lc">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="four__pointer__lc"
-     id="four__pointer__lc">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -699,14 +483,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__hr" id="four__pointer__hr">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="four__pointer__hr"
-     id="four__pointer__hr">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -729,14 +507,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="four__pointer__networking" id="four__pointer__networking">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog"
-     aria-labelledby="four__pointer__networking" id="four__pointer__networking">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -755,14 +527,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__one" id="five__pointer__one">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__one"
-     id="five__pointer__one">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -781,14 +547,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__two" id="five__pointer__two">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__two"
-     id="five__pointer__two">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -807,14 +567,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__three" id="five__pointer__three">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__three"
-     id="five__pointer__three">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -833,14 +587,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__four" id="five__pointer__four">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__four"
-     id="five__pointer__four">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -859,14 +607,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__five" id="five__pointer__five">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__five"
-     id="five__pointer__five">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -885,14 +627,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__green" id="five__pointer__green">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__green"
-     id="five__pointer__green">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -911,14 +647,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__red" id="five__pointer__red">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__red"
-     id="five__pointer__red">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -937,14 +667,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__blue" id="five__pointer__blue">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__blue"
-     id="five__pointer__blue">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -963,14 +687,8 @@
     </div>
 </div>
 
-<<<<<<< Updated upstream
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__car" id="five__pointer__car">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-=======
-<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="five__pointer__car"
-     id="five__pointer__car">
-    <div class="modal-dialog" role="document">
->>>>>>> Stashed changes
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
