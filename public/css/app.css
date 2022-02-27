@@ -11340,15 +11340,23 @@ textarea.form-control-lg {
     color: #FFFFFF !important;
   }
 }
+#main-booth .booth .booth-list {
+  margin-top: 50px;
+}
 #main-booth .booth a {
   color: #243876;
   text-decoration: none;
 }
-#main-booth .booth .fadein {
+#main-booth .booth .scale-up {
   transition: transform 0.2s;
 }
-#main-booth .booth .fadein:hover {
+#main-booth .booth .scale-up:hover {
   transform: scale(1.1);
+}
+#main-booth .booth .booth-logo {
+  width: 26.66%;
+  top: -10%;
+  right: 16%;
 }
 
 #booth1, #booth2, #booth3 {

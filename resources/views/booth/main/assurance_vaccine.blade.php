@@ -29,22 +29,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="row booth">
-                @foreach($booths as $booth)
-                    <div class="col-md-6 col-sm-12 fadein">
-                        <a href="{{route('http::booth.assurance-vaccine.detail',$booth->id)}}">
-                            @if($booth->booth_image_url)
-                                <img src="{{$booth->booth_image_url}}" alt="" class="img-fluid p-4">
-                            @else
-                                <img src="{{asset('images/booth/bg_content3.png')}}" alt="" class="img-fluid p-4">
-                            @endif
-                            <p class="fw-bold text-center">
-                                {{$booth->name}}
-                            </p>
-                        </a>
-                    </div>
-                @endforeach
-            </div>
+            @include('booth.main._item')
         </div>
     </div>
 @endsection
