@@ -5,104 +5,219 @@
                 <li class="splide__slide">
                     <img src="{{asset('images/exhibition/section-1-mb.png')}}" alt="" class="img-fluid">
                     <a href="#" class="one__pointer__one">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="one__pointer__two">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
-                    </a>
-                </li>
-                <li class="splide__slide"><img
-                        src="{{asset('images/exhibition/section-2-mb.png')}}" alt="" class="img-fluid">
-                    <a href="#" class="two__pointer__one">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
-                    </a>
-                    <a href="#" class="two__pointer__two">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
-                    </a>
-                    <a href="#" class="two__pointer__three">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
-                    </a>
-                    <a href="#" class="two__pointer__four">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                 </li>
                 <li class="splide__slide">
-                    <img
-                        src="{{asset('images/exhibition/section-4-mb.png')}}" alt="" class="img-fluid">
+                    <img src="{{asset('images/exhibition/section-2-mb.png')}}" alt="" class="img-fluid">
+                    <a href="#" class="two__pointer__one">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="two__pointer__two">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="two__pointer__three">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="two__pointer__four">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="splide__slide">
+                    <img src="{{asset('images/exhibition/section-4-mb.png')}}" alt="" class="img-fluid">
                     <a href="#" class="four__pointer__discovery">
-                        <img src="{{asset('images/exhibition/discovery.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__hr">
-                        <img src="{{asset('images/exhibition/hr.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__networking">
-                        <img src="{{asset('images/exhibition/networking.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__pp">
-                        <img src="{{asset('images/exhibition/pp.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__rl">
-                        <img src="{{asset('images/exhibition/rl.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__pd">
-                        <img src="{{asset('images/exhibition/pd.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__lc">
-                        <img src="{{asset('images/exhibition/lc.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__production">
-                        <img src="{{asset('images/exhibition/production.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="four__pointer__ct">
-                        <img src="{{asset('images/exhibition/ct.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                 </li>
                 <li class="splide__slide"><img
                         src="{{asset('images/exhibition/section-5-mb.png')}}" alt="" class="img-fluid">
                     <a href="#" class="five__pointer__one">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__two">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__three">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__four">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__five">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__center">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__green">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__red">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__blue">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="five__pointer__car">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                 </li>
                 <li class="splide__slide"><img
                         src="{{asset('images/exhibition/section-3-mb.png')}}" alt="" class="img-fluid">
                     <a href="#" class="three__pointer__one">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="three__pointer__two">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="three__pointer__three">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                     <a href="#" class="three__pointer__four">
-                        <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
+                        <div class="border__opacity">
+                            <div class="img__text">
+                                <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                            </div>
+                        </div>
                     </a>
                 </li>
             </ul>
