@@ -11886,12 +11886,12 @@ textarea.form-control-lg {
   }
 }
 
-#main-exhibition .splide img {
+#main-exhibition .splide img, #main-exhibition .splide-mb img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
 }
-#main-exhibition .splide .one__pointer__one {
+#main-exhibition .splide .one__pointer__one, #main-exhibition .splide-mb .one__pointer__one {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -11901,12 +11901,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .one__pointer__one:hover {
+#main-exhibition .splide .one__pointer__one:hover, #main-exhibition .splide-mb .one__pointer__one:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .one__pointer__two {
+#main-exhibition .splide .one__pointer__two, #main-exhibition .splide-mb .one__pointer__two {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -11916,12 +11916,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .one__pointer__two:hover {
+#main-exhibition .splide .one__pointer__two:hover, #main-exhibition .splide-mb .one__pointer__two:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__one {
+#main-exhibition .splide .two__pointer__one, #main-exhibition .splide-mb .two__pointer__one {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -11931,12 +11931,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__one:hover {
+#main-exhibition .splide .two__pointer__one:hover, #main-exhibition .splide-mb .two__pointer__one:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__two {
+#main-exhibition .splide .two__pointer__two, #main-exhibition .splide-mb .two__pointer__two {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -11946,12 +11946,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__two:hover {
+#main-exhibition .splide .two__pointer__two:hover, #main-exhibition .splide-mb .two__pointer__two:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__three {
+#main-exhibition .splide .two__pointer__three, #main-exhibition .splide-mb .two__pointer__three {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -11961,12 +11961,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__three:hover {
+#main-exhibition .splide .two__pointer__three:hover, #main-exhibition .splide-mb .two__pointer__three:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__four {
+#main-exhibition .splide .two__pointer__four, #main-exhibition .splide-mb .two__pointer__four {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -11976,12 +11976,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .two__pointer__four:hover {
+#main-exhibition .splide .two__pointer__four:hover, #main-exhibition .splide-mb .two__pointer__four:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__one {
+#main-exhibition .splide .three__pointer__one, #main-exhibition .splide-mb .three__pointer__one {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -11991,12 +11991,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__one:hover {
+#main-exhibition .splide .three__pointer__one:hover, #main-exhibition .splide-mb .three__pointer__one:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__two {
+#main-exhibition .splide .three__pointer__two, #main-exhibition .splide-mb .three__pointer__two {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12006,12 +12006,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__two:hover {
+#main-exhibition .splide .three__pointer__two:hover, #main-exhibition .splide-mb .three__pointer__two:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__three {
+#main-exhibition .splide .three__pointer__three, #main-exhibition .splide-mb .three__pointer__three {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12021,12 +12021,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__three:hover {
+#main-exhibition .splide .three__pointer__three:hover, #main-exhibition .splide-mb .three__pointer__three:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__four {
+#main-exhibition .splide .three__pointer__four, #main-exhibition .splide-mb .three__pointer__four {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12036,12 +12036,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .three__pointer__four:hover {
+#main-exhibition .splide .three__pointer__four:hover, #main-exhibition .splide-mb .three__pointer__four:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .four__pointer__discovery {
+#main-exhibition .splide .four__pointer__discovery, #main-exhibition .splide-mb .four__pointer__discovery {
   position: absolute;
   transition: transform 0.2s;
   width: 93px;
@@ -12051,11 +12051,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__discovery:hover {
+#main-exhibition .splide .four__pointer__discovery:hover, #main-exhibition .splide-mb .four__pointer__discovery:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__hr {
+#main-exhibition .splide .four__pointer__hr, #main-exhibition .splide-mb .four__pointer__hr {
   position: absolute;
   transition: transform 0.2s;
   width: 196px;
@@ -12065,11 +12065,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__hr:hover {
+#main-exhibition .splide .four__pointer__hr:hover, #main-exhibition .splide-mb .four__pointer__hr:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__networking {
+#main-exhibition .splide .four__pointer__networking, #main-exhibition .splide-mb .four__pointer__networking {
   position: absolute;
   transition: transform 0.2s;
   width: 109px;
@@ -12079,11 +12079,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__networking:hover {
+#main-exhibition .splide .four__pointer__networking:hover, #main-exhibition .splide-mb .four__pointer__networking:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__pp {
+#main-exhibition .splide .four__pointer__pp, #main-exhibition .splide-mb .four__pointer__pp {
   position: absolute;
   transition: transform 0.2s;
   width: 139px;
@@ -12093,11 +12093,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__pp:hover {
+#main-exhibition .splide .four__pointer__pp:hover, #main-exhibition .splide-mb .four__pointer__pp:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__rl {
+#main-exhibition .splide .four__pointer__rl, #main-exhibition .splide-mb .four__pointer__rl {
   position: absolute;
   transition: transform 0.2s;
   width: 175px;
@@ -12107,11 +12107,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__rl:hover {
+#main-exhibition .splide .four__pointer__rl:hover, #main-exhibition .splide-mb .four__pointer__rl:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__pd {
+#main-exhibition .splide .four__pointer__pd, #main-exhibition .splide-mb .four__pointer__pd {
   position: absolute;
   transition: transform 0.2s;
   width: 160px;
@@ -12121,11 +12121,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__pd:hover {
+#main-exhibition .splide .four__pointer__pd:hover, #main-exhibition .splide-mb .four__pointer__pd:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__lc {
+#main-exhibition .splide .four__pointer__lc, #main-exhibition .splide-mb .four__pointer__lc {
   position: absolute;
   transition: transform 0.2s;
   width: 166px;
@@ -12135,11 +12135,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__lc:hover {
+#main-exhibition .splide .four__pointer__lc:hover, #main-exhibition .splide-mb .four__pointer__lc:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__production {
+#main-exhibition .splide .four__pointer__production, #main-exhibition .splide-mb .four__pointer__production {
   position: absolute;
   transition: transform 0.2s;
   width: 106px;
@@ -12149,11 +12149,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__production:hover {
+#main-exhibition .splide .four__pointer__production:hover, #main-exhibition .splide-mb .four__pointer__production:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .four__pointer__ct {
+#main-exhibition .splide .four__pointer__ct, #main-exhibition .splide-mb .four__pointer__ct {
   position: absolute;
   transition: transform 0.2s;
   width: 118px;
@@ -12163,11 +12163,11 @@ textarea.form-control-lg {
   border: 8px solid rgba(255, 255, 255, 0.5);
   border-radius: 30px;
 }
-#main-exhibition .splide .four__pointer__ct:hover {
+#main-exhibition .splide .four__pointer__ct:hover, #main-exhibition .splide-mb .four__pointer__ct:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
 }
-#main-exhibition .splide .five__pointer__one {
+#main-exhibition .splide .five__pointer__one, #main-exhibition .splide-mb .five__pointer__one {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12177,12 +12177,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__one:hover {
+#main-exhibition .splide .five__pointer__one:hover, #main-exhibition .splide-mb .five__pointer__one:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__two {
+#main-exhibition .splide .five__pointer__two, #main-exhibition .splide-mb .five__pointer__two {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12192,12 +12192,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__two:hover {
+#main-exhibition .splide .five__pointer__two:hover, #main-exhibition .splide-mb .five__pointer__two:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__three {
+#main-exhibition .splide .five__pointer__three, #main-exhibition .splide-mb .five__pointer__three {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12207,12 +12207,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__three:hover {
+#main-exhibition .splide .five__pointer__three:hover, #main-exhibition .splide-mb .five__pointer__three:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__four {
+#main-exhibition .splide .five__pointer__four, #main-exhibition .splide-mb .five__pointer__four {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12222,12 +12222,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__four:hover {
+#main-exhibition .splide .five__pointer__four:hover, #main-exhibition .splide-mb .five__pointer__four:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__five {
+#main-exhibition .splide .five__pointer__five, #main-exhibition .splide-mb .five__pointer__five {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12237,12 +12237,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__five:hover {
+#main-exhibition .splide .five__pointer__five:hover, #main-exhibition .splide-mb .five__pointer__five:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__center {
+#main-exhibition .splide .five__pointer__center, #main-exhibition .splide-mb .five__pointer__center {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12252,12 +12252,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__center:hover {
+#main-exhibition .splide .five__pointer__center:hover, #main-exhibition .splide-mb .five__pointer__center:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__green {
+#main-exhibition .splide .five__pointer__green, #main-exhibition .splide-mb .five__pointer__green {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12267,12 +12267,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__green:hover {
+#main-exhibition .splide .five__pointer__green:hover, #main-exhibition .splide-mb .five__pointer__green:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__red {
+#main-exhibition .splide .five__pointer__red, #main-exhibition .splide-mb .five__pointer__red {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12282,12 +12282,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__red:hover {
+#main-exhibition .splide .five__pointer__red:hover, #main-exhibition .splide-mb .five__pointer__red:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__blue {
+#main-exhibition .splide .five__pointer__blue, #main-exhibition .splide-mb .five__pointer__blue {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12297,12 +12297,12 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__blue:hover {
+#main-exhibition .splide .five__pointer__blue:hover, #main-exhibition .splide-mb .five__pointer__blue:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__car {
+#main-exhibition .splide .five__pointer__car, #main-exhibition .splide-mb .five__pointer__car {
   position: absolute;
   transition: transform 0.2s;
   width: 60px;
@@ -12312,25 +12312,454 @@ textarea.form-control-lg {
   border: 12px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .five__pointer__car:hover {
+#main-exhibition .splide .five__pointer__car:hover, #main-exhibition .splide-mb .five__pointer__car:hover {
   transform: scale(1.1);
   box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
   border-radius: 50%;
 }
-#main-exhibition .splide .splide__pagination li {
+#main-exhibition .splide .splide__pagination li, #main-exhibition .splide-mb .splide__pagination li {
   padding: 5px;
 }
-#main-exhibition .splide .splide__pagination li .splide__pagination__page {
+#main-exhibition .splide .splide__pagination li .splide__pagination__page, #main-exhibition .splide-mb .splide__pagination li .splide__pagination__page {
   background-image: url("../../images/exhibition/paginate-small.png");
   width: 15px;
   height: 15px;
   background-color: transparent;
 }
-#main-exhibition .splide .splide__pagination li .is-active {
+#main-exhibition .splide .splide__pagination li .is-active, #main-exhibition .splide-mb .splide__pagination li .is-active {
   background-image: url("../../images/exhibition/paginate-active-small.png");
   width: 20px;
   height: 20px;
   background-color: transparent;
+}
+#main-exhibition .splide-mb {
+  position: relative;
+}
+#main-exhibition .splide-mb .one__pointer__one {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(54.7% - 100px);
+  top: calc(58% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .one__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .one__pointer__two {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(44.7% - 100px);
+  bottom: calc(39.3% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .one__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__one {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(37% - 100px);
+  top: calc(22% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__two {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(28% - 100px);
+  top: calc(41% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__three {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(31% - 100px);
+  bottom: calc(50% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__four {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(59% - 100px);
+  bottom: calc(29% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .two__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__one {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(25.5% - 100px);
+  top: calc(19% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__two {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(40.3% - 100px);
+  top: calc(21.5% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__three {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(34% - 100px);
+  top: calc(30% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__four {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(46% - 100px);
+  top: calc(40% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .three__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .four__pointer__discovery {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 93px;
+  height: 43px;
+  left: calc(31% - 100px);
+  top: calc(25% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__discovery:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__hr {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 196px;
+  height: 43px;
+  left: calc(47% - 100px);
+  top: calc(30% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__hr:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__networking {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 109px;
+  height: 46px;
+  right: calc(50% - 100px);
+  top: calc(38% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__networking:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__pp {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 139px;
+  height: 47px;
+  right: calc(27% - 100px);
+  top: calc(51% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__pp:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__rl {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 175px;
+  height: 48px;
+  right: calc(41% - 100px);
+  top: calc(59% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__rl:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__pd {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 160px;
+  height: 42px;
+  right: calc(33% - 100px);
+  top: calc(25% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__pd:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__lc {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 166px;
+  height: 48px;
+  right: calc(34% - 100px);
+  bottom: calc(36% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__lc:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__production {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 106px;
+  height: 45px;
+  left: calc(28% - 100px);
+  bottom: calc(32% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__production:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .four__pointer__ct {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 118px;
+  height: 46px;
+  left: calc(24% - 100px);
+  bottom: calc(57% - 100px);
+  border: 8px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+#main-exhibition .splide-mb .four__pointer__ct:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+}
+#main-exhibition .splide-mb .five__pointer__one {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(26.5% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__two {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(32.8% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__three {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(39% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__four {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(45.5% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__five {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(51.8% - 100px);
+  top: calc(24% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__five:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__center {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(70.3% - 100px);
+  top: calc(52% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__center:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__green {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  left: calc(58% - 100px);
+  top: calc(49% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__green:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__red {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(39% - 100px);
+  top: calc(32% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__red:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__blue {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(26% - 100px);
+  top: calc(48% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__blue:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__car {
+  position: absolute;
+  transition: transform 0.2s;
+  width: 60px;
+  height: 60px;
+  right: calc(50% - 100px);
+  bottom: calc(28% - 100px);
+  border: 12px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+#main-exhibition .splide-mb .five__pointer__car:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 204, 2, 0.5);
+  border-radius: 50%;
 }
 
 .modal-content {

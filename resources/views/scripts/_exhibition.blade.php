@@ -1,5 +1,15 @@
 <script>
-    new Splide( '.splide', {
+    var splide = new Splide( '.splide', {
+        arrows:false,
+        perPage    : 1,
+        breakpoints: {
+            640: {
+                perPage: 1,
+            },
+        }
+    } ).mount();
+
+    var splide_mb =new Splide( '.splide-mb', {
         arrows:false,
         perPage    : 1,
         breakpoints: {

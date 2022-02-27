@@ -2,7 +2,7 @@
 
 @section('content')
     <div id="main-exhibition">
-        <div class="splide">
+        <div class="splide d-none d-lg-block">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -15,7 +15,7 @@
                         </a>
                     </li>
                     <li class="splide__slide"><img
-                                src="{{asset('images/exhibition/section-2.png')}}" alt="">
+                            src="{{asset('images/exhibition/section-2.png')}}" alt="">
                         <a href="#" class="two__pointer__one">
                             <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
                         </a>
@@ -31,7 +31,7 @@
                     </li>
                     <li class="splide__slide">
                         <img
-                                src="{{asset('images/exhibition/section-4.png')}}" alt="">
+                            src="{{asset('images/exhibition/section-4.png')}}" alt="">
                         <a href="#" class="four__pointer__discovery">
                             <img src="{{asset('images/exhibition/discovery.png')}}" class="img-fluid">
                         </a>
@@ -61,7 +61,7 @@
                         </a>
                     </li>
                     <li class="splide__slide"><img
-                                src="{{asset('images/exhibition/section-5.png')}}" alt="">
+                            src="{{asset('images/exhibition/section-5.png')}}" alt="">
                         <a href="#" class="five__pointer__one">
                             <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
                         </a>
@@ -94,7 +94,7 @@
                         </a>
                     </li>
                     <li class="splide__slide"><img
-                                src="{{asset('images/exhibition/section-3.png')}}" alt="">
+                            src="{{asset('images/exhibition/section-3.png')}}" alt="">
                         <a href="#" class="three__pointer__one">
                             <img src="{{asset('images/exhibition/pointer.png')}}" class="img-fluid">
                         </a>
@@ -111,7 +111,10 @@
                 </ul>
             </div>
         </div>
+
+        @include('_mobile_exhibition')
     </div>
+
     @include('_modal')
 @endsection
 @push('js')
