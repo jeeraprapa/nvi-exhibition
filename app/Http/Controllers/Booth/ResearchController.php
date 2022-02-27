@@ -10,7 +10,7 @@ class ResearchController extends Controller
 
     public function index ()
     {
-        $booths = Booth::Research()->get();
+        $booths = Booth::Research()->orderBy('weight','asc')->get();
 
         return view('booth.main.research',compact('booths'));
     }

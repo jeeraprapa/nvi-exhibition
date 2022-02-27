@@ -10,7 +10,7 @@ class AssuranceVaccineController extends Controller
 
     public function index ()
     {
-        $booths = Booth::AssuranceVaccine()->get();
+        $booths = Booth::AssuranceVaccine()->orderBy('weight','asc')->get();
 
         return view('booth.main.assurance_vaccine',compact('booths'));
     }

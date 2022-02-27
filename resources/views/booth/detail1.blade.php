@@ -37,13 +37,17 @@
             </div>
             <div class="container position-relative">
 
-                <img src="/images/booth/bg_content1.png" class="img-fluid" alt="img-content1">
-
-                @if($booth->logo)
-                    <div class="position-absolute box_logo_booth">
-                        <img src="{{$booth->logo_url}}" class="img-fluid logo_booth" alt="logo_booth">
-                    </div>
+                @if($booth->booth_detail_image)
+                    <img src="{{$booth->booth_detail_image_url}}" class="img-fluid" alt="img-content1">
+                @else
+                    <img src="{{asset('images/booth/bg_content1.png')}}" class="img-fluid" alt="img-content1">
                 @endif
+
+{{--                @if($booth->logo)--}}
+{{--                    <div class="position-absolute box_logo_booth">--}}
+{{--                        <img src="{{$booth->logo_url}}" class="img-fluid logo_booth" alt="logo_booth">--}}
+{{--                    </div>--}}
+{{--                @endif--}}
                 <div class="w-75 px-4 content-poster d-flex justify-content-evenly position-absolute start-50 translate-middle-x">
                     @foreach($booth->posters->take(5) as $poster)
                     <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">

@@ -30,9 +30,9 @@ class BoothController extends AdminController
         $grid->column('name', __('Name'));
         $grid->column('short', __('Short'));
         $grid->column('type', __('Type'));
+        $grid->column('weight', __('Weight'));
         $grid->column('youtube', __('Youtube'));
         $grid->column('logo', __('Logo'));
-        $grid->column('booth_image', __('Booth Image'));
         $grid->column('created_at', __('Created at'));
 
         return $grid;
@@ -52,9 +52,11 @@ class BoothController extends AdminController
         $show->field('name', __('Name'));
         $show->field('short', __('Short'));
         $show->field('type', __('Type'));
+        $show->field('weight', __('Weight'));
         $show->field('youtube', __('Youtube'));
         $show->field('logo', __('Logo'));
         $show->field('booth_image', __('Booth Image'));
+        $show->field('booth_detail_image', __('Booth Detail Image'));
         $show->field('created_at', __('Created at'));
         $show->field('updated_at', __('Updated at'));
         $show->field('deleted_at', __('Deleted at'));
@@ -79,9 +81,11 @@ class BoothController extends AdminController
                  'RESEARCH'           => 'เครือข่ายการวิจัยพัฒนา',
                  'ASSURANCE_VACCINE'  => 'เครือข่ายการประกันคุณภาพและการใช้วัคซีน'
              ]);
+        $form->number('weight', __('Weight'));
         $form->text('youtube', __('Youtube'));
         $form->image('logo', __('Logo'));
         $form->image('booth_image', __('Booth Image'));
+        $form->image('booth_detail_image', __('Booth Detail Image'));
 
         return $form;
     }

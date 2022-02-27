@@ -47,4 +47,11 @@ class Booth extends Model
             return \Storage::disk('s3')->url($this->booth_image);
         }
     }
+
+    public function getBoothDetailImageUrlAttribute ()
+    {
+        if($this->booth_detail_image) {
+            return \Storage::disk('s3')->url($this->booth_detail_image);
+        }
+    }
 }

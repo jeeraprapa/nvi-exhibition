@@ -10,7 +10,7 @@ class ProductionNetworkController extends Controller
 
     public function index ()
     {
-        $booths = Booth::productionNetwork()->get();
+        $booths = Booth::productionNetwork()->orderBy('weight','asc')->get();
 
         return view('booth.main.production_network',compact('booths'));
     }
