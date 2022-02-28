@@ -22,7 +22,7 @@
                 @if($previous)
                     <a href="{{route('http::booth.research.detail',$previous->getKey())}}" type="button" class="btn btn-link float-start" >
                         <img src="{{asset('images/booth/icon_left.png')}}" class="" alt="icon_left">
-                        <span class="text-link text-center">{{$previous->name}}</span>
+                        <span class="text-link text-center p-2"> {{$previous->name}}</span>
                     </a>
                 @endif
 
@@ -30,7 +30,7 @@
 
                 @if($next)
                     <a href="{{route('http::booth.research.detail',$next->getKey())}}" type="button" class="btn btn-link float-end" >
-                        <span class="text-link text-center">{{$next->name}}</span>
+                        <span class="text-link text-center p-2">{{$next->name}} </span>
                         <img src="{{asset('images/booth/icon_right.png')}}" class="" alt="icon_right">
                     </a>
                 @endif
