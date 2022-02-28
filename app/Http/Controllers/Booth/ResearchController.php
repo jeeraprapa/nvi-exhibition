@@ -17,7 +17,7 @@ class ResearchController extends Controller
 
     public function detail (Booth $booth)
     {
-        $next = Booth::Research()->where('id','>',$booth->id)->latest()->first();
+        $next = Booth::Research()->where('id','>',$booth->id)->first();
         $previous = Booth::Research()->where('id','<',$booth->id)->latest()->first();
 
         return view('booth.detail1',compact('booth','next','previous'));

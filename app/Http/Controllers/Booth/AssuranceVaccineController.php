@@ -17,7 +17,7 @@ class AssuranceVaccineController extends Controller
 
     public function detail (Booth $booth)
     {
-        $next = Booth::AssuranceVaccine()->where('id','>',$booth->id)->latest()->first();
+        $next = Booth::AssuranceVaccine()->where('id','>',$booth->id)->first();
         $previous = Booth::AssuranceVaccine()->where('id','<',$booth->id)->latest()->first();
 
         return view('booth.detail3',compact('booth','next','previous'));
