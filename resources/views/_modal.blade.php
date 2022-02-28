@@ -203,6 +203,9 @@
                         <li>คณะอนุกรรมการส่งเสริมการวิจัยพัฒนาและผลิตวัคซีน</li>
                         <li>คณะอนุกรรมการบริหารจัดการวัคซีนเพื่อความมั่นคง</li>
                     </div>
+                    <div class="content">
+                        <img src="{{asset('images/exhibition/chart_ceo.png')}}" alt="" class="img-fluid">
+                    </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_two_three"
                                 class="btn btn-primary btn__close" data-dismiss="modal">
@@ -318,8 +321,19 @@
                         <li>เพิ่มรายได้จากการส่งออกวัคซีนในระดับภูมิภาคและระดับโลก</li>
                     </div>
 
-                    <div class="p-link">
-                        <a href="#" target="_blank" class="link-out">AVSSR
+                    <p class="fw-bold pt-3 mb-0">AVSSR</p>
+                    <div class="p-link m-0">
+                        <a href="https://asean.org/asean-leaders-declaration-on-asean-vaccine-security-and-self-reliance-avssr/" target="_blank" class="link-out fw-normal">
+                            <small>
+                                ASEAN Leaders’ Declaration on ASEAN Vaccine Security and Self-Reliance (AVSSR)
+                            </small>
+                            <i class="fa fa-external-link icon-yellow"></i></a>
+                    </div>
+                    <div class="p-link mt-0">
+                        <a href="http://www.osirjournal.net/index.php/osir/article/view/163" target="_blank" class="link-out fw-normal">
+                            <small>
+                                Harnessing Momentum in Driving Vaccine Security and Self Reliance in Thailand through the Association of Southeast Asian Nations
+                            </small>
                             <i class="fa fa-external-link icon-yellow"></i></a>
                     </div>
                     <div class="text-center">
@@ -415,6 +429,39 @@
                         สำหรับการวิจัยพัฒนาพื้นฐานในประเทศ
                         ส่วนใหญ่จะดำเนินการโดยมหาวิทยาลัยเป็นหลัก
                     </div>
+                    <div class="text-center">
+{{--                        todo: add link logo to booth detail--}}
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/discover/logo-Kingen.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/discover/logo-baiya.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/discover/logo-VRC-CU.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/discover/logo-NPRCT-CU.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/discover/logo-MUVS.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/discover/logo-VBAC.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                    </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_discovery"
                                 class="btn btn-primary btn__close" data-dismiss="modal">
@@ -456,6 +503,29 @@
                     <div class="content pb-3">
                         ห้องปฏิบัติการสัตว์ทดลอง (Animal testing center) ที่ได้มาตรฐานสากล
                         (OECD-GLP) ในประเทศไทย
+                    </div>
+                    <div class="text-center">
+                        {{--                        todo: add link logo to booth detail--}}
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/preclinical/logo-DDC.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/preclinical/logo-BIOTEC.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/preclinical/logo-GPO-MBP.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/preclinical/logo-Pharm-MU.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
                     </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_pd"
@@ -500,6 +570,19 @@
                         ยังเป็นโครงสร้างพื้นฐานที่จำเป็นต้องมีการพัฒนา
                         โดยเฉพาะโรงงานต้นแบบที่มีห้องปฏิบัติการชีวนิรภัยระดับ 3 (BSL-3)
                         สำหรับการวิจัยพัฒนาวัคซีนโรคอุบัติใหม่ หรือโรคอุบัติซ้ำ
+                    </div>
+                    <div class="text-center">
+                        {{--                        todo: add link logo to booth detail--}}
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/small/logo-NBF.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/preclinical/logo-LAC-MU.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
                     </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_pp"
@@ -556,6 +639,14 @@
                         ศูนย์ทดสอบวัคซีน คณะเวชศาสตร์เขตร้อน มหาวิทยาลัยมหิดล
                         คณะแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย เป็นต้น
                     </div>
+                    <div class="text-center">
+                        {{--                        todo: add link logo to booth detail--}}
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/clinical/logo-QSMI.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                    </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_ct"
                                 class="btn btn-primary btn__close" data-dismiss="modal">
@@ -601,6 +692,24 @@
                         ตลอดจนการเฝ้าระวังความปลอดภัยจากการใช้วัคซีนร่วมกับกองระบาดวิทยา
                         กรมควบคุมโรค ภายหลังจากได้รับอนุมัติเพื่อจำหน่ายในท้องตลาดแล้ว
                     </div>
+                    <div class="text-center">
+                        {{--                        todo: add link logo to booth detail--}}
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/registration/logo-NCL.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/registration/logo-CVD-Mu.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/registration/logo-LAC-MU.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                    </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_rl"
                                 class="btn btn-primary btn__close" data-dismiss="modal">
@@ -636,6 +745,39 @@
                         ตามขั้นตอนการผลิตได้หลายแบบ เช่น
                         <li>การผลิตทั้งกระบวนการตั้งแต่ต้นน้ำจนถึงปลายน้ำ</li>
                         <li>การผลิตปลายน้ำ ตั้งแต่การผสมสูตรจนถึงการบรรจุ</li>
+                    </div>
+                    <div class="text-center">
+                        {{--                        todo: add link logo to booth detail--}}
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/production/logo-Bionet.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/production/logo-Kingen.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/production/logo-pharm-CU.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/production/logo-GPO-MBP.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/production/logo-NUCAR.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="#">
+                                <img src="{{asset('images/exhibition/production/logo-SPF.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
                     </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_production"
@@ -1147,7 +1289,13 @@
                         effectiveness)
                         3. เงื่อนไขในการบริหารจัดการวัคซีนให้มีประสิทธิภาพสูงสุด
                     </div>
-                    {{--                    todo: logo กรมควบคุมโรค และมี link ไปยังบูท กองโรคติดต่อทั่วไป กรมควบคุมโรค(ในนิทรรศการหน่วยงานเครือข่าย)--}}
+                    {{--                    todo:  link ไปยังบูท กองโรคติดต่อทั่วไป กรมควบคุมโรค(ในนิทรรศการหน่วยงานเครือข่าย)--}}
+                    <div class="text-center">
+                        <a href="#">
+                            <img src="{{asset('images/exhibition/logo-NCL.png')}}" alt="">
+                        </a>
+                    </div>
+
                     <div class="text-center mt-3">
                         <button type="button" class="btn btn-primary btn__close" data-bs-dismiss="modal" aria-label="Close">ปิด <i class="fa fa-times" style="font-size: 19px; font-weight: 100;"></i>
                         </button>
