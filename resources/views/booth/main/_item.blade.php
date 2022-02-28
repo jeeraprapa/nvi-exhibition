@@ -1,7 +1,7 @@
 <div class="row booth">
     @foreach($booths as $booth)
         <div class="col-md-6 col-sm-12 scale-up position-relative booth-list">
-            <a href="{{route('http::booth.production-network.detail',$booth->id)}}">
+            <a href="{{route("http::booth.$type.detail",$booth->id)}}">
                 @if($booth->booth_image_url)
                     <img src="{{$booth->booth_image_url}}" alt="" class="img-fluid p-4">
                 @else

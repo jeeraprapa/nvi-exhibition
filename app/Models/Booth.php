@@ -54,4 +54,18 @@ class Booth extends Model
             return \Storage::disk('s3')->url($this->booth_detail_image);
         }
     }
+
+    public function getYoutubeCoverUrlAttribute ()
+    {
+        if($this->youtube) {
+            preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&)?v(?:i)?=|(?:embed|v|vi|user|shorts)\/))([^\?&\"'>]+)/", $this->youtube, $matches);
+
+            return $this->youtube_image($matches[1]);
+        }
+    }
+
+    function youtube_image($id) {
+
+        return "http://img.youtube.com/vi/$id/maxresdefault.jpg";
+    }
 }

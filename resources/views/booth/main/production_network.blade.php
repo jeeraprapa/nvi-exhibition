@@ -30,7 +30,7 @@
                 </ul>
             </div>
 
-            @include('booth.main._item')
+            @include('booth.main._item',['type'=>'production-network'])
         </div>
     </div>
 @endsection

@@ -20,19 +20,19 @@
             @endphp
             <div class="content-header w-100 text-center d-flex py-3">
                 @if($previous)
-                    <button type="button" class="btn btn-link float-start" >
+                    <a href="{{route('http::booth.production-network.detail',$previous->getKey())}}" type="button" class="btn btn-link float-start" >
                         <img src="{{asset('images/booth/icon_left.png')}}" class="" alt="icon_left">
                         <span class="text-link text-center">{{$previous->name}}</span>
-                    </button>
+                    </a>
                 @endif
 
                 <div class="box-title text-center mx-auto">{{$booth->name}}</div>
 
                 @if($next)
-                    <button type="button" class="btn btn-link float-end" >
+                    <a href="{{route('http::booth.production-network.detail',$next->getKey())}}" type="button" class="btn btn-link float-end" >
                         <span class="text-link text-center">{{$next->name}}</span>
                         <img src="{{asset('images/booth/icon_right.png')}}" class="" alt="icon_right">
-                    </button>
+                    </a>
                 @endif
             </div>
             <div class="container position-relative">
@@ -43,21 +43,93 @@
                     <img src="{{asset('images/booth/bg_content2.png')}}" class="img-fluid" alt="img-content1">
                 @endif
 
-{{--                @if($booth->logo)--}}
-{{--                    <div class="position-absolute box_logo_booth">--}}
-{{--                        <img src="{{$booth->logo_url}}" class="img-fluid logo_booth" alt="logo_booth">--}}
-{{--                    </div>--}}
-{{--                @endif--}}
-                <div class="w-75 px-4 content-poster d-flex justify-content-evenly position-absolute start-50 translate-middle-x">
-                    @foreach($booth->posters->take(5) as $poster)
-                        <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
-                            <div class="position-absolute box-icon-yellow">
-                                <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                @if(empty($booth->youtube))
+                    <div class="w-75 px-4 content-poster d-flex justify-content-evenly position-absolute start-50 translate-middle-x">
+                        @foreach($booth->posters->take(5) as $poster)
+                            <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
+                                <div class="position-absolute box-icon-yellow">
+                                    <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                </div>
+                                <img src="{{$poster->file_url}}" class="img-poster img-fluid" alt="img-poster1_1">
                             </div>
-                            <img src="{{$poster->file_url}}" class="img-poster img-fluid" alt="img-poster1_1">
+                        @endforeach
+                    </div>
+                @else
+                    @if($booth->posters->count() <= 3)
+                        <div class="booth-theater position-absolute w-100 top-25 start-0 d-flex">
+                            <div class="content-poster-left content-poster d-flex justify-content-end">
+                                <div class="row w-100 mt-lg-4 justify-content-end">
+                                    @foreach($booth->posters->take(3) as $poster)
+                                        <div class="col-4 d-flex justify-content-end">
+                                            <div class="poster-list d-inline-flex">
+                                                <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
+                                                    <div class="position-absolute box-icon-yellow">
+                                                        <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                                    </div>
+                                                    <img src="{{$poster->file_url}}" class="img-poster img-poster-5 img-fluid" alt="img-poster1_1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+                            </div>
+                            <div class="content-poster-right content-poster d-flex justify-content-center align-content-end">
+                                <div class="poster position-relative">
+                                    <div class="position-absolute box-icon-video">
+                                        <img src="{{asset('images/booth/icon-video.png')}}" class="img-fluid" alt="icon_yellow">
+                                    </div>
+                                    <a href="{{$booth->youtube}}" target="_blank" class="position-relative">
+                                        <img src="{{$booth->youtube_cover_url}}" alt="" class="img-poster img-poster-5 img-fluid">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    @endforeach
-                </div>
+                    @else
+                        <div class="booth-theater position-absolute w-100 sm-top-25 top-5 start-0 d-flex">
+                            <div class="content-poster-left content-poster d-flex justify-content-end">
+                                <div class="row w-100 justify-content-end d-none d-xl-flex">
+                                    @foreach($booth->posters->take(2) as $poster)
+                                        <div class="col-4 d-flex justify-content-end">
+                                            <div class="poster-list d-inline-flex">
+                                                <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
+                                                    <div class="position-absolute box-icon-yellow">
+                                                        <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                                    </div>
+                                                    <img src="{{$poster->file_url}}" class="img-poster img-poster-5 img-fluid" alt="img-poster1_1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+                                <div class="row w-100 mt-lg-4 justify-content-end">
+                                    @foreach($booth->posters->skip(2)->take(3) as $poster)
+                                        <div class="col-4 d-flex justify-content-end">
+                                            <div class="poster-list d-inline-flex">
+                                                <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+3}})">
+                                                    <div class="position-absolute box-icon-yellow">
+                                                        <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                                    </div>
+                                                    <img src="{{$poster->file_url}}" class="img-poster img-poster-5 img-fluid" alt="img-poster1_1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+                            </div>
+                            <div class="content-poster-right content-poster d-flex justify-content-center align-content-end">
+                                <div class="poster position-relative">
+                                    <div class="position-absolute box-icon-video">
+                                        <img src="{{asset('images/booth/icon-video.png')}}" class="img-fluid" alt="icon_yellow">
+                                    </div>
+                                    <a href="{{$booth->youtube}}" target="_blank" class="position-relative">
+                                        <img src="{{$booth->youtube_cover_url}}" alt="" class="img-poster img-poster-5 img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                         </div>
+                    @endif
+                @endif
+
             </div>
         </div>
         <!-- Modal -->

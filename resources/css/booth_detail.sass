@@ -3,7 +3,10 @@
     background-repeat: no-repeat
     background-size: cover
     background-position: 100% 40%
-    button.btn-link
+    .btn.btn-link
+        display: flex
+        align-items: center
+        justify-content: center
         border: 3px solid #ffffff
         border-radius: 30px
         background-image: linear-gradient(to bottom, #e1e1e1c7, #ffffff)
@@ -46,6 +49,7 @@
                 height: 10px
 
     .content-poster
+        flex-wrap: wrap
         top: 33%
         z-index: 5
         @include screen('md')
@@ -56,6 +60,14 @@
             top: 175px
         @include screen('xl')
             top: 35%
+        &.content-poster-left
+            width: 60%
+            @include screen('xl')
+                width: 55%
+        &.content-poster-right
+            width: 40%
+            @include screen('xl')
+                width: 45%
         .img-poster
             height: 75px
             border: solid 3px #000000
@@ -70,6 +82,16 @@
                 height: 220px
             @include screen('wide')
                 height: 220px
+            &.img-poster-5
+                height: 65px
+                @include screen('md')
+                    height: 130px
+                @include screen('lg')
+                    height: 160px
+                @include screen('ipad')
+                    height: 180px
+                @include screen('wide')
+                    height: 200px
     .box-icon-yellow
         top: -7%
         right: -11%
@@ -89,6 +111,27 @@
         @include screen('xl')
             top: -7%
             right: -15%
+            width: 50px
+    .box-icon-video
+        top: -19%
+        right: -11%
+        z-index: 99
+        width: 20px
+        @include screen('md')
+            top: -10%
+            right: -8%
+            width: 34px
+        @include screen('lg')
+            top: -7%
+            right: -6%
+            width: 37px
+        @include screen('ipad')
+            top: -7%
+            right: -6%
+            width: 50px
+        @include screen('xl')
+            top: -7%
+            right: -6%
             width: 50px
     .box_logo_booth
         bottom: 10%
@@ -130,15 +173,15 @@
         width: 20px
         @include screen('md')
             top: -8%
-            left: 70%
+            right: 70%
             width: 34px
         @include screen('lg')
             top: 0
-            left: 58%
+            right: 58%
             width: 37px
         @include screen('ipad')
             top: -7%
-            left: 80%
+            right: 80%
             width: 50px
     .content-poster
         top: 20%
@@ -165,6 +208,27 @@
                 height: 250px
             @include screen('wide')
                 height: 285px
+    .box-icon-video
+        top: -19%
+        right: -11%
+        z-index: 99
+        width: 20px
+        @include screen('md')
+            top: -10%
+            right: 90%
+            width: 34px
+        @include screen('lg')
+            top: -7%
+            right: 90%
+            width: 37px
+        @include screen('ipad')
+            top: -7%
+            right: 90%
+            width: 50px
+        @include screen('xl')
+            top: -7%
+            right: 90%
+            width: 50px
 #booth3
     .box-icon-yellow
         top: -13%
@@ -207,6 +271,8 @@
                 height: 227px
             @include screen('wide')
                 height: 227px
+
+
 .poster
     cursor: pointer
 .modal-xl
@@ -218,7 +284,9 @@
         min-height: 100vh
         background: transparent
         border: none
-    button.btn-link
+    .btn.btn-link
+        display: flex
+        align-items: center
         border: 3px solid #ffffff
         border-radius: 30px
         background-image: linear-gradient(to bottom, #e1e1e1c7, #ffffff)
