@@ -101,7 +101,9 @@
                         </a>
                     </div>
                     <div class="link">
-                        <img src="{{asset('images/link.png')}}" alt="" id="link-conference">
+                        <a href="https://www.vaccineconference.in.th" target="_blank">
+                            <img src="{{asset('images/link.png')}}" alt="" id="link-conference">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -137,6 +139,7 @@
                         <li><a class="dropdown-item" href="{{route('http::video-award')}}">รางวัลประกวดคลิปวีดิโอ</a></li>
                         <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">รางวัลผู้ทําคุณประโยชน์</a></li>
                         <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
+                        <li><a class="dropdown-item" href="https://www.vaccineconference.in.th" target="_blank">LINK to Conference</a></li>
                         <li class="text-end social">
                             <a href="https://facebook.com/nvikm" target="_blank">
                                 <img src="{{asset('images/Facebook.png')}}" alt="" class="img-logo">

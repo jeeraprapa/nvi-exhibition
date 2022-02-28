@@ -14007,16 +14007,16 @@ a.nav-link:after {
 .dropdown-menu {
   min-width: 360px;
 }
-.dropdown-menu li a {
+.dropdown-menu li:not(:last-child) a {
   font-size: 14px;
   padding: 20px 40px 20px 40px;
   position: relative;
 }
-.dropdown-menu li a:hover {
+.dropdown-menu li:not(:last-child) a:hover {
   background: #AAE3FF;
   padding-left: 60px;
 }
-.dropdown-menu li a:hover:before {
+.dropdown-menu li:not(:last-child) a:hover:before {
   background: url("../images/pin.png") no-repeat;
   background-size: contain;
   content: "";
