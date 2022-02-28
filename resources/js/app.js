@@ -1,5 +1,4 @@
 require('./bootstrap');
-const {delay} = require("lodash/function");
 
 car_drive1();
 car_drive2();
