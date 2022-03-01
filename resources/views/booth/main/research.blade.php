@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-    <div id="main-booth">
+    <div id="main-booth" class="booth1">
         <div class="container-lg">
             <div class="py-4 px-lg-4 mx-auto text-center">
 
