@@ -14021,6 +14021,13 @@ a {
 #home-page #home-sm .menu nav ul.dropdown-menu li:not(:last-child) {
   padding: 10px;
 }
+@media screen and (min-width: 1024px) {
+  #home-page #home-sm .menu nav ul.dropdown-menu li:not(:last-child) {
+    display: inline-flex;
+    width: 49%;
+    max-width: 48%;
+  }
+}
 #home-page #home-sm .menu nav ul.dropdown-menu li:not(:last-child) a {
   color: white;
   border-radius: 100px;
