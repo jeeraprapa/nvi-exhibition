@@ -21,8 +21,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a>

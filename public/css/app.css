@@ -11324,23 +11324,26 @@ textarea.form-control-lg {
   #main-booth .nav {
     display: inline-flex;
     color: #243876;
+    overflow: hidden;
+    font-weight: bold;
     border-radius: 100px;
     border: 2px solid #FFFFFF;
-    overflow: hidden;
     background: #EDEDED;
-    font-weight: bold;
-    padding-right: 20px;
-    padding-left: 20px;
   }
   #main-booth .nav .nav-item:first-child {
+    padding-left: 20px;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
   }
   #main-booth .nav .nav-item:last-child {
+    padding-right: 20px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
   }
-  #main-booth .nav .nav-item .nav-link.active {
+  #main-booth .nav .nav-item.active {
+    background: #F6B32C;
+  }
+  #main-booth .nav .nav-item.active .nav-link {
     background: #F6B32C;
     color: #FFFFFF !important;
   }
