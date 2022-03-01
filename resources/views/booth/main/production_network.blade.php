@@ -2,7 +2,7 @@
 
 @section('content')
     <div id="main-booth">
-        <div class="container-lg">
+        <div class="container-lg booth2">
             <div class="py-4 px-lg-4 mx-auto text-center">
 
                 <ul class="nav justify-content-lg-center d-lg-none">
