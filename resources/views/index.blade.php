@@ -129,17 +129,33 @@
 {{--                    <button id="zoom-reset">Reset</button>--}}
                 </div>
             </div>
-            <div class="menu bg-white">
+            <div class="menu">
                 <nav>
-                    <ul class="dropdown-menu d-block w-100">
-                        <li><a class="dropdown-item" href="{{route('http::exhibition-vaccine')}}">นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
-                        <li><a class="dropdown-item" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a></li>
-                        <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a></li>
-                        <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
-                        <li><a class="dropdown-item" href="{{route('http::video-award')}}">รางวัลประกวดคลิปวีดิโอ</a></li>
-                        <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">รางวัลผู้ทําคุณประโยชน์</a></li>
-                        <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
-                        <li><a class="dropdown-item" href="https://www.vaccineconference.in.th" target="_blank">LINK to Conference</a></li>
+                    <ul class="dropdown-menu dropdown-menu-sm d-block w-100">
+                        <li><a class="dropdown-item" href="{{route('http::exhibition-vaccine')}}">
+                                <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
+                                นิทรรศการสถาบันวัคซีนแห่งชาติ</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::booth.research')}}">
+                                <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
+                                เครือข่ายการวิจัยพัฒนา</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::booth.production-network')}}">
+                                <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
+                                เครือข่ายการผลิต</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">
+                                <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
+                                เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::video-award')}}">
+                                <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
+                                รางวัลประกวดคลิปวีดิโอ</a></li>
+                        <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">
+                                <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
+                                รางวัลผู้ทําคุณประโยชน์</a></li>
+                        <li><a class="dropdown-item" href="#">
+                                <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
+                                การแสดงโปสเตอร์วิชาการ</a></li>
+                        <li><a class="dropdown-item dropdown-item-secondary" href="https://www.vaccineconference.in.th" target="_blank">
+                                LINK to Conference <img src="{{asset('images/icon_extanal_link.png')}}" alt="" class="img-sm">
+                            </a></li>
                         <li class="text-end social">
                             <a href="https://facebook.com/nvikm" target="_blank">
                                 <img src="{{asset('images/Facebook.png')}}" alt="" class="img-logo">

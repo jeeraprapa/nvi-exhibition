@@ -13999,7 +13999,6 @@ a {
   width: 30px;
 }
 #home-page #home-sm a {
-  color: #414D7A;
   text-decoration: none;
 }
 #home-page #home-sm .social img {
@@ -14015,8 +14014,28 @@ a {
   position: relative;
   width: 100%;
 }
-#home-page #home-sm .menu nav ul {
+#home-page #home-sm .menu nav ul.dropdown-menu {
+  background: #E0F5FF;
   min-width: 100%;
+}
+#home-page #home-sm .menu nav ul.dropdown-menu li:not(:last-child) {
+  padding: 10px;
+}
+#home-page #home-sm .menu nav ul.dropdown-menu li:not(:last-child) a {
+  color: white;
+  border-radius: 100px;
+  border: 2px solid #FFFFFF;
+  background: #F6B32C;
+  padding: 10px 10px 10px 15px;
+  max-width: 340px;
+  margin: 0 auto;
+  word-break: break-word;
+  white-space: normal;
+}
+#home-page #home-sm .menu nav ul.dropdown-menu li:not(:last-child) a.dropdown-item-secondary {
+  background: linear-gradient(180deg, #E9E9E9 0%, #FFFFFF 100%);
+  color: #414D7A;
+  padding: 10px 10px 10px 35px;
 }
 #home-page #home-sm .map-sm {
   overflow: scroll;
@@ -14095,19 +14114,19 @@ a.nav-link:after {
   display: none;
 }
 
-.dropdown-menu {
+.dropdown-menu:not(.dropdown-menu-sm) {
   min-width: 360px;
 }
-.dropdown-menu li:not(.social) a {
+.dropdown-menu:not(.dropdown-menu-sm) li:not(.social) a {
   font-size: 14px;
   padding: 20px 40px 20px 40px;
   position: relative;
 }
-.dropdown-menu li:not(.social) a:hover {
+.dropdown-menu:not(.dropdown-menu-sm) li:not(.social) a:hover {
   background: #AAE3FF;
   padding-left: 60px;
 }
-.dropdown-menu li:not(.social) a:hover:before {
+.dropdown-menu:not(.dropdown-menu-sm) li:not(.social) a:hover:before {
   background: url("../images/pin.png") no-repeat;
   background-size: contain;
   content: "";
@@ -14117,7 +14136,7 @@ a.nav-link:after {
   width: 20px;
   height: 20px;
 }
-.dropdown-menu .navbar-nav .dropdown-menu {
+.dropdown-menu:not(.dropdown-menu-sm) .navbar-nav .dropdown-menu {
   padding: 0;
   overflow: hidden;
   background: #FFFFFF;
