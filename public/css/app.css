@@ -11286,7 +11286,13 @@ textarea.form-control-lg {
   min-height: calc(100vh - 155px);
   background-image: url("/images/bg_booth.png");
   background-repeat: no-repeat;
-  background-position: center -10%;
+  background-position: center -20%;
+}
+@media screen and (min-width: 2000px) {
+  #main-booth {
+    background-position: 100% -80%;
+    background-size: contain;
+  }
 }
 #main-booth .container {
   padding: 0;
@@ -12531,7 +12537,12 @@ textarea.form-control-lg {
   position: absolute;
   transition: transform 0.2s;
   left: calc(26.5% - 100px);
-  top: calc(24% - 100px);
+  top: calc(27% - 100px);
+}
+@media screen and (min-width: 1600px) {
+  #main-exhibition .splide .five__pointer__one, #main-exhibition .splide-mb .five__pointer__one {
+    top: calc(24.5% - 100px);
+  }
 }
 #main-exhibition .splide .five__pointer__one .border__opacity, #main-exhibition .splide-mb .five__pointer__one .border__opacity {
   border: 8px solid rgba(255, 255, 255, 0.5);
@@ -12555,7 +12566,12 @@ textarea.form-control-lg {
   position: absolute;
   transition: transform 0.2s;
   left: calc(32.8% - 100px);
-  top: calc(24% - 100px);
+  top: calc(27% - 100px);
+}
+@media screen and (min-width: 1600px) {
+  #main-exhibition .splide .five__pointer__two, #main-exhibition .splide-mb .five__pointer__two {
+    top: calc(24.5% - 100px);
+  }
 }
 #main-exhibition .splide .five__pointer__two .border__opacity, #main-exhibition .splide-mb .five__pointer__two .border__opacity {
   border: 8px solid rgba(255, 255, 255, 0.5);
@@ -12579,7 +12595,12 @@ textarea.form-control-lg {
   position: absolute;
   transition: transform 0.2s;
   left: calc(39% - 100px);
-  top: calc(24% - 100px);
+  top: calc(27% - 100px);
+}
+@media screen and (min-width: 1600px) {
+  #main-exhibition .splide .five__pointer__three, #main-exhibition .splide-mb .five__pointer__three {
+    top: calc(24.5% - 100px);
+  }
 }
 #main-exhibition .splide .five__pointer__three .border__opacity, #main-exhibition .splide-mb .five__pointer__three .border__opacity {
   border: 8px solid rgba(255, 255, 255, 0.5);
@@ -12603,7 +12624,12 @@ textarea.form-control-lg {
   position: absolute;
   transition: transform 0.2s;
   left: calc(45.5% - 100px);
-  top: calc(24% - 100px);
+  top: calc(27% - 100px);
+}
+@media screen and (min-width: 1600px) {
+  #main-exhibition .splide .five__pointer__four, #main-exhibition .splide-mb .five__pointer__four {
+    top: calc(24.5% - 100px);
+  }
 }
 #main-exhibition .splide .five__pointer__four .border__opacity, #main-exhibition .splide-mb .five__pointer__four .border__opacity {
   border: 8px solid rgba(255, 255, 255, 0.5);
@@ -12627,7 +12653,12 @@ textarea.form-control-lg {
   position: absolute;
   transition: transform 0.2s;
   left: calc(51.8% - 100px);
-  top: calc(24% - 100px);
+  top: calc(27% - 100px);
+}
+@media screen and (min-width: 1600px) {
+  #main-exhibition .splide .five__pointer__five, #main-exhibition .splide-mb .five__pointer__five {
+    top: calc(24.5% - 100px);
+  }
 }
 #main-exhibition .splide .five__pointer__five .border__opacity, #main-exhibition .splide-mb .five__pointer__five .border__opacity {
   border: 8px solid rgba(255, 255, 255, 0.5);

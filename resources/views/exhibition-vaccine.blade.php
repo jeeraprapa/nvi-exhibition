@@ -2,7 +2,7 @@
 
 @section('content')
     <div id="main-exhibition">
-        <div class="splide d-none d-lg-block">
+        <div class="splide d-none d-xl-block">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">

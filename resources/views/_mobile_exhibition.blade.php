@@ -1,4 +1,4 @@
-<div class="d-lg-none">
+<div class="d-xl-none">
     <div class="splide-mb">
         <div class="splide__track">
             <ul class="splide__list">

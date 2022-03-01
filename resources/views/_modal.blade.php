@@ -287,7 +287,7 @@
                     <div class="p-link">
                         <a href="https://hdcservice.moph.go.th/hdc/reports/report.php?source=pformated/format1.php&cat_id=4df360514655f79f13901ef1181ca1c7&id=a5232dd45090422b9383b6896394e4b7"
                            target="_blank" class="link-out">Dashboard Vaccine Coverage
-                            (DHC) (วัคซีนโควิด 19)
+                            (HDC) (วัคซีนโควิด 19)
                             <i class="fa fa-external-link icon-yellow"></i></a>
                     </div>
                     <div class="text-center">
