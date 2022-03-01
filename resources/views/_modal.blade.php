@@ -104,24 +104,10 @@
                                target="_blank" class="link-out-small">
                                 <img src="{{ asset('images/exhibition/book-1.png') }}"
                                      class="img-fluid"/><br/>
-                                เล่มปี 2548
+                                นโยบายและแผนยุทธศาสตร์<br/>วัคซีนแห่งชาติ พ.ศ.2548
                             </a>
                         </div>
-                        <div class="book">
-                            <a href="http://nvi.go.th/index.php/blog/2021/01/ebook_2564_01_policy_strategic_plan_of_vaccine_security_63-65"
-                               target="_blank" class="link-out-small">
-                                <img src="{{ asset('images/exhibition/book-2.png') }}"
-                                     class="img-fluid"/><br/>
-                                เล่มปี 2563-2565
-                            </a>
-                        </div>
-                        <div class="book">
-                            <a href="#" target="_blank" class="link-out-small">
-                                <img src="{{ asset('images/exhibition/book-3.png') }}"
-                                     class="img-fluid"/><br/>
-                                ร่าง เล่มปี 2566-2570
-                            </a>
-                        </div>
+
                         <div class="book">
                             <a href="http://nvi.go.th/index.php/files/large/ad4b0a607855cf0"
                                target="_blank" class="link-out-small">
@@ -130,8 +116,24 @@
                                 พ.ร.บ. ความมั่นคงด้านวัคซีน<br/>แห่งชาติ พ.ศ.2561
                             </a>
                         </div>
+
+                        <div class="book">
+                            <a href="http://nvi.go.th/index.php/blog/2021/01/ebook_2564_01_policy_strategic_plan_of_vaccine_security_63-65"
+                               target="_blank" class="link-out-small">
+                                <img src="{{ asset('images/exhibition/book-2.png') }}"
+                                     class="img-fluid"/><br/>
+                                นโยบายและแผนยุทธศาสตร์<br/>ความมั่งคงด้านวัคซีนแห่งชาติ <br/>พ.ศ.2563-2565
+                            </a>
+                        </div>
+                        <div class="book">
+                            <span class="link-out-small">
+                                <img src="{{ asset('images/exhibition/book-3.png') }}"
+                                     class="img-fluid"/><br/>
+                                ร่างนโยบายและแผนยุทธศาสตร์<br/>ความมั่นคงด้านวัคซีนแห่งชาติ <br/>พ.ศ.2566-2570
+                            </span>
+                        </div>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center mt-3">
                         <button type="button" id="close_two_one"
                                 class="btn btn-primary btn__close" data-dismiss="modal">
                             ปิด <i class="fa fa-times"
@@ -840,6 +842,11 @@
                         เพื่อเสริมสร้างศักยภาพบุคลากรด้านวัคซีนของประเทศ
                         จึงมีการกำหนดยุทธศาสตร์เพื่อพัฒนาศักยภาพบุคลากรรองรับภารกิจความมั่นคงด้านวัคซีน
                         ซึ่งเป็นยุทธศาสตร์สำคัญของนโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ
+                    </div>
+                    <div class="p-link">
+                        <a href="#" target="_blank" class="link-out" data-bs-toggle="modal" data-bs-target="#two__pointer__one">
+                            นโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ <i class="fa fa-external-link icon-yellow"></i>
+                        </a>
                     </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_hr"

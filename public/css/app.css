@@ -13619,7 +13619,7 @@ textarea.form-control-lg {
   color: #FFD70F;
   font-weight: 400;
 }
-.modal-content a.link-out-small {
+.modal-content a.link-out-small, .modal-content span.link-out-small {
   font-size: 14px;
   color: #243876;
   font-weight: 700;
