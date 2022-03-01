@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @push('css')
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+    <link href="{{asset('vendor/lightgallery/dist/css/lightgallery.css')}}" rel="stylesheet">
 @endpush
 
 @section('content')
@@ -44,9 +44,9 @@
                 @endif
 
                 @if(empty($booth->youtube))
-                    <div class="w-75 px-4 content-poster d-flex justify-content-evenly position-absolute start-50 translate-middle-x">
+                    <div class="w-75 px-4 content-poster d-flex justify-content-evenly position-absolute start-50 translate-middle-x" id="lightgallery">
                         @foreach($booth->posters->take(5) as $poster)
-                            <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
+                            <div class="poster position-relative" data-src="{{$poster->file_url}}">
                                 <div class="position-absolute box-icon-yellow">
                                     <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
                                 </div>
@@ -57,18 +57,23 @@
                 @else
                     <div class="booth-theater position-absolute w-100 top-35 start-0 d-flex">
                             <div class="content-poster-left content-poster d-flex justify-content-end">
-                                <div class="row w-100 mt-lg-4 justify-content-end">
-                                    @foreach($booth->posters->take(3) as $poster)
-                                        <div class="col-4 d-flex justify-content-end">
-                                            <div class="poster-list d-inline-flex">
-                                                <div class="poster position-relative" onclick="posterSelectPage({{$loop->index+1}})">
-                                                    <div class="position-absolute box-icon-yellow">
-                                                        <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                <div class="row w-100 justify-content-end d-none d-xl-flex" id="lightgallery">
+                                    @foreach($booth->posters as $poster)
+                                        @if($loop->index <3)
+                                            <div class="col-4 d-flex justify-content-end" data-src="{{$poster->file_url}}">
+                                                <div class="poster-list d-inline-flex">
+                                                    <div class="poster position-relative">
+                                                        <div class="position-absolute box-icon-yellow">
+                                                            <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                                        </div>
+                                                        <img src="{{$poster->file_url}}" class="img-poster img-poster-5 img-fluid" alt="img-poster1_1">
                                                     </div>
-                                                    <img src="{{$poster->file_url}}" class="img-poster img-poster-5 img-fluid" alt="img-poster1_1">
                                                 </div>
                                             </div>
-                                        </div>
+                                        @else
+                                            <div class="d-none" data-src="{{$poster->file_url}}"></div>
+                                        @endif
+
                                     @endforeach
                                 </div>
                             </div>
@@ -87,52 +92,22 @@
 
             </div>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="posterModal" tabindex="-1" aria-labelledby="posterModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="splide">
-                            <div class="splide__track">
-                                <ul class="splide__list">
-                                    @foreach($booth->posters as $poster)
-                                    <li class="splide__slide text-center">
-                                        <img src="{{$poster->file_url}}" alt="0" class="h-100 w-80 img-fluid">
-                                    </li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <button type="button" class="btn btn-link mx-auto px-2" data-bs-dismiss="modal" aria-label="Close">
-                                ปิด
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     </div>
 @endsection
 
 @push('js')
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js" defer></script>
+    <script src="{{asset('vendor/lightgallery/js/lightgallery.js')}}"></script>
+    <script src="{{asset('vendor/lightgallery/js/lg-fullscreen.js')}}"></script>
+    <script src="{{asset('vendor/lightgallery/js/lg-zoom.js')}}"></script>
+    <script src="{{asset('vendor/lightgallery/js/lg-rotate.js')}}"></script>
     <script>
         $(document).ready(function (){
-            var splide = new Splide( '.splide' ,{
-                autoHeight: true,
-                height    : '80vh',
-                type: 'loop'
-            });
-            splide.mount();
+            lightGallery(document.getElementById('lightgallery'));
         });
-
-        function posterSelectPage(page){
-            setTimeout(function() {
-                $(".splide__pagination li:nth-child("+page+") button").trigger('click');
-            }, 200);
-            $('#posterModal').modal('show');
+        function showGallery(page){
+            $("#lightgallery div:nth-child(" + page+ ")").trigger("click");
         }
+
     </script>
 @endpush

@@ -66,6 +66,6 @@ class Booth extends Model
 
     function youtube_image($id) {
 
-        return "http://img.youtube.com/vi/$id/maxresdefault.jpg";
+        return "http://img.youtube.com/vi/$id/mqdefault.jpg";
     }
 }

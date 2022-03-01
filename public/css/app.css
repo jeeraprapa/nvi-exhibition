@@ -14091,3 +14091,7 @@ a.nav-link:after {
 .top-35 {
   top: 35%;
 }
+
+.lg-backdrop {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
