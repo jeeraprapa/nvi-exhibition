@@ -14,14 +14,17 @@
     <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="{{ asset('js/vendors/splide.min.js')}}"></script>
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('vendor/fakerLoader/fakeLoader.min.js')}}"></script>
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/splide/splide.min.css') }}">
     <link rel="icon" href="{{asset('images/logo2.png')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendor/fakerLoader/fakeLoader.min.css') }}">
     @stack('css')
 </head>
 <body>
+<div class="fakeLoader"></div>
 <div id="app">
     <header class="py-2 px-4 d-none d-xl-block">
         <div class="d-flex flex-column flex-md-row align-items-center">
@@ -131,6 +134,11 @@
        </div>
     </footer>
     @stack('js')
+    <script>
+        $.fakeLoader({
+            bgColor: '#aae3ff'
+        });
+    </script>
 </div>
 </body>
 </html>

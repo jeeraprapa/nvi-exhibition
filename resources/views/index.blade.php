@@ -15,12 +15,15 @@
     <script src="{{ asset('js/vendors/jquery.maphilight.js') }}" defer></script>
     <script src="{{ asset('js/vendors/jquery.rwdImageMaps.min.js') }}" defer></script>
     <script src="https://unpkg.com/@panzoom/panzoom@4.4.4/dist/panzoom.min.js"></script>
+    <script src="{{ asset('vendor/fakerLoader/fakeLoader.min.js')}}"></script>
     <!-- Styles -->
+    <link rel="stylesheet" href="{{ asset('vendor/fakerLoader/fakeLoader.min.css') }}">
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
     <link rel="icon" href="{{asset('images/logo2.png')}}">
 </head>
 <body id="home-page">
+    <div class="fakeLoader"></div>
     <div class="d-none d-xl-block" id="home-lg">
         <div class="key fixed-top text-center d-flex justify-content-center">
             <h1 class="p-3 fw-bold">
@@ -171,6 +174,11 @@
     </div>
 </body>
 <script>
+
+    $.fakeLoader({
+        bgColor: '#aae3ff'
+    });
+
     $(document).ready(function (){
         var mouseX;
         var mouseY;

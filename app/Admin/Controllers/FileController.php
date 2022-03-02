@@ -68,7 +68,7 @@ class FileController extends AdminController
     {
         $form = new Form(new File());
 
-        $form->select('booth_id', __('booth'))->options(Booth::all()->pluck('name','id'));
+        $form->select('booth_id', __('booth'))->options(Booth::all()->pluck('short','id'));
         $form->file('file', __('File'));
         $form->text('alt', __('Alt'));
 

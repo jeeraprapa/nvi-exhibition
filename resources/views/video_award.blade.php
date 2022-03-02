@@ -57,7 +57,7 @@
                         <div id="player1" class="position-absolute"></div>
                     </div>
                     <div class="row">
-                        <button type="button" class="btn btn-link w-auto mx-auto px-2" data-bs-dismiss="modal" aria-label="Close" id="closeModal">
+                        <button type="button" class="btn btn-link mx-auto px-2 justify-content-center" data-bs-dismiss="modal" aria-label="Close" id="closeModal">
                             ปิด
                         </button>
                     </div>
@@ -73,7 +73,7 @@
                         <div id="player2" class="position-absolute"></div>
                     </div>
                     <div class="row">
-                        <button type="button" class="btn btn-link w-auto mx-auto px-2" data-bs-dismiss="modal" aria-label="Close" id="closeModal">
+                        <button type="button" class="btn btn-link mx-auto px-2 justify-content-center" data-bs-dismiss="modal" aria-label="Close" id="closeModal">
                             ปิด
                         </button>
                     </div>
@@ -89,7 +89,7 @@
                         <div id="player3" class="position-absolute"></div>
                     </div>
                     <div class="row">
-                        <button type="button" class="btn btn-link w-auto mx-auto px-2" data-bs-dismiss="modal" aria-label="Close" id="closeModal">
+                        <button type="button" class="btn btn-link mx-auto px-2 justify-content-center" data-bs-dismiss="modal" aria-label="Close" id="closeModal">
                             ปิด
                         </button>
                     </div>
