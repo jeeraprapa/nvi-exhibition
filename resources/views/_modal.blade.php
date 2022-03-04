@@ -432,34 +432,38 @@
                         ส่วนใหญ่จะดำเนินการโดยมหาวิทยาลัยเป็นหลัก
                     </div>
                     <div class="text-center">
-{{--                        todo: add link logo to booth detail--}}
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',4)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-Kingen.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',5)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-baiya.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',6)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-VRC-CU.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',10)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/discover/logo-VTC-Mu.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="{{route('http::booth.research.detail',14)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-NPRCT-CU.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',19)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-MUVS.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.assurance-vaccine.detail',23)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-VBAC.png')}}" alt="" width="100px">
                             </a>
                         </div>
@@ -507,24 +511,23 @@
                         (OECD-GLP) ในประเทศไทย
                     </div>
                     <div class="text-center">
-                        {{--                        todo: add link logo to booth detail--}}
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.assurance-vaccine.detail',13)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/preclinical/logo-DDC.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',15)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/preclinical/logo-BIOTEC.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',18)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/preclinical/logo-GPO-MBP.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',20)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/preclinical/logo-Pharm-MU.png')}}" alt="" width="100px">
                             </a>
                         </div>
@@ -574,14 +577,13 @@
                         สำหรับการวิจัยพัฒนาวัคซีนโรคอุบัติใหม่ หรือโรคอุบัติซ้ำ
                     </div>
                     <div class="text-center">
-                        {{--                        todo: add link logo to booth detail--}}
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',3)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/small/logo-NBF.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',21)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/preclinical/logo-LAC-MU.png')}}" alt="" width="100px">
                             </a>
                         </div>
@@ -642,9 +644,8 @@
                         คณะแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย เป็นต้น
                     </div>
                     <div class="text-center">
-                        {{--                        todo: add link logo to booth detail--}}
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',9)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/clinical/logo-QSMI.png')}}" alt="" width="100px">
                             </a>
                         </div>
@@ -695,19 +696,18 @@
                         กรมควบคุมโรค ภายหลังจากได้รับอนุมัติเพื่อจำหน่ายในท้องตลาดแล้ว
                     </div>
                     <div class="text-center">
-                        {{--                        todo: add link logo to booth detail--}}
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.assurance-vaccine',2)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/registration/logo-NCL.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research',11)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/registration/logo-CVD-Mu.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',21)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/registration/logo-LAC-MU.png')}}" alt="" width="100px">
                             </a>
                         </div>
@@ -749,34 +749,33 @@
                         <li>การผลิตปลายน้ำ ตั้งแต่การผสมสูตรจนถึงการบรรจุ</li>
                     </div>
                     <div class="text-center">
-                        {{--                        todo: add link logo to booth detail--}}
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',1)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/production/logo-Bionet.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',4)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/production/logo-Kingen.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',7)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/production/logo-pharm-CU.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',18)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/production/logo-GPO-MBP.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.research.detail',16)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/production/logo-NUCAR.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="#">
+                            <a href="{{route('http::booth.production-network.detail',17)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/production/logo-SPF.png')}}" alt="" width="100px">
                             </a>
                         </div>
@@ -1296,9 +1295,8 @@
                         effectiveness)
                         3. เงื่อนไขในการบริหารจัดการวัคซีนให้มีประสิทธิภาพสูงสุด
                     </div>
-                    {{--                    todo:  link ไปยังบูท กองโรคติดต่อทั่วไป กรมควบคุมโรค(ในนิทรรศการหน่วยงานเครือข่าย)--}}
                     <div class="text-center">
-                        <a href="#">
+                        <a href="{{route('http::booth.assurance-vaccine',2)}}" target="_blank">
                             <img src="{{asset('images/exhibition/logo-NCL.png')}}" alt="">
                         </a>
                     </div>
