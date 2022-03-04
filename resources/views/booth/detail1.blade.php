@@ -82,8 +82,8 @@
                                     <div class="position-absolute box-icon-video">
                                         <img src="{{asset('images/booth/icon-video.png')}}" class="img-fluid" alt="icon_yellow">
                                     </div>
-                                    <a href="{{$booth->youtube}}" target="_blank" class="position-relative">
-                                        <img src="{{$booth->youtube_cover_url}}" alt="" class="img-poster img-poster-5 img-fluid">
+                                    <a class="position-relative" id="video">
+                                        <img src="{{$booth->youtube_cover_url}}" alt="" class="img-poster img-poster-5 img-fluid"  data-src="{{$booth->youtube}}">
                                     </a>
                                 </div>
                             </div>
@@ -101,9 +101,11 @@
     <script src="{{asset('vendor/lightgallery/js/lg-fullscreen.js')}}"></script>
     <script src="{{asset('vendor/lightgallery/js/lg-zoom.js')}}"></script>
     <script src="{{asset('vendor/lightgallery/js/lg-rotate.js')}}"></script>
+    <script src="{{asset('vendor/lightgallery/js/lg-video.js')}}"></script>
     <script>
         $(document).ready(function (){
-            lightGallery(document.getElementById('lightgallery'));
+            lightGallery(document.getElementById('lightgallery'))
+            lightGallery(document.getElementById('video'));
         });
         function showGallery(page){
             $("#lightgallery div:nth-child(" + page+ ")").trigger("click");
