@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.13" apprev="18080" start="node2">
+  <panorama id="node2" hideabout="1">
+    <input width="2048" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" levelingpitch="0" height="2048" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" tilt="-2.64" pan="-90.02"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="1" tilt="-90" pan="0"/>
+      <max scaletofit="1" fovfisheye="360" fov="70" fovstereographic="180" tilt="90" pan="360"/>
+    </view>
+    <userdata heading="0" copyright="" title="" datetime="" latitude="" nodeid="node2" customnodeid="" author="" source="" info="" tags="Program Files|1" description="" comment="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" borderalpha="1" border="1" background="1" textcolor="0x000000" textalpha="1" backgroundalpha="1" enabled="1" height="20" bordercolor="0x000000" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" title="" target="_top" skinid="ht_url" url="images/Poster 2_ดร.สุมนมาลย์ -2.jpg" tilt="2.5" description="" pan="-52.1"/>
+      <hotspot id="Point01" title="" target="_blank" skinid="ht_url" url="images/Poster 3_นางสาวปุณณดา -2.jpg" tilt="1.2" description="" pan="297.48"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 5_นายมาโนช โพธิ์สูง-2.jpg" tilt="0.14" description="" pan="-73.34"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 6_นายเตชิษฎ์_page-0001.jpg" tilt="-0.14" description="" pan="-83.68"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/poster 7_นางณัฐธนัญ -2.jpg" tilt="0.48" description="" pan="-103.38"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 8_นางสาววาทินี -2.jpg" tilt="1.44" description="" pan="-113.46"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 9_พญ.นภาพร_page-0001 (1).jpg" tilt="2.06" description="" pan="-124.18"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 11_นางสาวสุภาภรณ์ ชุมพล-1.jpg" tilt="3.05" description="" pan="-134.52"/>
+      <hotspot id="Point01" title="" target="_blank" skinid="ht_image" url="images/Poster 1_นายกิตติพันธ์.png" tilt="3.4" description="" pan="-41.67"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 13_ผศ.ดร.ปรีย์กมล_page-0001.jpg" tilt="3.41" description="" pan="-143.75"/>
+      <polyhotspot id="Poly01" borderalpha="1" title="" target="-90.0/-3.0/70.0" url="{node3}" backgroundalpha="0.25098" bordercolor="0x0000ff" description="" backgroundcolor="0x0000ff">
+        <polystring>-271.1/-13.18|-279.4/-14.67|-280.52/-30.6|-268.19/-31.13|-260.27/-30.47|-257.28/-24.85|-257.11/-19.5|-265.3/-12.52|-270.3/-13.31|-270.03/-13.05|-271.51/-13.17</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image id="Element01" width="648" fov="8.920" stretch="1.000" clickmode="0" rotz="0.000" rotx="0.000" roty="0.000" tilt="3.260" height="618" handcursor="0" pan="-90.730">
+        <source url="media/nvi10-logo.png"/>
+      </image>
+      <image id="Element02" width="826" fov="9.060" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="-31.000" tilt="-5.520" height="1620" handcursor="0" pan="-48.980">
+        <source url="media/Poster 2_ดร.สุมนมาลย์ -2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="7.560" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="-23.000" tilt="-4.950" height="1620" handcursor="0" pan="-59.880">
+        <source url="media/Poster 3_นางสาวปุณณดา -2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="6.880" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="-23.000" tilt="-5.120" height="1620" handcursor="0" pan="-70.750">
+        <source url="media/Poster 5_นายมาโนช โพธิ์สูง-2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="6.540" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="0.000" tilt="-5.200" height="1620" handcursor="0" pan="-81.160">
+        <source url="media/Poster 6_นายเตชิษฎ์_page-0001.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="6.540" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="13.000" tilt="-4.880" height="1620" handcursor="0" pan="-100.510">
+        <source url="media/poster 7_นางณัฐธนัญ -2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="7.050" stretch="1.000" clickmode="1" rotz="-1.000" rotx="0.000" roty="19.000" tilt="-4.550" height="1620" handcursor="0" pan="-110.710">
+        <source url="media/Poster 8_นางสาววาทินี -2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="7.560" stretch="1.000" clickmode="1" rotz="-1.000" rotx="0.000" roty="19.000" tilt="-4.820" height="1620" handcursor="0" pan="-120.960">
+        <source url="media/Poster 9_พญ.นภาพร_page-0001 (1).jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="8.240" stretch="1.000" clickmode="1" rotz="-1.000" rotx="0.000" roty="21.000" tilt="-5.050" height="1620" handcursor="0" pan="-131.550">
+        <source url="media/Poster 11_นางสาวสุภาภรณ์ ชุมพล-1.jpg"/>
+      </image>
+      <image id="Element02" width="826" fov="9.910" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="-31.000" tilt="-5.740" height="1620" handcursor="0" pan="-37.990">
+        <source url="media/Poster 1_นายกิตติพันธ์.png"/>
+      </image>
+      <image id="Element03" width="826" fov="9.090" stretch="1.000" clickmode="1" rotz="1.000" rotx="0.000" roty="32.000" tilt="-5.270" height="1620" handcursor="0" pan="-140.700">
+        <source url="media/Poster 13_ผศ.ดร.ปรีย์กมล_page-0001.jpg"/>
+      </image>
+      <image id="Element01" width="648" fov="20.370" stretch="1.000" clickmode="0" rotz="0.000" rotx="40.000" roty="0.000" tilt="-37.550" height="618" handcursor="0" pan="-90.450">
+        <source url="media/nvi10-logo - Copy.png"/>
+      </image>
+      <image id="Element04" width="512" fov="19.972" stretch="1.000" clickmode="0" rotz="180.000" rotx="0.000" roty="0.000" tilt="-22.790" height="512" handcursor="0" pan="-269.740">
+        <source url="media/down-arrow.png"/>
+      </image>
+    </media>
+    <transition zoomfov="60" zoomout="3" zoomoutpause="1" type="cut" zoomspeed="2" softedge="0" blendtime="0" zoomafterinfov="90" enabled="1" zoomin="0" zoomafteroutfov="45" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control contextfullscreen="1" lockedkeyboard="0" rubberband="0" contextprojections="0" hideabout="1" lockedmouse="0" invertwheel="0" speedwheel="1" simulatemass="1" lockedwheel="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input width="2048" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" levelingpitch="0" height="2048" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
+      <level width="2048" predecode="0" height="2048" preload="0"/>
+      <level width="1024" predecode="0" height="1024" preload="0"/>
+      <level width="512" predecode="0" height="512" preload="0"/>
+      <level width="256" predecode="1" height="256" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" tilt="-2.96" pan="-89.97"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fovfisheye="360" fov="70" fovstereographic="180" tilt="90" pan="360"/>
+    </view>
+    <userdata heading="0" copyright="" title="" datetime="" latitude="" nodeid="node3" customnodeid="" author="" source="" info="" tags="Program Files|2" description="" comment="" longitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" borderalpha="1" border="1" background="1" textcolor="0x000000" textalpha="1" backgroundalpha="1" enabled="1" height="20" bordercolor="0x000000" borderradius="1" wordwrap="1" backgroundcolor="0xffffff"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" borderalpha="1" title="" target="-90.0/-2.6/70.0" url="{node2}" backgroundalpha="0.25098" bordercolor="0x0000ff" description="" backgroundcolor="0x0000ff">
+        <polystring>-257.96/-18|-266.7/-10.99|-280.16/-17.46|-281.5/-27.47|-280.28/-31.09|-263.11/-35|-251.16/-26.1</polystring>
+      </polyhotspot>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 16_นางสาวพัชรภร-2.jpg" tilt="0.76" description="" pan="-82.23"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 15_ประวีณา สัชชาพงษ์_page-0001.jpg" tilt="1.22" description="" pan="-70.7"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/80X120 EPI e-course training V.1.0 21-2-65(1) (2).jpg" tilt="1.86" description="" pan="-60.69"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 17_ภัทรภร2.jpg" tilt="0.95" description="" pan="-103.2"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 18_ภญ.กัลยา -2.jpg" tilt="1.26" description="" pan="-113.68"/>
+      <hotspot id="Point01" title="" target="" skinid="ht_url" url="images/Poster 19_ภญ.ภัทรียา-2.jpg" tilt="2.04" description="" pan="-124.26"/>
+    </hotspots>
+    <media>
+      <image id="Element01" width="648" fov="8.924" stretch="1.000" clickmode="0" rotz="0.000" rotx="0.000" roty="0.000" tilt="3.260" height="618" handcursor="0" pan="-90.300">
+        <source url="media/nvi10-logo.png"/>
+      </image>
+      <image id="Element02" width="512" fov="24.780" stretch="1.000" clickmode="0" rotz="180.000" rotx="0.000" roty="0.000" tilt="-23.220" height="512" handcursor="0" pan="-269.290">
+        <source url="media/down-arrow.png"/>
+      </image>
+      <image id="Element01" width="648" fov="30.000" stretch="1.000" clickmode="0" rotz="0.000" rotx="40.000" roty="0.000" tilt="-33.000" height="618" handcursor="0" pan="-90.030">
+        <source url="media/nvi10-logo gray.png"/>
+      </image>
+      <image id="Element03" width="826" fov="7.560" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="-23.000" tilt="-4.880" height="1620" handcursor="0" pan="-58.120">
+        <source url="media/80X120 EPI e-course training V.1.0 21-2-65(1) (2).jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="6.880" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="-23.000" tilt="-4.420" height="1620" handcursor="0" pan="-68.320">
+        <source url="media/Poster 15_ประวีณา สัชชาพงษ์_page-0001.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="6.540" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="0.000" tilt="-4.980" height="1620" handcursor="0" pan="-79.070">
+        <source url="media/Poster 16_นางสาวพัชรภร-2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="6.540" stretch="1.000" clickmode="1" rotz="0.000" rotx="0.000" roty="13.000" tilt="-4.600" height="1620" handcursor="0" pan="-99.580">
+        <source url="media/Poster 17_ภัทรภร2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="7.050" stretch="1.000" clickmode="1" rotz="-1.000" rotx="0.000" roty="19.000" tilt="-5.070" height="1620" handcursor="0" pan="-110.730">
+        <source url="media/Poster 18_ภญ.กัลยา -2.jpg"/>
+      </image>
+      <image id="Element03" width="826" fov="7.560" stretch="1.000" clickmode="1" rotz="-1.000" rotx="0.000" roty="19.000" tilt="-4.980" height="1620" handcursor="0" pan="-121.950">
+        <source url="media/Poster 19_ภญ.ภัทรียา-2.jpg"/>
+        <source url="media/Poster 19_ภญ.ภัทรียา-2.jpg"/>
+      </image>
+    </media>
+    <transition zoomfov="60" zoomout="3" zoomoutpause="1" type="cut" zoomspeed="2" softedge="0" blendtime="0" zoomafterinfov="90" enabled="1" zoomin="0" zoomafteroutfov="45" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control contextfullscreen="1" lockedkeyboard="0" rubberband="0" contextprojections="0" hideabout="1" lockedmouse="0" invertwheel="0" speedwheel="1" simulatemass="1" lockedwheel="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0"/>
+  </panorama>
+  <masternode>
+    <userdata heading="0" copyright="" title="" datetime="" latitude="" nodeid="master" customnodeid="" author="" source="" info="" tags="" description="" comment="" longitude=""/>
+  </masternode>
+</tour>

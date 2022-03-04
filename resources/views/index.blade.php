@@ -52,7 +52,7 @@
                                 <li><a class="dropdown-item" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a></li>
                                 <li><a class="dropdown-item" href="{{route('http::video-award')}}">รางวัลประกวดคลิปวีดิโอ</a></li>
                                 <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">รางวัลผู้ทําคุณประโยชน์</a></li>
-                                <li><a class="dropdown-item" href="#">การแสดงโปสเตอร์วิชาการ</a></li>
+                                <li><a class="dropdown-item" href="{{asset('nvi-360/index.html')}}">การแสดงโปสเตอร์วิชาการ</a></li>
                             </ul>
                         </li>
                     </ul>
