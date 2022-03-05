@@ -76,7 +76,7 @@
                 <area class="area-map" data-name="เครือข่ายการประกันคุณภาพและการใช้วัคซีน" data-link="{{route('http::booth.assurance-vaccine')}}" onclick="" href="javascript:void(0)" coords="1200,950,1411,750,1920,1076,1440,1076" shape="poly">
 
 
-                <area class="area-map" data-name="การแสดงโปสเตอร์วิชาการ" data-link="https://asa.or.th/products/" onclick="" href="javascript:void(0)" coords="210,669,409,543,421,539,436,540,681,685,700,680,723,683,739,701,744,724,747,744,746,774,663,823,597,861,534,897,499,896,398,827,293,759,258,735,217,706,204,692" shape="poly">
+                <area class="area-map" data-name="การแสดงโปสเตอร์วิชาการ" data-link="{{asset('nvi-360/index.html')}}" onclick="" href="javascript:void(0)" coords="210,669,409,543,421,539,436,540,681,685,700,680,723,683,739,701,744,724,747,744,746,774,663,823,597,861,534,897,499,896,398,827,293,759,258,735,217,706,204,692" shape="poly">
 
                 <area class="area-map" data-name="รางวัลผู้ทําคุณประโยชน์" data-link="{{route('http::hall-of-fame')}}" onclick="" href="javascript:void(0)" coords="487,1074,468,1057,475,1042,511,1007,506,952,507,920,523,893,557,859,580,848,608,859,622,856,639,845,653,808,686,785,723,782,745,806,745,835,760,865,764,912,779,919,796,929,819,945,839,958,854,963,862,975,850,990,770,1044,724,1076,682,1075,658,1076" shape="poly">
 
@@ -153,7 +153,7 @@
                         <li><a class="dropdown-item" href="{{route('http::hall-of-fame')}}">
                                 <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
                                 รางวัลผู้ทําคุณประโยชน์</a></li>
-                        <li><a class="dropdown-item" href="#">
+                        <li><a class="dropdown-item" href="{{asset('nvi-360/index.html')}}">
                                 <img src="{{asset('images/icon_white.png')}}" alt="" class="img-sm">
                                 การแสดงโปสเตอร์วิชาการ</a></li>
                         <li><a class="dropdown-item dropdown-item-secondary" href="https://www.vaccineconference.in.th" target="_blank">
