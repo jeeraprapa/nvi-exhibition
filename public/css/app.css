@@ -13976,13 +13976,12 @@ a {
 }
 #home-page #home-lg #map {
   width: 100%;
+  height: auto;
 }
 #home-page #home-lg #map .maphilighted {
+  background-position-x: 100% !important;
+  background-position-y: 100% !important;
   background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 #home-page #home-sm header {
   height: 70px;

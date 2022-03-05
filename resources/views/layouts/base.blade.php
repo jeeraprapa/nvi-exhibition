@@ -6,6 +6,11 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="og:url"                content="http:{{request()->url()}}" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10" />
+    <meta property="og:description"        content="The 10 th National Vaccine Conference Virtual Exhibition" />
+    <meta property="og:image"              content="{{asset('images/logo2.png')}}" />
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 

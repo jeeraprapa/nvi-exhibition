@@ -1,18 +1,36 @@
 require('./bootstrap');
 
-car_drive1();
-car_drive2();
-car_drive3();
-// train_drive1();
-train_drive2();
+var w_screen = screen.width;
+console.log(w_screen);
 
-function car_drive1(){
+window.addEventListener('resize', reportWindowSize);
+
+car_drive1(w_screen);
+car_drive2(w_screen);
+car_drive3(w_screen);
+// train_drive1();
+train_drive2(w_screen);
+
+function car_drive1(w_screen){
     var count = 0;
     var left = 0;
     setInterval(() => {
         if(count <= 28){
-            motion_left = 62+left;
-            motion_top = 42+left;
+
+            if(w_screen >= 1920){
+                motion_left = 62+left;
+                motion_top = 35+left;
+            }else if(w_screen >= 1536){
+                motion_left = 62+left;
+                motion_top = 33+left;
+            }else if(w_screen >= 1440){
+                motion_left = 62+left;
+                motion_top = 47+left;
+            }else{
+                motion_left = 62+left;
+                motion_top = 32+left;
+            }
+
             $('#car-1').fadeIn();
             if(count >= 14 ){
                 // $('#car-1').css('top',motion_top+'%');
@@ -39,13 +57,26 @@ function car_drive1(){
     }, 260);
 }
 
-function car_drive2(){
+function car_drive2(w_screen){
     var count = 0;
     var right = 0;
     setInterval(() => {
         if(count <= 26){
-            motion_right = 17+right;
-            motion_top = 61+right;
+
+            if(w_screen >= 1920){
+                motion_right = 18+right;
+                motion_top = 55+right;
+            }else if(w_screen >= 1536){
+                motion_right = 17+right;
+                motion_top = 53+right;
+            }else if(w_screen >= 1440){
+                motion_right = 19+right;
+                motion_top = 61+right;
+            }else{
+                motion_right = 17+right;
+                motion_top = 51+right;
+            }
+
             if(count >= 13 ){
                 $('#car-2').fadeOut(260);
                 count = 0;
@@ -68,13 +99,26 @@ function car_drive2(){
     }, 300);
 }
 
-function car_drive3(){
+function car_drive3(w_screen){
     var count = 0;
     var right = 0;
     setInterval(() => {
         if(count <= 26){
-            motion_right = 45+right;
-            motion_top = 40+right;
+
+            if(w_screen >= 1920){
+                motion_right = 45+right;
+                motion_top = 40+right;
+            }else if(w_screen >= 1536){
+                motion_right = 45+right;
+                motion_top = 34+right;
+            }else if(w_screen >= 1440){
+                motion_right = 45+right;
+                motion_top = 40+right;
+            }else{
+                motion_right = 42+right;
+                motion_top = 28+right;
+            }
+
             if(count >= 13 ){
                 $('#car-3').fadeOut(260);
                 count = 0;
@@ -96,8 +140,6 @@ function car_drive3(){
         count++;
     }, 250);
 }
-
-
 
 function train_drive1(){
     var count = 0;
@@ -128,13 +170,25 @@ function train_drive1(){
     }, 200);
 }
 
-function train_drive2(){
+function train_drive2(w_screen){
     var count = 0;
     var right = 0;
     setInterval(() => {
         if(count <= 18){
-            motion_right = 68+right;
-            motion_top = 18+right;
+            if(w_screen >= 1920){
+                motion_right = 65+right;
+                motion_top = 10+right;
+            }else if(w_screen >= 1536){
+                motion_right = 68+right;
+                motion_top = 10+right;
+            }else if(w_screen >= 1440){
+                motion_right = 71+right;
+                motion_top = 22+right;
+            }else{
+                motion_right = 71+right;
+                motion_top = 14+right;
+            }
+
             if(count >= 9 ){
                 $('#train-2').fadeOut(100);
                 count = 0;
@@ -155,6 +209,10 @@ function train_drive2(){
         }
         count++;
     }, 200);
+}
+
+function reportWindowSize(){
+    location.reload();
 }
 
 

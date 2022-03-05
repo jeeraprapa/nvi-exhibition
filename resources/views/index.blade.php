@@ -6,6 +6,11 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta property="og:url"                content="{{request()->url()}}" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10" />
+    <meta property="og:description"        content="The 10 th National Vaccine Conference Virtual Exhibition" />
+    <meta property="og:image"              content="{{asset('images/logo2.png')}}" />
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
@@ -62,7 +67,7 @@
         </header>
         <div id="map" class="d-none d-xl-block" tabindex="0">
             <div>
-                <img src="{{asset('images/main.png')}}" alt="" class="w-100 vh-100 img-fluid map maphilighted" id="main-map" usemap="#area-map">
+                <img src="{{asset('images/full-home.png')}}" alt="" class="w-100 vh-100 map maphilighted" id="main-map" usemap="#area-map">
             </div>
 
             <map name="area-map">
@@ -180,6 +185,10 @@
     });
 
     $(document).ready(function (){
+        setTimeout(function(){
+            window.location.reload(1);
+        }, 900000);
+
         var mouseX;
         var mouseY;
         $(document).mousemove(function (e) {
@@ -192,7 +201,7 @@
         $('img[usemap]').rwdImageMaps();
 
         $('img[usemap]').maphilight({
-            fillOpacity: 0.15,
+            fillOpacity: 0.1,
             stroke: false,
             fillColor: 'E8ECF2FF'
         });
