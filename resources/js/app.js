@@ -107,7 +107,7 @@ function car_drive3(w_screen){
 
             if(w_screen >= 1920){
                 motion_right = 45+right;
-                motion_top = 40+right;
+                motion_top = 36+right;
             }else if(w_screen >= 1536){
                 motion_right = 45+right;
                 motion_top = 34+right;
