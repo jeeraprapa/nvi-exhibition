@@ -12876,8 +12876,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 500px) {
   #main-exhibition .splide-mb .one__pointer__one {
-    left: 56%;
-    top: 56%;
+    left: 46%;
+    top: 38%;
   }
 }
 #main-exhibition .splide-mb .one__pointer__one .border__opacity {
@@ -12901,8 +12901,8 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 500px) {
   #main-exhibition .splide-mb .one__pointer__two {
-    right: 48%;
-    bottom: 57%;
+    right: 38%;
+    bottom: 39%;
   }
 }
 #main-exhibition .splide-mb .one__pointer__two .border__opacity {
