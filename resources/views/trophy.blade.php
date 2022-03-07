@@ -11,12 +11,12 @@
         </h1>
         <div id="trophy" class="w-100 position-relative d-flex justify-content-lg-end mt-4">
             <div class="row" id="video1">
-                <div class="col-12 col-md-6 p-4" data-src="https://youtu.be/c585MV9if4o">
+                <div class="col-12 col-md-6 p-4" data-src="https://www.youtube.com/watch?v=zM6oviXZXNg">
                     <a href="https://www.youtube.com/watch?v=Hx594mjTcpk">
                         <img src="{{asset('images/award1.png')}}" alt="" class="img-fluid">
                     </a>
                 </div>
-                <div class="col-12 col-md-6 p-4" data-src="https://youtu.be/oiuyRQBEqGU">
+                <div class="col-12 col-md-6 p-4" data-src="https://youtu.be/Lmc2shWNP-w">
                     <a href="https://youtu.be/oiuyRQBEqGU">
                         <img src="{{asset('images/award2.png')}}" alt="" class="img-fluid">
                     </a>
