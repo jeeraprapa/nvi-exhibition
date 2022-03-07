@@ -432,16 +432,7 @@
                         ส่วนใหญ่จะดำเนินการโดยมหาวิทยาลัยเป็นหลัก
                     </div>
                     <div class="text-center">
-                        <div class="book">
-                            <a href="{{route('http::booth.production-network.detail',4)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-Kingen.png')}}" alt="" width="100px">
-                            </a>
-                        </div>
-                        <div class="book">
-                            <a href="{{route('http::booth.production-network.detail',5)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-baiya.png')}}" alt="" width="100px">
-                            </a>
-                        </div>
+
                         <div class="book">
                             <a href="{{route('http::booth.research.detail',6)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-VRC-CU.png')}}" alt="" width="100px">
@@ -453,18 +444,18 @@
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research.detail',14)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-NPRCT-CU.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.research.detail',15)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/discover/logo-BIOTEC.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research.detail',19)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-MUVS.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.research.detail',7)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/discover/logo-Pharm-MU.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.assurance-vaccine.detail',23)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-VBAC.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.research.detail',24)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/discover/logo-CRI.png')}}" alt="" width="100px">
                             </a>
                         </div>
                     </div>
@@ -512,23 +503,23 @@
                     </div>
                     <div class="text-center">
                         <div class="book">
-                            <a href="{{route('http::booth.assurance-vaccine.detail',13)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/preclinical/logo-DDC.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.research.detail',14)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/preclinical/logo-NPRCT-CU.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research.detail',15)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/preclinical/logo-BIOTEC.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.research.detail',16)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/preclinical/logo-NUCAR.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.production-network.detail',18)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/preclinical/logo-GPO-MBP.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.research.detail',19)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/preclinical/logo-MUVS.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research.detail',20)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/preclinical/logo-Pharm-MU.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.research.detail',21)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/preclinical/logo-LAC-MU.png')}}" alt="" width="100px">
                             </a>
                         </div>
                     </div>
@@ -583,8 +574,8 @@
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research.detail',21)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/preclinical/logo-LAC-MU.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.production-network.detail',4)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/small/logo-Kingen.png')}}" alt="" width="100px">
                             </a>
                         </div>
                     </div>
@@ -649,6 +640,16 @@
                                 <img src="{{asset('images/exhibition/clinical/logo-QSMI.png')}}" alt="" width="100px">
                             </a>
                         </div>
+                        <div class="book">
+                            <a href="{{route('http::booth.research.detail',6)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/clinical/logo-VRC-CU.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="{{route('http::booth.research.detail',10)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/clinical/logo-VTC-Mu.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
                     </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_four_ct"
@@ -697,18 +698,18 @@
                     </div>
                     <div class="text-center">
                         <div class="book">
-                            <a href="{{route('http::booth.assurance-vaccine',2)}}" target="_blank">
+                            <a href="{{route('http::booth.assurance-vaccine.detail',12)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/registration/logo-NRA.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="{{route('http::booth.assurance-vaccine.detail',2)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/registration/logo-NCL.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research',11)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/registration/logo-CVD-Mu.png')}}" alt="" width="100px">
-                            </a>
-                        </div>
-                        <div class="book">
-                            <a href="{{route('http::booth.research.detail',21)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/registration/logo-LAC-MU.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.assurance-vaccine.detail',23)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/registration/logo-VBAC.png')}}" alt="" width="100px">
                             </a>
                         </div>
                     </div>
@@ -750,18 +751,28 @@
                     </div>
                     <div class="text-center">
                         <div class="book">
+                            <a href="{{route('http::booth.production-network.detail',5)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/production/logo-baiya.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
                             <a href="{{route('http::booth.production-network.detail',1)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/production/logo-Bionet.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.production-network.detail',4)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/production/logo-Kingen.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.production-network.detail',8)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/production/logo-GPO.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.production-network.detail',7)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/production/logo-pharm-CU.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.production-network.detail',9)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/production/logo-QSMI.png')}}" alt="" width="100px">
+                            </a>
+                        </div>
+                        <div class="book">
+                            <a href="{{route('http::booth.production-network.detail',17)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/production/logo-SPF.png')}}" alt="" width="100px">
                             </a>
                         </div>
                         <div class="book">
@@ -770,13 +781,8 @@
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research.detail',16)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/production/logo-NUCAR.png')}}" alt="" width="100px">
-                            </a>
-                        </div>
-                        <div class="book">
-                            <a href="{{route('http::booth.production-network.detail',17)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/production/logo-SPF.png')}}" alt="" width="100px">
+                            <a href="{{route('http::booth.production-network.detail',22)}}" target="_blank">
+                                <img src="{{asset('images/exhibition/production/logo-BVB.png')}}" alt="" width="100px">
                             </a>
                         </div>
                     </div>
@@ -1257,7 +1263,7 @@
 </div>
 
 <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="five__pointer__car" id="five__pointer__car">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="p-3">
@@ -1296,8 +1302,8 @@
                         3. เงื่อนไขในการบริหารจัดการวัคซีนให้มีประสิทธิภาพสูงสุด
                     </div>
                     <div class="text-center">
-                        <a href="{{route('http::booth.assurance-vaccine',2)}}" target="_blank">
-                            <img src="{{asset('images/exhibition/logo-NCL.png')}}" alt="">
+                        <a href="{{route('http::booth.assurance-vaccine.detail',2)}}" target="_blank">
+                            <img src="{{asset('images/exhibition/logo-DDC.png')}}" alt="" width="100px">
                         </a>
                     </div>
 
