@@ -19,13 +19,13 @@
 
                 <ul class="nav justify-content-lg-center d-none d-lg-inline-flex">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
+                        <a class="nav-link" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="{{route('http::booth.production-network')}}">เครือข่ายการผลิต</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('http::booth.research')}}">เครือข่ายการวิจัยพัฒนา</a>
+                        <a class="nav-link" href="{{route('http::booth.assurance-vaccine')}}">เครือข่ายการประกันคุณภาพและการใช้วัคซีน</a>
                     </li>
                 </ul>
             </div>
