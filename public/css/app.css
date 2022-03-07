@@ -12064,6 +12064,16 @@ textarea.form-control-lg {
   }
 }
 
+#main-exhibition .splide .splide__arrow, #main-exhibition .splide-mb .splide__arrow {
+  background: linear-gradient(180deg, #E9E9E9 0%, #FFFFFF 100%);
+  border: 2px solid #FFFFFF;
+}
+#main-exhibition .splide .splide__arrow svg, #main-exhibition .splide-mb .splide__arrow svg {
+  fill: #FFCB02;
+}
+#main-exhibition .splide .splide__arrow[disabled] svg, #main-exhibition .splide-mb .splide__arrow[disabled] svg {
+  fill: #E9E9E9;
+}
 #main-exhibition .splide img, #main-exhibition .splide-mb img {
   -o-object-fit: cover;
      object-fit: cover;

@@ -1,6 +1,6 @@
 <script>
     var splide = new Splide( '.splide', {
-        arrows:false,
+        arrows: true,
         perPage    : 1,
         breakpoints: {
             640: {
@@ -10,7 +10,7 @@
     } ).mount();
 
     var splide_mb =new Splide( '.splide-mb', {
-        arrows:false,
+        arrows: true,
         perPage    : 1,
         breakpoints: {
             640: {
