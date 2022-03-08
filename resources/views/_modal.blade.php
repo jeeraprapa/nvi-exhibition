@@ -168,7 +168,7 @@
                         <p><strong>คลิปสรุปบทเรียนฯ (short version)</strong></p>
                         <div class="text-center">
                             <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/BcjD5U1aJsU"
+                                    src="https://www.youtube.com/embed/07zNYYJPvHw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
