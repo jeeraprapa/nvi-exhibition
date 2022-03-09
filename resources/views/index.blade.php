@@ -29,6 +29,7 @@
 </head>
 <body id="home-page">
     <div class="fakeLoader"></div>
+
     <div class="d-none d-xl-block" id="home-lg">
         <div class="key fixed-top text-center d-flex justify-content-center">
             <h1 class="p-3 fw-bold">
@@ -126,9 +127,17 @@
             </a>
         </header>
         <main class="position-relative">
+            <div class="key w-100 position-absolute text-center d-flex justify-content-center">
+                <h1 class="p-3 fw-bold">
+                    นิทรรศการประชุมวิชาการวัคซีนแห่งชาติ ครั้งที่ 10
+                    <span>
+                        The 10 <sup>th</sup> National Vaccine Conference Virtual Exhibition
+                    </span>
+                </h1>
+            </div>
             <div class="map-sm">
                 <div class="map-size" id="panzoom-element">
-                    <img src="{{asset('images/main.png')}}" alt="" class="w-100 img-fluid">
+                    <img src="{{asset('images/full-home.png')}}" alt="" class="w-100 img-fluid">
                 </div>
 
                 <div class="control position-absolute">

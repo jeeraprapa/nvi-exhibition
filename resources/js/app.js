@@ -181,7 +181,7 @@ function train_drive2(w_screen){
                 motion_right = 68+right;
                 motion_top = 10+right;
             }else if(w_screen >= 1440){
-                motion_right = 71+right;
+                motion_right = 74+right;
                 motion_top = 22+right;
             }else{
                 motion_right = 71+right;
