@@ -22,8 +22,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="splide__slide"><img
-                            src="{{asset('images/exhibition/section-2.png')}}" alt="">
+                    <li class="splide__slide">
+                        <img src="{{asset('images/exhibition/section-2.png')}}" alt="">
                         <a href="#" class="two__pointer__one">
                             <div class="border__opacity">
                                 <div class="img__text">
@@ -128,8 +128,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="splide__slide"><img
-                            src="{{asset('images/exhibition/section-5.png')}}" alt="">
+                    <li class="splide__slide">
+                        <img src="{{asset('images/exhibition/section-5.png')}}" alt="">
                         <a href="#" class="five__pointer__one">
                             <div class="border__opacity">
                                 <div class="img__text">
@@ -241,6 +241,7 @@
 
     @include('_modal')
 @endsection
+
 @push('js')
     @include('scripts._exhibition')
 @endpush

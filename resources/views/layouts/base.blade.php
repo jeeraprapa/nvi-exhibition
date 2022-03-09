@@ -30,6 +30,11 @@
 </head>
 <body>
 <div class="fakeLoader"></div>
+<script>
+    $.fakeLoader({
+        bgColor: '#aae3ff'
+    });
+</script>
 <div id="app">
     <header class="py-2 px-4 d-none d-xl-block">
         <div class="d-flex flex-column flex-md-row align-items-center">
@@ -129,21 +134,16 @@
                </div>
                <div class="social col-sm-12 col-md-6 text-end">
                    <a href="https://facebook.com/nvikm" target="_blank">
-                       <img src="{{asset('images/Facebook.png')}}" alt="">
+                       <img src="{{asset('images/Facebook.png')}}" alt="" class="img-fluid">
                    </a>
                    <a href="https://www.youtube.com/channel/UCJricRxCPa5SShe5pf8VZZA" target="_blank">
-                        <img src="{{asset('images/YouTube.png')}}" alt="">
+                        <img src="{{asset('images/YouTube.png')}}" alt="" class="img-fluid">
                    </a>
                </div>
            </div>
        </div>
     </footer>
     @stack('js')
-    <script>
-        $.fakeLoader({
-            bgColor: '#aae3ff'
-        });
-    </script>
 </div>
 </body>
 </html>

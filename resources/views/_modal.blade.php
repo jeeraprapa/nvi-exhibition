@@ -40,6 +40,7 @@
         </div>
     </div>
 </div>
+
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="one__pointer__two"
      id="one__pointer__two" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
@@ -652,7 +653,6 @@
         </div>
     </div>
 </div>
-</div>
 
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="four__pointer__rl"
      id="four__pointer__rl">
@@ -1041,7 +1041,7 @@
                         ให้ความรู้และสร้างความเข้าใจในขั้นตอนการพัฒนาวัคซีน
                         เพื่อลดความคาดหวังหากการพัฒนาวัคซีนไม่ประสบความสำเร็จ
                     </div>
-                    <div class="content pb-3">
+                    <ul class="content pb-3">
                         <li>ขั้นตอนและระยะเวลาในการพัฒนาวัคซีน</li>
                         <li>เทคโนโลยีต่าง ๆ ของการพัฒนาวัคซีน</li>
                         <li>ความก้าวหน้าการพัฒนาวัคซีนในระดับโลก</li>
@@ -1051,7 +1051,7 @@
                             การสร้างความเข้าใจในรูปแบบของการอนุมัติทะเบียนวัคซีนแบบต่าง
                             ๆ
                         </li>
-                    </div>
+                    </ul>
                     <div class="p-link">
                         <div class="book text-center">
                             <a href="https://www.facebook.com/154755461366324/photos/pb.100066819803786.-2207520000../1643967499111772/?type=3" target="_blank" class="link-out-small">
@@ -1078,7 +1078,7 @@
                     <h1>
                         การสื่อสารระยะที่ 2 - ระหว่างมีวัคซีน
                     </h1>
-                    <div class="content_no_indent mt-3">
+                    <ul class="content_no_indent mt-3">
                         <li>
                             อัปเดตความก้าวหน้าของวัคซีนทั้งในประเทศและต่างประเทศ
                         </li>
@@ -1089,7 +1089,7 @@
                         <li>
                             การสร้างความเชื่อมั่นในเรื่องความปลอดภัยของการใช้วัคซีน
                         </li>
-                    </div>
+                    </ul>
                     <div class="text-center pt-4 d-sm-block d-lg-flex justify-content-center align-items-end">
                         <div class="book">
                             <a href="https://www.thaihealth.or.th/Books/714/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD+%E0%B8%A7%E0%B8%B1%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B9%89%E0%B9%82%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94+(%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%99).html" target="_blank" class="link-out-small">
@@ -1137,7 +1137,7 @@
                     <h1>
                         การสื่อสารระยะที่ 3 - หลังมีวัคซีน
                     </h1>
-                    <div class="content_no_indent mt-3">
+                    <ul class="content_no_indent mt-3">
                         <li>
                             สร้างความเข้าใจที่ถูกต้องเกี่ยวกับการบริหารจัดการวัคซีน
                             ที่เปลี่ยนแปลงไปตามสถานการณ์
@@ -1152,7 +1152,7 @@
                             ให้ข้อเท็จจริงเพื่อให้ประชาชนได้รับรู้ข้อมูลที่ถูกต้องในเรื่องของวัคซีนโควิด
                             19
                         </li>
-                    </div>
+                    </ul>
 
                     <div class="p-link">
                         <p class="fw-bold">คลิป 2D motion</p>
