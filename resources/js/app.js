@@ -1,9 +1,8 @@
 require('./bootstrap');
 
 var w_screen = screen.width;
-console.log(w_screen);
 
-window.addEventListener('resize', reportWindowSize);
+// window.addEventListener('resize', reportWindowSize);
 
 car_drive1(w_screen);
 car_drive2(w_screen);
@@ -211,8 +210,8 @@ function train_drive2(w_screen){
     }, 200);
 }
 
-function reportWindowSize(){
-    location.reload();
-}
+// function reportWindowSize(){
+//     location.reload();
+// }
 
 

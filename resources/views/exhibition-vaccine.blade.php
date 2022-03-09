@@ -206,28 +206,28 @@
                         <a href="#" class="three__pointer__one">
                             <div class="border__opacity">
                                 <div class="img__text">
-                                    <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                                    <img src="{{asset('images/exhibition/pointer-small.png')}}"> Outcome
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="three__pointer__two">
                             <div class="border__opacity">
                                 <div class="img__text">
-                                    <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                                    <img src="{{asset('images/exhibition/pointer-small.png')}}"> Indirect Impact
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="three__pointer__three">
                             <div class="border__opacity">
                                 <div class="img__text">
-                                    <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                                    <img src="{{asset('images/exhibition/pointer-small.png')}}"> Output
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="three__pointer__four">
                             <div class="border__opacity">
                                 <div class="img__text">
-                                    <img src="{{asset('images/exhibition/pointer-small.png')}}">
+                                    <img src="{{asset('images/exhibition/pointer-small.png')}}"> Direct Impact
                                 </div>
                             </div>
                         </a>
