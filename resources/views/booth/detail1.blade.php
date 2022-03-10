@@ -67,7 +67,7 @@
                                 </div>
                             </div>
                             <div class="content-poster-left content-poster d-flex justify-content-end">
-                                <div class="row w-100 justify-content-end" id="lightgallery">
+                                <div class="row w-100 justify-content-end d-none d-xl-flex" id="lightgallery">
                                     @foreach($booth->posters as $poster)
                                         @if($loop->index < 2)
                                             <div class="col-4 d-flex justify-content-end" data-src="{{$poster->file_url}}">
