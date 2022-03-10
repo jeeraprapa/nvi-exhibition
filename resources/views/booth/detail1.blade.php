@@ -36,7 +36,6 @@
                 @endif
             </div>
             <div class="container position-relative">
-
                 @if($booth->booth_detail_image)
                     <img src="{{$booth->booth_detail_image_url}}" class="img-fluid" alt="img-content1">
                 @else
@@ -55,11 +54,22 @@
                         @endforeach
                     </div>
                 @else
-                    <div class="booth-theater position-absolute w-100 top-35 start-0 d-flex">
+                    @if($booth->posters->count() > 3)
+                        <div class="booth-theater position-absolute w-75 top-35 start-50 translate-middle d-flex">
+                            <div class="content-poster-right content-poster d-flex justify-content-center align-content-end">
+                                <div class="poster position-relative">
+                                    <div class="position-absolute box-icon-video">
+                                        <img src="{{asset('images/booth/icon-video.png')}}" class="img-fluid" alt="icon_yellow">
+                                    </div>
+                                    <a class="position-relative" id="video">
+                                        <img src="{{$booth->youtube_cover_url}}" alt="" class="img-poster img-poster-5 img-fluid"  data-src="{{$booth->youtube}}">
+                                    </a>
+                                </div>
+                            </div>
                             <div class="content-poster-left content-poster d-flex justify-content-end">
                                 <div class="row w-100 justify-content-end" id="lightgallery">
                                     @foreach($booth->posters as $poster)
-                                        @if($loop->index <3)
+                                        @if($loop->index < 2)
                                             <div class="col-4 d-flex justify-content-end" data-src="{{$poster->file_url}}">
                                                 <div class="poster-list d-inline-flex">
                                                     <div class="poster position-relative">
@@ -73,10 +83,26 @@
                                         @else
                                             <div class="d-none" data-src="{{$poster->file_url}}"></div>
                                         @endif
-
+                                    @endforeach
+                                </div>
+                                <div class="row w-100 mt-lg-4 justify-content-end">
+                                    @foreach($booth->posters->skip(2)->take(3) as $poster)
+                                        <div class="col-4 d-flex justify-content-end" onclick="showGallery({{$loop->index+3}})">
+                                            <div class="poster-list d-inline-flex">
+                                                <div class="poster position-relative">
+                                                    <div class="position-absolute box-icon-yellow">
+                                                        <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                                    </div>
+                                                    <img src="{{$poster->file_url}}" class="img-poster img-poster-5 img-fluid" alt="img-poster1_1">
+                                                </div>
+                                            </div>
+                                        </div>
                                     @endforeach
                                 </div>
                             </div>
+                        </div>
+                    @else
+                        <div class="booth-theater position-absolute w-100 top-35 start-0 d-flex">
                             <div class="content-poster-right content-poster d-flex justify-content-center align-content-end">
                                 <div class="poster position-relative">
                                     <div class="position-absolute box-icon-video">
@@ -87,7 +113,24 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="content-poster-left content-poster d-flex justify-content-start">
+                                <div class="row w-100 justify-content-start" id="lightgallery">
+                                    @foreach($booth->posters as $poster)
+                                        <div class="col-4 d-flex justify-content-start" data-src="{{$poster->file_url}}">
+                                            <div class="poster-list d-inline-flex">
+                                                <div class="poster position-relative">
+                                                    <div class="position-absolute box-icon-yellow">
+                                                        <img src="{{asset('images/booth/icon_yellow.png')}}" class="img-fluid" alt="icon_yellow">
+                                                    </div>
+                                                    <img src="{{$poster->file_url}}" class="img-poster img-poster-5 img-fluid" alt="img-poster1_1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+                            </div>
                         </div>
+                    @endif
                 @endif
 
             </div>
