@@ -11539,7 +11539,7 @@ textarea.form-control-lg {
 }
 #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
   height: 75px;
-  border: solid 3px #000000;
+  border: solid 1px #000000;
   border-radius: 10px;
 }
 @media screen and (min-width: 768px) {
@@ -11549,6 +11549,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 992px) {
   #booth1 .content-poster .img-poster, #booth2 .content-poster .img-poster, #booth3 .content-poster .img-poster {
+    border: solid 3px #000000;
     height: 175px;
   }
 }
@@ -11773,6 +11774,22 @@ textarea.form-control-lg {
 @media screen and (min-width: 1440px) {
   #booth2 .content-poster {
     top: 155px;
+  }
+}
+#booth2 .content-poster.content-poster-left {
+  width: 50%;
+}
+@media screen and (min-width: 1200px) {
+  #booth2 .content-poster.content-poster-left {
+    width: 55%;
+  }
+}
+#booth2 .content-poster.content-poster-right {
+  width: 50%;
+}
+@media screen and (min-width: 1200px) {
+  #booth2 .content-poster.content-poster-right {
+    width: 45%;
   }
 }
 #booth2 .content-poster .img-poster {
