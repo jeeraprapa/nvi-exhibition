@@ -14258,6 +14258,18 @@ a.nav-link:after {
   }
 }
 
+.sm-top-50 {
+  top: 50%;
+}
+.sm-top-50.top-35 {
+  top: 50%;
+}
+@media screen and (min-width: 1200px) {
+  .sm-top-50.top-35 {
+    top: 35%;
+  }
+}
+
 .top-25 {
   top: 25%;
 }

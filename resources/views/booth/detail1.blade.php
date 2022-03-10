@@ -55,7 +55,7 @@
                     </div>
                 @else
                     @if($booth->posters->count() > 3)
-                        <div class="booth-theater position-absolute w-75 top-35 start-50 translate-middle d-flex">
+                        <div class="booth-theater position-absolute w-75 sm-top-50 top-35 start-50 translate-middle d-flex">
                             <div class="content-poster-right content-poster d-flex justify-content-center align-content-end">
                                 <div class="poster position-relative">
                                     <div class="position-absolute box-icon-video">
