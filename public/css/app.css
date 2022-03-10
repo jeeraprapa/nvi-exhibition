@@ -13929,6 +13929,15 @@ a {
     overflow: hidden;
   }
 }
+#home-page #home-lg video {
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  bottom: 0;
+  z-index: -1;
+  right: 0;
+  margin-top: -90px;
+}
 @media screen and (min-width: 1600px) {
   #home-page #home-lg .container {
     max-width: 1550px;
@@ -14106,12 +14115,18 @@ a {
   color: #414D7A;
   padding: 10px 10px 10px 35px;
 }
-#home-page #home-sm .map-sm {
-  overflow: scroll;
+#home-page #home-sm .map-sm video {
+  width: 100%;
+  max-height: 100%;
+  padding-top: 25px;
 }
-#home-page #home-sm .map-sm .control {
-  top: 10%;
-  left: 10px;
+@media screen and (min-width: 500px) {
+  #home-page #home-sm .map-sm video {
+    padding-top: 0px;
+  }
+}
+#home-page #home-sm .menu {
+  margin-top: -10px;
 }
 #home-page #tooltip {
   position: fixed;

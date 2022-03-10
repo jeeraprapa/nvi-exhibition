@@ -68,9 +68,11 @@
         </header>
         <div id="map" class="d-none d-xl-block" tabindex="0">
             <div>
-                <img src="{{asset('images/full-home.png')}}" alt="" class="w-100 vh-100 map maphilighted" id="main-map" usemap="#area-map">
+                <img src="{{asset('images/full-home.png')}}" alt="" class="w-100 vh-100 map maphilighted opacity-0" id="main-map" usemap="#area-map">
             </div>
-
+            <video autoplay muted loop preload="auto">
+                <source src="{{asset('images/main.mp4')}}" type="video/mp4">
+            </video>
             <map name="area-map">
                 <area class="area-map" data-name="รางวัลประกวดคลิปวีดิโอ" data-link="{{route('http::video-award')}}" href="javascript:void(0)" coords="721,594,487,465,482,433,526,345,568,296,621,252,697,228,757,255,795,287,835,352,934,417,934,460,923,488,837,530" shape="poly">
 
@@ -90,13 +92,13 @@
 
             </map>
 
-            <div class="cars d-none d-md-block">
-                <img src="{{asset('images/car/car1.png')}}" alt="" id="car-1" class="position-absolute">
-                <img src="{{asset('images/car/car2.png')}}" alt="" id="car-2" class="position-absolute">
-                <img src="{{asset('images/car/car3.png')}}" alt="" id="car-3" class="position-absolute">
-                {{--            <img src="{{asset('images/car/train1.png')}}" alt="" id="train-1"  class="position-absolute">--}}
-                <img src="{{asset('images/car/train2.png')}}" alt="" id="train-2"  class="position-absolute">
-            </div>
+{{--            <div class="cars d-none d-md-block">--}}
+{{--                <img src="{{asset('images/car/car1.png')}}" alt="" id="car-1" class="position-absolute">--}}
+{{--                <img src="{{asset('images/car/car2.png')}}" alt="" id="car-2" class="position-absolute">--}}
+{{--                <img src="{{asset('images/car/car3.png')}}" alt="" id="car-3" class="position-absolute">--}}
+{{--                --}}{{--            <img src="{{asset('images/car/train1.png')}}" alt="" id="train-1"  class="position-absolute">--}}
+{{--                <img src="{{asset('images/car/train2.png')}}" alt="" id="train-2"  class="position-absolute">--}}
+{{--            </div>--}}
         </div>
         <footer class="footer fixed-bottom">
             <div class="container text-center">
@@ -136,15 +138,10 @@
                 </h1>
             </div>
             <div class="map-sm">
-                <div class="map-size" id="panzoom-element">
-                    <img src="{{asset('images/full-home.png')}}" alt="" class="w-100 img-fluid">
-                </div>
-
-                <div class="control position-absolute">
-                    <button id="zoom-in" class="btn btn-sm btn-light">+</button>
-                    <button id="zoom-out" class="btn btn-sm btn-light">-</button>
-{{--                    <button id="zoom-reset">Reset</button>--}}
-                </div>
+                <video autoplay muted loop preload="auto">
+                    <source src="{{asset('images/main.mp4')}}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div class="menu">
                 <nav>
@@ -196,7 +193,7 @@
     $(document).ready(function (){
         setTimeout(function(){
             window.location.reload(1);
-        }, 900000);
+        }, 180000);
 
         var mouseX;
         var mouseY;
