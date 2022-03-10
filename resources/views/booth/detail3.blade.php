@@ -46,7 +46,7 @@
                 @else
                     <div class="booth-theater position-absolute w-100 top-35 start-0 d-flex">
                             <div class="content-poster-left content-poster d-flex justify-content-end">
-                                <div class="row w-100 justify-content-end d-none d-xl-flex" id="lightgallery">
+                                <div class="row w-100 justify-content-end" id="lightgallery">
                                     @foreach($booth->posters as $poster)
                                         @if($loop->index <3)
                                             <div class="col-4 d-flex justify-content-end" data-src="{{$poster->file_url}}">

@@ -4,11 +4,11 @@ var w_screen = screen.width;
 
 // window.addEventListener('resize', reportWindowSize);
 
-car_drive1(w_screen);
-car_drive2(w_screen);
-car_drive3(w_screen);
+// car_drive1(w_screen);
+// car_drive2(w_screen);
+// car_drive3(w_screen);
 // train_drive1();
-train_drive2(w_screen);
+// train_drive2(w_screen);
 
 function car_drive1(w_screen){
     var count = 0;
