@@ -191,9 +191,9 @@
     });
 
     $(document).ready(function (){
-        setTimeout(function(){
-            window.location.reload(1);
-        }, 180000);
+        // setTimeout(function(){
+        //     window.location.reload(1);
+        // }, 180000);
 
         var mouseX;
         var mouseY;
@@ -257,26 +257,26 @@
             $('#tooltip').stop(false, true).fadeOut(2000);
         });
 
-        const element = document.getElementById('panzoom-element')
-        const panzoom = Panzoom(element, {
-            animate: true,
-            easing: 'ease-in-out',
-            minScale: 1,
-            panOnlyWhenZoomed: true
-        });
-
-
-        $('#zoom-in').click(function (){
-            panzoom.zoomIn();
-        })
-
-        $('#zoom-out').click(function (){
-            panzoom.zoomOut();
-        });
-
-        $('#zoom-reset').click(function (){
-            panzoom.reset();
-        });
+        // const element = document.getElementById('panzoom-element')
+        // const panzoom = Panzoom(element, {
+        //     animate: true,
+        //     easing: 'ease-in-out',
+        //     minScale: 1,
+        //     panOnlyWhenZoomed: true
+        // });
+        //
+        //
+        // $('#zoom-in').click(function (){
+        //     panzoom.zoomIn();
+        // })
+        //
+        // $('#zoom-out').click(function (){
+        //     panzoom.zoomOut();
+        // });
+        //
+        // $('#zoom-reset').click(function (){
+        //     panzoom.reset();
+        // });
 
     });
 </script>
