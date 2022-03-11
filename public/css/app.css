@@ -14286,3 +14286,7 @@ span.no-wrap {
   text-indent: 0;
   white-space: nowrap;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}

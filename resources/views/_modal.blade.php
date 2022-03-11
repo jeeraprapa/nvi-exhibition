@@ -159,7 +159,7 @@
                     <div class="mt-3">
                         <p><strong>คลิปสรุปบทเรียนฯ</strong></p>
                         <div class="text-center">
-                            <iframe width="560" height="315"
+                            <iframe width="100%" height="315"
                                     src="https://www.youtube.com/embed/07zNYYJPvHw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
