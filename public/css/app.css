@@ -12536,7 +12536,7 @@ textarea.form-control-lg {
   position: absolute;
   transition: transform 0.2s;
   right: calc(31% - 100px);
-  top: calc(22% - 100px);
+  top: calc(33% - 100px);
 }
 #main-exhibition .splide .four__pointer__pd .border__opacity, #main-exhibition .splide-mb .four__pointer__pd .border__opacity {
   border: 8px solid rgba(255, 255, 255, 0.5);

@@ -105,7 +105,7 @@
                             <a href="http://nvi.go.th/index.php/files/large/ad4b0a607855cf0"
                                target="_blank" class="link-out-small">
                                 <img src="{{ asset('images/exhibition/book-4.png') }}"
-                                     class="img-fluid img-thumbnail"/><br/>
+                                     class="img-fluid img-thumbnail border-5"/><br/>
                                 พ.ร.บ. ความมั่นคงด้านวัคซีน<br/>แห่งชาติ พ.ศ.2561
                             </a>
                         </div>
@@ -152,9 +152,8 @@
                         Blueprint เพื่อการเข้าถึงวัคซีนป้องกันโควิด 19 ของประชาชนไทย
                         ขึ้นโดยคณะกรรมการวัคซีนแห่งชาติได้เห็นชอบ เมื่อวันที่ 22 เมษายน
                         2563 ซึ่งประกอบด้วย 3 แนวทาง ได้แก่<br/>
-                        1) การจัดหาวัคซีนโควิด 19<br/>
-                        2) การสร้างความร่วมมือเพื่อรับถ่ายทอดเทคโนโลยีการผลิตวัคซีนโควิด
-                        19<br/>
+                        1) การจัดหาวัคซีนโควิด 19 จากต่างประเทศ<br/>
+                        2) การสร้างความร่วมมือเพื่อรับถ่ายทอดเทคโนโลยีการผลิตวัคซีนโควิด 19<br/>
                         3) การวิจัยและพัฒนาวัคซีนโควิด 19 ภายในประเทศ
                     </div>
                     <div class="mt-3">
@@ -246,7 +245,7 @@
                             <a href="http://www.ratchakitcha.soc.go.th/DATA/PDF/2565/E/032/T_0001.PDF"
                                target="_blank" class="link-out-small">
                                 <img src="{{ asset('images/exhibition/book-5.png') }}"
-                                     class="img-fluid img-thumbnail"/><br/>
+                                     class="img-fluid img-thumbnail border-5"/><br/>
                                 ประกาศสภานโยบายการอุดมศึกษา<br/>วิทยาศาสตร์
                                 วิจัยและนวัตกรรมแห่งชาติ<br/>เรื่องการจัดประเภทหน่วยงานในระบบวิจัยและนวัตกรรม
                             </a>
@@ -280,9 +279,15 @@
                         <li>ประเทศมีความมั่นคงและสามารถพึ่งพาตนเองด้านวัคซีน</li>
                     </div>
                     <div class="p-link">
-                        <a href="https://hdcservice.moph.go.th/hdc/reports/report.php?source=pformated/format1.php&cat_id=4df360514655f79f13901ef1181ca1c7&id=a5232dd45090422b9383b6896394e4b7"
-                           target="_blank" class="link-out">Dashboard Vaccine Coverage
-                            (HDC) (วัคซีนโควิด 19)
+                        <a href="https://dashboard-vaccine.moph.go.th/dashboard.html"
+                           target="_blank" class="link-out">
+                            การให้บริการวัคซีนโควิด 19
+                            <i class="fa fa-external-link icon-yellow"></i></a>
+                    </div>
+                    <div class="p-link">
+                        <a href="https://www.who.int/southeastasia/health-topics/immunization/covid-19-vaccination"
+                           target="_blank" class="link-out">
+                            WHO SE Asia Region Covid-19 Vaccination Dashboard
                             <i class="fa fa-external-link icon-yellow"></i></a>
                     </div>
                     <div class="text-center">
@@ -385,9 +390,16 @@
                         <li>เสริมสร้างความเข้มแข็งของระบบสุขภาพของประเทศ</li>
                     </div>
                     <div class="p-link">
-                        <a href="https://www.who.int/southeastasia/health-topics/immunization/covid-19-vaccination"
-                           target="_blank" class="link-out">อัตราป่วย
-                            อัตราตายของทั่วโลกและประเทศไทย
+                        <a href="https://immunizationdata.who.int/index.html"
+                           target="_blank" class="link-out">
+                            Global immunization and vaccine-preventable diseases (VPDs) dashboard
+                            <i class="fa fa-external-link icon-yellow"></i></a>
+                    </div>
+                    <div class="p-link">
+                        <a href="https://drive.google.com/file/d/1Zylels0m_bNPABJ1wBb6vaiVV1o4GKsW/view?usp=sharing"
+                           target="_blank" class="link-out">
+                            อุบัติการณ์ของโรคที่ป้องกันด้วยวัคซีน
+                            เปรียบเทียบกับอัตราความครอบคลุมของวัคซีนในประเทศไทย พ.ศ. 2520–2555
                             <i class="fa fa-external-link icon-yellow"></i></a>
                     </div>
                     <div class="text-center">
@@ -420,7 +432,7 @@
                         โดยใช้เวลามากหรือน้อยขึ้นอยู่กับความซับซ้อนของเชื้อก่อโรคหรือเทคโนโลยีที่นำมาศึกษา
                         ซึ่งอาจจะใช้เวลาแค่ 1-2 ปี หรือบางทีอาจจะนานเป็น 10 ปี
                     </div>
-                    <div class="content pb-3">
+                    <div class="content">
                         สำหรับการวิจัยพัฒนาพื้นฐานในประเทศ
                         ส่วนใหญ่จะดำเนินการโดยมหาวิทยาลัยเป็นหลัก
                     </div>
@@ -428,7 +440,7 @@
 
                         <div class="book">
                             <a href="{{route('http::booth.research.detail',6)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-VRC-CU.png')}}" alt="" width="100px">
+                                <img src="{{asset('images/exhibition/discover/logo-VRC-CU.png')}}" alt="" width="200px">
                             </a>
                         </div>
                         <div class="book">
@@ -438,17 +450,17 @@
                         </div>
                         <div class="book">
                             <a href="{{route('http::booth.research.detail',15)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-BIOTEC.png')}}" alt="" width="100px">
+                                <img src="{{asset('images/exhibition/discover/logo-BIOTEC.png')}}" alt="" width="200px">
                             </a>
                         </div>
                         <div class="book">
                             <a href="{{route('http::booth.research.detail',7)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-Pharm-MU.png')}}" alt="" width="100px">
+                                <img src="{{asset('images/exhibition/discover/logo-Pharm-MU.png')}}" alt="" width="200px">
                             </a>
                         </div>
                         <div class="book">
                             <a href="{{route('http::booth.research.detail',24)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/discover/logo-CRI.png')}}" alt="" width="100px">
+                                <img src="{{asset('images/exhibition/discover/logo-CRI.png')}}" alt="" width="200px">
                             </a>
                         </div>
                     </div>
@@ -507,7 +519,7 @@
                         </div>
                         <div class="book">
                             <a href="{{route('http::booth.research.detail',19)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/preclinical/logo-MUVS.png')}}" alt="" width="100px">
+                                <img src="{{asset('images/exhibition/preclinical/logo-MUVS.png')}}" alt="" width="150px">
                             </a>
                         </div>
                         <div class="book">
@@ -626,11 +638,6 @@
                     </div>
                     <div class="text-center">
                         <div class="book">
-                            <a href="{{route('http::booth.production-network.detail',9)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/clinical/logo-QSMI.png')}}" alt="" width="100px">
-                            </a>
-                        </div>
-                        <div class="book">
                             <a href="{{route('http::booth.research.detail',6)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/clinical/logo-VRC-CU.png')}}" alt="" width="200px">
                             </a>
@@ -677,7 +684,7 @@
                     </div>
                     <div class="content pb-3">
                         โดยหน่วยงานที่มีบทบาทสำคัญในการควบคุมกำกับคุณภาพ ได้แก่
-                        สถาบันชีววัถตุ กรมวิทยาศาสตร์การแพทย์
+                        สถาบันชีววัถตุ <span class="no-wrap">กรมวิทยาศาสตร์การแพทย์</span>
                         ที่ทำหน้าที่ตรวจวิเคราะห์คุณภาพวัคซีนทางห้องปฏิบัติการ
                         และทำการรับรองรุ่นการผลิตเพื่อให้มั่นใจว่าวัคซีนที่ผลิตมีคุณภาพ
                         และสำนักงานคณะกรรมการอาหารและยา (อย.) ที่ทำการประเมินเอกสาร
@@ -1011,8 +1018,8 @@
                         ผู้มีภูมิคุ้มกันต่ำ ได้แก่ ผู้ป่วยที่ได้รับการปลูกถ่ายอวัยวะ ผู้ป่วย HIV ที่ไม่ได้รับการรักษา ผู้มีโรคร่วมหลายโรค
                         และผู้ป่วยกลุ่มโรคภูมิแพ้ตนเอง เนื่องจากผู้ป่วยจะสามารถสร้างภูมิคุ้มกันได้น้อยกว่าคนปกติ และผู้ป่วยบางกลุ่มที่ได้รับยากดภูมิคุ้มกัน
                         ทำให้จะไม่สามารถสร้างภูมิคุ้มกันได้อย่างเต็มที่ หากมีการติดเชื้อโควิด 19 อาการจะหนักกว่าคนทั่วไป
-                        ข้อกังวลในการฉีดวัคซีนโควิด 19 ในกลุ่มนี้ คือ ประสิทธิผลของวัคซีนโควิด 19 ภายหลังฉีดครบโดสจะน้อยกว่าในคนปกติ อย่างไรก็ตาม ผลโดยการศึกษาการให้วัคซีนเข็มเสริม
-                        (Additional dose) ในผู้มีภูมิคุ้มกันต่ำ พบว่าผู้ป่วยมีการสร้างภูมิคุ้มกันโรคดีขึ้น WHO องค์การอนามัยโลกจึงมีคำแนะนำการฉีดวัคซีนเข็มเสริมสำหรับผู้มีภูมิคุ้มกันต่ำ โดยให้นับเป็น<span class="no-wrap">การฉีดวัคซีน</span>ครบโดสของการฉีดวัคซีนโควิด 19
+                        ข้อกังวลในการฉีดวัคซีนโควิด 19 ในกลุ่มนี้ คือ ประสิทธิผลของวัคซีนโควิด 19 ภายหลังฉีดครบโดสจะน้อยกว่าในคนปกติ อย่างไรก็ตาม ผลการศึกษาการให้วัคซีนเข็มเสริม
+                        (Additional dose) ในผู้มีภูมิคุ้มกันต่ำ พบว่าผู้ป่วยมีการสร้างภูมิคุ้มกันโรคดีขึ้น WHO จึงมีคำแนะนำการฉีดวัคซีนเข็มเสริมสำหรับผู้มีภูมิคุ้มกันต่ำ โดยให้นับเป็น<span class="no-wrap">การฉีดวัคซีน</span>ครบโดสของการฉีดวัคซีนโควิด 19
                         (Primary series) ทั้งนี้ เนื่องจากผู้ป่วยแต่ละรายมีสภาวะของโรคและการได้รับการรักษาที่ต่างกัน ระยะเวลาที่เหมาะสมสำหรับการได้รับวัคซีนเข็มเสริมจึงต่างกันด้วย
                         จึงควรปรึกษาแพทย์ผู้ให้การรักษาเพื่อเข้ารับการฉีดวัคซีนในระยะเวลาที่เหมาะสม เพื่อให้เกิดประสิทธิผลสูงสุดในการฉีดวัคซีน
                     </div>
@@ -1219,8 +1226,7 @@
                     </h1>
                     <div class="content">
                         ในภาวะปกติประเทศไทยโดยกรมควบคุมโรค
-                        กระทรวงสาธารณสุข ได้กำหนดให้มีการให้บริการวัคซีน
-                        พื้นฐานกับประชาชน เรียกว่า แผนงานสร้างเสริมภูมิคุ้มกัน
+                        กระทรวงสาธารณสุข ได้กำหนดให้มีการให้บริการวัคซีนพื้นฐานกับประชาชน เรียกว่า แผนงานสร้างเสริมภูมิคุ้มกัน
                         โรค (Expanded Program on Immunization, EPI) โดยเริ่มดำเนินการตั้งแต่ปี พ.ศ. 2520 มีเป้าหมายเพื่อลดอัตราป่วยและอัตราตายของโรคติดต่อที่ป้องกันได้ด้วยวัคซีน
                         ให้เป็นไปตามเจตนารมณ์ของรัฐธรรมนูญแห่ง <span class="no-wrap">ราชอาณาจักรไทยทุกฉบับ</span>
                         ปัจจุบันมีวัคซีนในแผนงาน EPI จำนวน 13 รายการ
@@ -1235,8 +1241,7 @@
                             <span class="no-wrap">เพื่อประกอบ</span>การตัดสินใจให้คำแนะนำสำหรับการใช้วัคซีนให้เหมาะสมกับบริบทของประเทศ
                         </li>
                         <li>
-                            ผลการศึกษาประสิทธิผลการใช้วัคซีนตามที่
-                            ให้บริการจริงในประเทศ (Real-world vaccine
+                            ผลการศึกษาประสิทธิผลการใช้วัคซีนตามที่ให้บริการจริงในประเทศ (Real-world vaccine
                             effectiveness)
                         </li>
                         <li>
@@ -1244,8 +1249,8 @@
                         </li>
                     </ol>
                     <div class="text-center">
-                        <a href="{{route('http::booth.assurance-vaccine.detail',2)}}" target="_blank">
-                            <img src="{{asset('images/exhibition/logo-DDC.png')}}" alt="" width="100px">
+                        <a href="{{route('http::booth.assurance-vaccine.detail',13)}}" target="_blank">
+                            <img src="{{asset('images/exhibition/logo-DDC.png')}}" alt="" width="150px">
                         </a>
                     </div>
 
