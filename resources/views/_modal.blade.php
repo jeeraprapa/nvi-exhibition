@@ -845,7 +845,7 @@
                         ซึ่งเป็นยุทธศาสตร์สำคัญของนโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ
                     </div>
                     <div class="p-link">
-                        <a href="#" target="_blank" class="link-out" data-bs-toggle="modal" data-bs-target="#two__pointer__one">
+                        <a href="#" target="_blank" class="link-out" id="pagetwo__pointer__one">
                             นโยบายและแผนยุทธศาสตร์ความมั่นคงด้านวัคซีนแห่งชาติ <i class="fa fa-external-link icon-yellow"></i>
                         </a>
                     </div>

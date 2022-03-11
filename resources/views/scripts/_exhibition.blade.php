@@ -18,6 +18,14 @@
             },
         }
     } ).mount();
+
+    $('#pagetwo__pointer__one').click(function(e){
+        $('#four__pointer__hr').modal('hide');
+        e.preventDefault();
+        $('#two__pointer__one').modal('show');
+        splide.go(1);
+    });
+
     //slide1
     $('.one__pointer__one').click(function(){
         $('#one__pointer__one').modal('show');
