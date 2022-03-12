@@ -18,6 +18,7 @@
     <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="{{ asset('js/vendors/splide.min.js')}}"></script>
+    <script src="{{ asset('js/vendors/splide-extension-url-hash.min')}}"></script>
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{ asset('vendor/fakerLoader/fakeLoader.min.js')}}"></script>
     <!-- Styles -->

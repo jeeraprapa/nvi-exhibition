@@ -1,3 +1,5 @@
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-url-hash@0.2.3/dist/js/splide-extension-url-hash.min.js"></script>
+
 <script>
     var splide = new Splide( '.splide', {
         arrows: true,
@@ -7,9 +9,9 @@
                 perPage: 1,
             },
         }
-    } ).mount();
+    } ).mount(window.splide.Extensions);
 
-    var splide_mb =new Splide( '.splide-mb', {
+    var splide_mb = new Splide( '.splide-mb', {
         arrows: true,
         perPage    : 1,
         breakpoints: {
@@ -17,7 +19,7 @@
                 perPage: 1,
             },
         }
-    } ).mount();
+    } ).mount(window.splide.Extensions);
 
     $('#pagetwo__pointer__one').click(function(e){
         $('#four__pointer__hr').modal('hide');

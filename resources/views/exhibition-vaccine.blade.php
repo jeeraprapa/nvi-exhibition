@@ -5,7 +5,7 @@
         <div class="splide d-none d-xl-block">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide">
+                    <li class="splide__slide" data-splide-hash="slide01">
                         <img src="{{asset('images/exhibition/section-1.png')}}" alt="">
                         <a href="#" class="one__pointer__one">
                             <div class="border__opacity">
@@ -22,7 +22,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="splide__slide">
+                    <li class="splide__slide" data-splide-hash="slide02">
                         <img src="{{asset('images/exhibition/section-2.png')}}" alt="">
                         <a href="#" class="two__pointer__one">
                             <div class="border__opacity">
@@ -53,7 +53,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="splide__slide">
+                    <li class="splide__slide" data-splide-hash="slide03">
                         <img src="{{asset('images/exhibition/section-4.png')}}" alt="">
                         <a href="#" class="four__pointer__discovery">
                             <div class="border__opacity">
@@ -128,7 +128,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="splide__slide">
+                    <li class="splide__slide" data-splide-hash="slide04">
                         <img src="{{asset('images/exhibition/section-5.png')}}" alt="">
                         <a href="#" class="five__pointer__one">
                             <div class="border__opacity">
@@ -201,7 +201,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="splide__slide">
+                    <li class="splide__slide" data-splide-hash="slide05">
                         <img src="{{asset('images/exhibition/section-3.png')}}" alt="">
                         <a href="#" class="three__pointer__one">
                             <div class="border__opacity">
