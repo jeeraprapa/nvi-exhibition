@@ -454,7 +454,7 @@
                             </a>
                         </div>
                         <div class="book">
-                            <a href="{{route('http::booth.research.detail',7)}}" target="_blank">
+                            <a href="{{route('http::booth.research.detail',20)}}" target="_blank">
                                 <img src="{{asset('images/exhibition/discover/logo-Pharm-MU.png')}}" alt="" width="200px">
                             </a>
                         </div>
@@ -604,7 +604,7 @@
                     <h1>Clinical Trials (Phase 1-3)</h1>
                     <div class="title">การทดสอบในมนุษย์ แบ่งการทดสอบออกเป็น 3 ระยะดังนี้
                     </div>
-                    <div class="content_no_indent">
+                    <ul>
                         <li>ระยะที่ 1
                             เป็นการทดสอบกับกลุ่มคนที่มีสุขภาพดี
                             อยู่ในสภาพแวดล้อมที่มีโอกาสติดเชื้อได้ตํ่าหรือแทบไม่มีเลย
@@ -630,8 +630,8 @@
                             <span class="no-wrap">ความปลอดภัย</span>และผลข้างเคียงที่อาจเกิดขึ้น
                             โดยในระยะนี้จะใช้เวลาประมาณ 3 ปี
                         </li>
-                    </div>
-                    <div class="content_no_indent pt-3 pd-3">
+                    </ul>
+                    <div class="content pt-3 pd-3">
                         ปัจจุบัน ประเทศไทยมีศักยภาพในการทดสอบวัคซีนในมนุษย์หลายแห่ง เช่น
                         ศูนย์ทดสอบวัคซีน <span class="no-wrap">คณะเวชศาสตร์เขตร้อน</span> มหาวิทยาลัยมหิดล
                         คณะแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย เป็นต้น
@@ -695,12 +695,12 @@
                     <div class="text-center">
                         <div class="book">
                             <a href="{{route('http::booth.assurance-vaccine.detail',12)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/registration/logo-NRA.png')}}" alt="" width="100px">
+                                <img src="{{asset('images/exhibition/registration/logo-NRA.png')}}" alt="" width="170px">
                             </a>
                         </div>
                         <div class="book">
                             <a href="{{route('http::booth.assurance-vaccine.detail',2)}}" target="_blank">
-                                <img src="{{asset('images/exhibition/registration/logo-NCL.png')}}" alt="" width="100px">
+                                <img src="{{asset('images/exhibition/registration/logo-NCL.png')}}" alt="" width="150px">
                             </a>
                         </div>
                         <div class="book">
@@ -1163,7 +1163,7 @@
 
                     <div class="p-link">
                         <p class="fw-bold">คลิป 2D motion</p>
-                        <a href="https://www.youtube.com/watch?v=LtMD3gu5p7w&t=54s" target="_blank" class="link-out">
+                        <a href="https://www.youtube.com/watch?v=LtMD3gu5p7w" target="_blank" class="link-out">
                             <small>
                                 เรื่อง “การทำงานของวัคซีนต่อเชื้อไวรัสกลายพันธุ์”
                             </small> <i class="fa fa-external-link icon-yellow"></i>
