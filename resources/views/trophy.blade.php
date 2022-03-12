@@ -12,14 +12,10 @@
         <div id="trophy" class="w-100 position-relative d-flex justify-content-lg-end mt-4" data-toggle="modal" data-target="#popup-trophy">
             <div class="row cursor-pointer">
                 <div class="col-12 col-md-6 p-4">
-{{--                    <a href="https://www.youtube.com/watch?v=zM6oviXZXNg">--}}
-                        <img src="{{asset('images/award1.png')}}" alt="" class="img-fluid">
-{{--                    </a>--}}
+                    <img src="{{asset('images/award1.png')}}" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-6 p-4">
-{{--                    <a href="https://youtu.be/Lmc2shWNP-w">--}}
-                        <img src="{{asset('images/award2.png')}}" alt="" class="img-fluid">
-{{--                    </a>--}}
+                    <img src="{{asset('images/award2.png')}}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -38,19 +34,11 @@
                         </div>
                         <div class="content w-100 text-center pb-3">
                             <strong>สถานเสาวภา สภากาชาดไทย</strong><br>
-                            <iframe width="100%" height="315"
-                                    src="https://www.youtube.com/embed/zM6oviXZXNg"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <div id="yt1"></div>
                         </div>
                         <div class="content w-100 text-center pb-3">
                             <strong>สถานเสาวภา สภากาชาดไทย</strong><br>
-                            <iframe width="100%" height="315"
-                                    src="https://www.youtube.com/embed/Lmc2shWNP-w"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <div id="yt2"></div>
                         </div>
                         <div class="text-center">
                             <button type="button" class="btn btn-primary btn__close" data-dismiss="modal">ปิด
@@ -64,14 +52,44 @@
     </div>
 @endsection
 
-{{--@push('js')--}}
-{{--    <script src="{{asset('vendor/lightgallery/js/lightgallery.js')}}"></script>--}}
-{{--    <script src="{{asset('vendor/lightgallery/js/lg-fullscreen.js')}}"></script>--}}
-{{--    <script src="{{asset('vendor/lightgallery/js/lg-video.js')}}"></script>--}}
-{{--    <script>--}}
-{{--        $(document).ready(function (){--}}
-{{--            lightGallery(document.getElementById('video1'));--}}
-{{--        });--}}
 
-{{--    </script>--}}
-{{--@endpush--}}
+@push('js')
+<script>
+    var yt1;
+    var yt2;
+
+    function loadScript() {
+        if (typeof(YT) == 'undefined' || typeof(YT.Player) == 'undefined') {
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        }
+    }
+
+    function onYouTubeIframeAPIReady() {
+        window.onYouTubePlayerAPIReady = function() {
+            yt1 = new YT.Player('yt1', {
+                height: '390',
+                width: '100%',
+                videoId: 'zM6oviXZXNg'
+            });
+            yt2 = new YT.Player('yt2', {
+                height: '390',
+                width: '100%',
+                videoId: 'Lmc2shWNP-w'
+            });
+        };
+    }
+
+    $(function () {
+        loadScript();
+        onYouTubeIframeAPIReady();
+    });
+
+    $("#popup-trophy").on("hidden.bs.modal", function () {
+            yt1.stopVideo();
+            yt2.stopVideo();
+    });
+</script>
+@endpush

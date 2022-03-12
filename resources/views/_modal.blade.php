@@ -159,16 +159,17 @@
                     <div class="mt-3">
                         <p><strong>คลิปสรุปบทเรียนฯ</strong></p>
                         <div class="text-center">
-                            <iframe width="100%" height="315"
+                            <!-- <iframe width="100%" height="315"
                                     src="https://www.youtube.com/embed/07zNYYJPvHw"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> -->
+                            <div id="yt1"></div>
                         </div>
                     </div>
                     <div class="text-center mt-3">
                         <button type="button" id="close_two_two"
-                                class="btn btn-primary btn__close" data-dismiss="modal">
+                                class="btn btn-primary btn__close" data-bs-dismiss="modal" aria-label="Close">
                             ปิด <i class="fa fa-times"
                                    style="font-size: 19px; font-weight: 100;"></i>
                         </button>

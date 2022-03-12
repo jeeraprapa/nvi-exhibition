@@ -47,9 +47,6 @@
            </div>
         </div>
     </div>
-    {{--                           https://youtu.be/zrHHFOzoHyI--}}
-    {{--                           https://youtu.be/4MdnIHUvqnw--}}
-    {{--                           https://youtu.be/YhNxzZgNLYA--}}
     <div class="modal fade" tabindex="-1" role="dialog"  aria-labelledby="popup-video" id="popup-video">
         <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
             <div class="modal-content">
@@ -69,28 +66,16 @@
                             <li><strong>ประเภทที่ 2</strong> ระดับประชาชนทั่วไป</li>
                         </ul>
                         <div class="content w-100 text-center pb-3">
-                            <strong>รางวัลรองชนะเลิศ อันดับ 1 </strong><br>
-                            <iframe width="100%" height="315"
-                                    src="https://www.youtube.com/embed/zrHHFOzoHyI"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <strong>รางวัลรองชนะเลิศ อันดับ 1</strong><br>
+                            <div id="yt1"></div>
                         </div>
                         <div class="content w-100 text-center pb-3">
                             <strong>รางวัลรองชนะเลิศ อันดับ 2 </strong><br>
-                            <iframe width="100%" height="315"
-                                    src="https://www.youtube.com/embed/4MdnIHUvqnw"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <div id="yt2"></div>
                         </div>
                         <div class="content w-100 text-center pb-3">
                             <strong>รางวัลชมเชย</strong><br>
-                            <iframe width="100%" height="315"
-                                    src="https://www.youtube.com/embed/YhNxzZgNLYA"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <div id="yt3"></div>
                         </div>
                         <div class="text-center">
                             <button type="button" class="btn btn-primary btn__close" data-dismiss="modal">ปิด
@@ -104,16 +89,54 @@
     </div>
 @endsection
 
-{{--@push('js')--}}
-{{--    <script src="{{asset('vendor/lightgallery/js/lightgallery.js')}}"></script>--}}
-{{--    <script src="{{asset('vendor/lightgallery/js/lg-fullscreen.js')}}"></script>--}}
-{{--    <script src="{{asset('vendor/lightgallery/js/lg-video.js')}}"></script>--}}
+{{--                           https://youtu.be/zrHHFOzoHyI--}}
+{{--                           https://youtu.be/4MdnIHUvqnw--}}
+{{--                           https://youtu.be/YhNxzZgNLYA--}}
 
-{{--    <script>--}}
-{{--        $(document).ready(function (){--}}
-{{--            lightGallery(document.getElementById('prize-1'));--}}
-{{--            lightGallery(document.getElementById('prize-2'));--}}
-{{--            lightGallery(document.getElementById('prize-3'));--}}
-{{--        });--}}
-{{--    </script>--}}
-{{--@endpush--}}
+@push('js')
+<script>
+    var yt1;
+    var yt2;
+    var yt3;
+
+    function loadScript() {
+        if (typeof(YT) == 'undefined' || typeof(YT.Player) == 'undefined') {
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        }
+    }
+
+    function onYouTubeIframeAPIReady() {
+        window.onYouTubePlayerAPIReady = function() {
+            yt1 = new YT.Player('yt1', {
+                height: '390',
+                width: '100%',
+                videoId: 'zrHHFOzoHyI'
+            });
+            yt2 = new YT.Player('yt2', {
+                height: '390',
+                width: '100%',
+                videoId: '4MdnIHUvqnw'
+            });
+            yt3 = new YT.Player('yt3', {
+                height: '390',
+                width: '100%',
+                videoId: 'YhNxzZgNLYA'
+            });
+        };
+    }
+
+    $(function () {
+        loadScript();
+        onYouTubeIframeAPIReady();
+    });
+
+    $("#popup-video").on("hidden.bs.modal", function () {
+            yt1.stopVideo();
+            yt2.stopVideo();
+            yt3.stopVideo();
+    });
+</script>
+@endpush

@@ -31,7 +31,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="two__pointer__two">
+                        <a href="#" class="two__pointer__two" data-bs-toggle="modal" data-bs-target="#two__pointer__two">
                             <div class="border__opacity">
                                 <div class="img__text">
                                     <img src="{{asset('images/exhibition/pointer-small.png')}}">
