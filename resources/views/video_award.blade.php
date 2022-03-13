@@ -70,7 +70,7 @@
                             <div id="yt1"></div>
                         </div>
                         <div class="content w-100 text-center pb-3">
-                            <strong>รางวัลรองชนะเลิศ อันดับ 2 </strong><br>
+                            <strong>รางวัลชมเชย</strong><br>
                             <div id="yt2"></div>
                         </div>
                         <div class="content w-100 text-center pb-3">
