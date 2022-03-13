@@ -21,7 +21,7 @@
     <script src="{{ asset('js/vendors/splide-extension-url-hash.min.js')}}"></script>
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{ asset('vendor/fakerLoader/fakeLoader.min.js')}}"></script>
-    
+
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/splide/splide.min.css') }}">
@@ -29,6 +29,16 @@
     <link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendor/fakerLoader/fakeLoader.min.css') }}">
     @stack('css')
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-STHSXY4XSW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-STHSXY4XSW');
+    </script>
 </head>
 <body>
 <div class="fakeLoader"></div>
