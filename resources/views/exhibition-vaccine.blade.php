@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.base',['title'=>'นิทรรศการสถาบันวัคซีนแห่งชาติ'])
 
 @section('content')
     <div id="main-exhibition">

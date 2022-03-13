@@ -12,7 +12,13 @@
     <meta property="og:description"        content="The 10 th National Vaccine Conference Virtual Exhibition" />
     <meta property="og:image"              content="{{asset('images/logo2.png')}}" />
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>
+        @if(isset($title))
+            {{$title}}
+        @else
+            {{ config('app.name', 'Laravel') }}
+        @endif
+    </title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/vendors/jquery-3.6.0.min.js') }}"></script>

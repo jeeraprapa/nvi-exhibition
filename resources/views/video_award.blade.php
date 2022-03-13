@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.base',['title'=>'การประกวดสื่อประชาสัมพันธ์เพื่อสร้างความตระหนักรู้ด้านวัคซีน'])
 
 @push('css')
     <link href="{{asset('vendor/lightgallery/dist/css/lightgallery.css')}}" rel="stylesheet">

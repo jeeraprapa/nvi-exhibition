@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.base',['title'=>'เครือข่ายการประกันคุณภาพและการใช้วัคซีน'])
 
 @section('content')
     <div id="main-booth" class="booth3">

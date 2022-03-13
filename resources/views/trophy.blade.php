@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.base',['title'=>'รางวัลผู้ทำคุณประโยชน์ในการพัฒนางานด้านวัคซีนของประเทศ'])
 
 @push('css')
     <link href="{{asset('vendor/lightgallery/dist/css/lightgallery.css')}}" rel="stylesheet">

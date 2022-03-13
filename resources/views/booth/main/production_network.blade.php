@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.base',['title'=>'เครือข่ายการผลิต'])
 
 @section('content')
     <div id="main-booth" class="booth2">
